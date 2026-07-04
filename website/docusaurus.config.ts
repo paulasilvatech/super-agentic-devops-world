@@ -66,10 +66,11 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'pt-BR'],
+    locales: ['en', 'pt-BR', 'es'],
     localeConfigs: {
-      en: { label: 'English', direction: 'ltr' },
-      'pt-BR': { label: 'Português (BR)', direction: 'ltr' },
+      en: { label: 'English', direction: 'ltr', htmlLang: 'en-US' },
+      'pt-BR': { label: 'Português (BR)', direction: 'ltr', htmlLang: 'pt-BR' },
+      es: { label: 'Español', direction: 'ltr', htmlLang: 'es-ES' },
     },
   },
 
@@ -78,7 +79,7 @@ const config: Config = {
       '@easyops-cn/docusaurus-search-local',
       {
         hashed: true,
-        language: ['en', 'pt'],
+        language: ['en', 'pt', 'es'],
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
         docsRouteBasePath: '/docs',
