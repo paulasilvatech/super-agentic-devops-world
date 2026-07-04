@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -11,10 +11,10 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://paulanunes85.github.io',
+  url: 'https://paulasilvatech.github.io',
   baseUrl: '/super-agentic-devops-world/',
 
-  organizationName: 'paulanunes85',
+  organizationName: 'paulasilvatech',
   projectName: 'super-agentic-devops-world',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -91,7 +91,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/paulanunes85/super-agentic-devops-world/tree/main/website/',
+          editUrl: 'https://github.com/paulasilvatech/super-agentic-devops-world/tree/main/website/',
           showLastUpdateTime: true,
           remarkPlugins: [],
           rehypePlugins: [],

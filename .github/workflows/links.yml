@@ -1,0 +1,45 @@
+name: Link Checker
+
+# Checks all Markdown links on a schedule (and on demand). This does NOT block
+# pull requests; instead it opens/updates a tracking issue when links break.
+on:
+  workflow_dispatch:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: link-checker
+  cancel-in-progress: true
+
+jobs:
+  linkChecker:
+    name: Check links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run lychee link checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --exclude-mail
+            --accept 200,206,429
+            "./**/*.md"
+          fail: false
+
+      - name: Create or update issue on failure
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "🔗 Broken links found by the link checker"
+          content-filepath: ./lychee/out.md
+          labels: |
+            automated

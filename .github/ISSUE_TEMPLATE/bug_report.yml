@@ -1,0 +1,58 @@
+name: "🐛 Website bug"
+description: "Report a problem with the Docusaurus website (rendering, navigation, search, build)."
+title: "[bug]: "
+labels: ["bug", "website"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! Please give us enough detail to reproduce the problem.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: "Describe the bug and what you expected instead."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      placeholder: "https://paulasilvatech.github.io/super-agentic-devops-world/..."
+    validations:
+      required: false
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where did it happen?
+      options:
+        - Deployed site (GitHub Pages)
+        - Local dev (npm start)
+        - Local build (npm run build)
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / OS (if relevant)
+      placeholder: "Chrome 124 on macOS 14"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output / screenshots
+      description: "Paste any error output or drag in screenshots."
+      render: shell
+    validations:
+      required: false
