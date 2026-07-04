@@ -33,37 +33,6 @@ tags: ["agentic-devops", "mario", "world-6", "skills", "skill-md"]
 
 ---
 
-## TABLE OF CONTENTS
-
-- [Prologue: Entering the Power-Up Shop](#prologue-entering-the-power-up-shop)
-- [1. What are Agent Skills?](#1-what-are-agent-skills)
-  - [1.1 The Mechanism: How Copilot Loads Skills](#11-the-mechanism-how-copilot-loads-skills)
-  - [1.2 Skills are an Open Standard](#12-skills-are-an-open-standard)
-  - [1.3 Skills Complement Agents](#13-skills-complement-agents)
-  - [1.4 The Mario Analogy: Power-Up Screen](#14-the-mario-analogy-power-up-screen)
-  - [1.5 Comparative Table: Agent vs Skill](#15-comparative-table-agent-vs-skill)
-  - [1.6 Links and Documentation](#16-links-and-documentation)
-- [2. Structure of a Skill](#2-structure-of-a-skill)
-  - [2.1 Complete Anatomy of a Skill Folder](#21-complete-anatomy-of-a-skill-folder)
-  - [2.2 Automatic vs On-Demand Loading](#22-automatic-vs-on-demand-loading)
-  - [2.3 The Mario Analogy: Anatomy of a Power-Up](#23-the-mario-analogy-anatomy-of-a-power-up)
-- [3. SKILL.md Format](#3-skillmd-format)
-  - [3.1 Frontmatter: The Critical Metadata](#31-frontmatter-the-critical-metadata)
-  - [3.2 The Description is the Semantic Trigger](#32-the-description-is-the-semantic-trigger)
-  - [3.3 The Body: Free-form Markdown with Structure](#33-the-body-free-form-markdown-with-structure)
-  - [3.4 Complete Example: Skill 'workflow-feature'](#34-complete-example-skill-workflow-feature)
-  - [3.5 Complete Example: Skill 'conventional-commit'](#35-complete-example-skill-conventional-commit)
-- [4. Built-in vs Project vs Personal Skills](#4-built-in-vs-project-vs-personal-skills)
-  - [4.1 When to Use Each Type](#41-when-to-use-each-type)
-- [5. Case Study: The 8 Skills of the TodoApp](#5-case-study-the-8-skills-of-the-todoapp)
-  - [5.1 Table of the TodoApp's 8 Skills](#51-table-of-the-todoapps-8-skills)
-  - [5.2 How These Skills Integrate](#52-how-these-skills-integrate)
-- [6. Best Practices for Writing Skills](#6-best-practices-for-writing-skills)
-  - [6.1 10 Principles for Excellent Skills](#61-10-principles-for-excellent-skills)
-  - [6.2 Anti-Patterns: What NOT to Do](#62-anti-patterns-what-not-to-do)
-  - [6.3 Slash Commands: Invoking Skills Explicitly](#63-slash-commands-invoking-skills-explicitly)
-
----
 
 ## Prologue: Entering the Power-Up Shop
 
@@ -675,6 +644,6 @@ She stored all Power-Ups in her inventory and headed to the next level in the Mu
 
 <div align="center">
 
-⬅️ [Previous: Level 6-1: Custom Agents](6-1-custom-agents.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-3: Custom Instructions](6-3-custom-instructions.md)
+⬅️ [Previous: Level 6-1: Custom Agents](6-1-custom-agents.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 6-3: Custom Instructions](6-3-custom-instructions.md)
 
 </div>

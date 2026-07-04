@@ -32,60 +32,6 @@ tags: ["agentic-devops", "mario", "world-7", "langchain", "chains", "agents"]
 
 ---
 
-## TABLE OF CONTENTS
-
-- [Prologue: The Impossible Combo](#prologue-the-impossible-combo)
-- [1. What is LangChain?](#1-what-is-langchain)
-  - [1.1 The Problem LangChain Solves](#11-the-problem-langchain-solves)
-  - [1.2 LangChain in One Sentence](#12-langchain-in-one-sentence)
-  - [1.3 The Mario Analogy: Power-Up Combos](#13-the-mario-analogy-power-up-combos)
-- [2. The Fundamental Components](#2-the-fundamental-components)
-  - [2.1 Models — The Brain](#21-models--the-brain)
-  - [2.2 Prompts — The Instructions](#22-prompts--the-instructions)
-  - [2.3 Chains — The Operation Sequences](#23-chains--the-operation-sequences)
-  - [2.4 Agents — The Decision Makers](#24-agents--the-decision-makers)
-  - [2.5 Tools — The Inventory Items](#25-tools--the-inventory-items)
-  - [2.6 Memory — Remembering Previous Levels](#26-memory--remembering-previous-levels)
-  - [2.7 LCEL — The Combo Notation](#27-lcel--the-combo-notation)
-  - [2.8 Complete Components Table](#28-complete-components-table)
-- [3. Chains in Detail: The Art of the Combo](#3-chains-in-detail-the-art-of-the-combo)
-  - [3.1 What is a Chain?](#31-what-is-a-chain)
-  - [3.2 Types of Chains](#32-types-of-chains)
-  - [3.3 Visual Chain Examples](#33-visual-chain-examples)
-  - [3.4 Python Code: Your First Chain](#34-python-code-your-first-chain)
-- [4. LCEL: The Language of Combos](#4-lcel-the-language-of-combos)
-  - [4.1 What is LCEL?](#41-what-is-lcel)
-  - [4.2 The Pipe Operator (|)](#42-the-pipe-operator-)
-  - [4.3 LCEL Examples](#43-lcel-examples)
-  - [4.4 The Mario Analogy: The Combo Notation](#44-the-mario-analogy-the-combo-notation)
-- [5. Agents: Characters That Think for Themselves](#5-agents-characters-that-think-for-themselves)
-  - [5.1 Chain vs Agent: What's the Difference?](#51-chain-vs-agent-whats-the-difference)
-  - [5.2 How an Agent Works](#52-how-an-agent-works)
-  - [5.3 The ReAct Cycle: Think, Act, Observe](#53-the-react-cycle-think-act-observe)
-  - [5.4 Python Code: Creating an Agent](#54-python-code-creating-an-agent)
-  - [5.5 The Mario Analogy: The Autonomous Character](#55-the-mario-analogy-the-autonomous-character)
-- [6. Tools: The Item Inventory](#6-tools-the-item-inventory)
-  - [6.1 What are Tools?](#61-what-are-tools)
-  - [6.2 Available Tools](#62-available-tools)
-  - [6.3 Creating Your Own Tools](#63-creating-your-own-tools)
-  - [6.4 Python Code: Custom Tool](#64-python-code-custom-tool)
-- [7. Memory: Remembering Previous Levels](#7-memory-remembering-previous-levels)
-  - [7.1 The Problem: LLMs Don't Remember](#71-the-problem-llms-dont-remember)
-  - [7.2 Types of Memory](#72-types-of-memory)
-  - [7.3 Python Code: Adding Memory](#73-python-code-adding-memory)
-  - [7.4 The Mario Analogy: The Adventure Diary](#74-the-mario-analogy-the-adventure-diary)
-- [8. Complete Example: Mario Code Assistant](#8-complete-example-mario-code-assistant)
-  - [8.1 What We'll Build](#81-what-well-build)
-  - [8.2 Complete Code](#82-complete-code)
-  - [8.3 Step-by-Step Explanation](#83-step-by-step-explanation)
-- [9. When to Use LangChain vs Alternatives](#9-when-to-use-langchain-vs-alternatives)
-  - [9.1 LangChain vs Direct API Call](#91-langchain-vs-direct-api-call)
-  - [9.2 LangChain vs LangGraph](#92-langchain-vs-langgraph)
-  - [9.3 LangChain vs Semantic Kernel](#93-langchain-vs-semantic-kernel)
-  - [9.4 Decision Table](#94-decision-table)
-- [10. Final Table: Component / Function / Analogy / Code](#10-final-table-component--function--analogy--code)
-
----
 
 ## Prologue: The Impossible Combo
 
@@ -1410,6 +1356,6 @@ Star World revealed its most powerful secrets, and Sofia now possesses the knowl
 
 <div align="center">
 
-⬅️ [Previous: Level 7-2: RAG](7-2-rag.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-4: Microsoft Agentic Framework](7-4-microsoft-agentic-framework.md)
+⬅️ [Previous: Level 7-2: RAG](7-2-rag.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 7-4: Microsoft Agentic Framework](7-4-microsoft-agentic-framework.md)
 
 </div>

@@ -32,57 +32,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Introduction -- The Map of the Three Kingdoms](#introduction--the-map-of-the-three-kingdoms)
-- [Section 1 -- What are the Three Horizons?](#section-1--what-are-the-three-horizons)
-  - [1.1 Framework Definition](#11-framework-definition)
-  - [1.2 Why Three Horizons?](#12-why-three-horizons)
-  - [1.3 The Mario Analogy: The Three Kingdoms of the Mushroom Kingdom](#13-the-mario-analogy-the-three-kingdoms-of-the-mushroom-kingdom)
-  - [1.4 Master Table: The Three Horizons](#14-master-table-the-three-horizons)
-- [Section 2 -- Horizon 1: Foundation (Building Roads and Bridges)](#section-2--horizon-1-foundation-building-roads-and-bridges)
-  - [2.1 What is Horizon 1](#21-what-is-horizon-1)
-  - [2.2 Mario Analogy: Building Roads and Bridges](#22-mario-analogy-building-roads-and-bridges)
-  - [2.3 What to Do in Horizon 1](#23-what-to-do-in-horizon-1)
-  - [2.4 Horizon 1 Technologies](#24-horizon-1-technologies)
-  - [2.5 Signs You've Completed Horizon 1](#25-signs-youve-completed-horizon-1)
-  - [2.6 Common Mistakes in Horizon 1](#26-common-mistakes-in-horizon-1)
-- [Section 3 -- Horizon 2: Acceleration (Adding Vehicles and Fast Travel)](#section-3--horizon-2-acceleration-adding-vehicles-and-fast-travel)
-  - [3.1 What is Horizon 2](#31-what-is-horizon-2)
-  - [3.2 Mario Analogy: Vehicles and Fast Travel](#32-mario-analogy-vehicles-and-fast-travel)
-  - [3.3 What to Do in Horizon 2](#33-what-to-do-in-horizon-2)
-  - [3.4 Horizon 2 Technologies](#34-horizon-2-technologies)
-  - [3.5 The 3 Pillars of Each Horizon](#35-the-3-pillars-of-each-horizon)
-  - [3.6 Signs You've Completed Horizon 2](#36-signs-youve-completed-horizon-2)
-- [Section 4 -- Horizon 3: Transformation (Flying and Teleporting)](#section-4--horizon-3-transformation-flying-and-teleporting)
-  - [4.1 What is Horizon 3](#41-what-is-horizon-3)
-  - [4.2 Mario Analogy: Flying and Teleporting](#42-mario-analogy-flying-and-teleporting)
-  - [4.3 What to Do in Horizon 3](#43-what-to-do-in-horizon-3)
-  - [4.4 Horizon 3 Technologies](#44-horizon-3-technologies)
-  - [4.5 Signs You're in Horizon 3](#45-signs-youre-in-horizon-3)
-- [Section 5 -- The 3 Pillars of Each Horizon in Detail](#section-5--the-3-pillars-of-each-horizon-in-detail)
-  - [5.1 Pillar 1: Developer Productivity (Attack Power)](#51-pillar-1-developer-productivity-attack-power)
-  - [5.2 Pillar 2: DevOps Lifecycle (Quest Cycle)](#52-pillar-2-devops-lifecycle-quest-cycle)
-  - [5.3 Pillar 3: Application Platform (World Infrastructure)](#53-pillar-3-application-platform-world-infrastructure)
-  - [5.4 Table of the 3 Pillars per Horizon](#54-table-of-the-3-pillars-per-horizon)
-- [Section 6 -- Comparing the Three Horizons in Practice](#section-6--comparing-the-three-horizons-in-practice)
-  - [6.1 Scenario: Creating a New Feature](#61-scenario-creating-a-new-feature)
-  - [6.2 Scenario: Responding to an Incident](#62-scenario-responding-to-an-incident)
-  - [6.3 Scenario: Onboarding a New Dev](#63-scenario-onboarding-a-new-dev)
-- [Section 7 -- Practical Roadmap: How to Evolve Between Horizons](#section-7--practical-roadmap-how-to-evolve-between-horizons)
-  - [7.1 From H1 to H2: What Needs to Happen](#71-from-h1-to-h2-what-needs-to-happen)
-  - [7.2 From H2 to H3: What Needs to Happen](#72-from-h2-to-h3-what-needs-to-happen)
-  - [7.3 Realistic Timeline](#73-realistic-timeline)
-- [Section 8 -- The Journey is Cumulative, Not Substitutive](#section-8--the-journey-is-cumulative-not-substitutive)
-  - [8.1 Each Horizon Includes the Previous One](#81-each-horizon-includes-the-previous-one)
-  - [8.2 Don't Skip Horizons](#82-dont-skip-horizons)
-- [Section 9 -- How to Identify Which Horizon You're In](#section-9--how-to-identify-which-horizon-youre-in)
-  - [9.1 Checklist per Horizon](#91-checklist-per-horizon)
-  - [9.2 Quick Self-Assessment](#92-quick-self-assessment)
-- [What We Learned -- Summary Table](#what-we-learned--summary-table)
-- [References](#references)
-
----
 
 ## Introduction -- The Map of the Three Kingdoms
 
@@ -554,6 +503,6 @@ Count how many "yes" answers you have for each horizon. Your level is the horizo
 
 <div align="center">
 
-⬅️ [Previous: Level 5-7: MCP Deep Dive](5-7_mcp-deep-dive.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-9: GitHub Advanced Security](5-9_github-advanced-security.md)
+⬅️ [Previous: Level 5-7: MCP Deep Dive](5-7_mcp-deep-dive.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 5-9: GitHub Advanced Security](5-9_github-advanced-security.md)
 
 </div>

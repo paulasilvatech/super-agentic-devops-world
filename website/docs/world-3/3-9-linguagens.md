@@ -36,64 +36,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Class Selection Screen](#prologue-the-class-selection-screen)
-- [1. Why Are There So Many Languages?](#1-why-are-there-so-many-languages)
-  - [1.1 The Need for Diversity](#11-the-need-for-diversity)
-  - [1.2 Compiled vs Interpreted](#12-compiled-vs-interpreted)
-  - [1.3 Typing: Strong vs Weak, Static vs Dynamic](#13-typing-strong-vs-weak-static-vs-dynamic)
-- [2. Python -- The Mage (Versatile and Powerful)](#2-python----the-mage-versatile-and-powerful)
-  - [2.1 Character Sheet](#21-character-sheet)
-  - [2.2 When to Use Python](#22-when-to-use-python)
-  - [2.3 Code Example](#23-code-example)
-  - [2.4 Ecosystem and Tools](#24-ecosystem-and-tools)
-- [3. JavaScript -- The Rogue (Fast and Omnipresent)](#3-javascript----the-rogue-fast-and-omnipresent)
-  - [3.1 Character Sheet](#31-character-sheet)
-  - [3.2 When to Use JavaScript](#32-when-to-use-javascript)
-  - [3.3 The Rogue's Traps](#33-the-rogues-traps)
-  - [3.4 Code Example](#34-code-example)
-- [4. TypeScript -- The Armored Rogue](#4-typescript----the-armored-rogue)
-  - [4.1 Character Sheet](#41-character-sheet)
-  - [4.2 Why TypeScript Exists](#42-why-typescript-exists)
-  - [4.3 Comparative Example: JS vs TS](#43-comparative-example-js-vs-ts)
-  - [4.4 When to Use TypeScript](#44-when-to-use-typescript)
-- [5. C# -- The Knight (Microsoft's Champion)](#5-c----the-knight-microsofts-champion)
-  - [5.1 Character Sheet](#51-character-sheet)
-  - [5.2 The .NET Ecosystem](#52-the-net-ecosystem)
-  - [5.3 Code Example](#53-code-example)
-  - [5.4 When to Use C#](#54-when-to-use-c)
-- [6. Java -- The Tank (Old, Reliable, Heavy)](#6-java----the-tank-old-reliable-heavy)
-  - [6.1 Character Sheet](#61-character-sheet)
-  - [6.2 Write Once, Run Anywhere](#62-write-once-run-anywhere)
-  - [6.3 When to Use Java](#63-when-to-use-java)
-- [7. Go -- The Speed Runner](#7-go----the-speed-runner)
-  - [7.1 Character Sheet](#71-character-sheet)
-  - [7.2 The Philosophy of Go](#72-the-philosophy-of-go)
-  - [7.3 When to Use Go](#73-when-to-use-go)
-- [8. Rust -- The Indestructible Fortress](#8-rust----the-indestructible-fortress)
-  - [8.1 Character Sheet](#81-character-sheet)
-  - [8.2 The Borrow Checker: The Merciless Guard](#82-the-borrow-checker-the-merciless-guard)
-  - [8.3 When to Use Rust](#83-when-to-use-rust)
-- [9. C and C++ -- The Legendary Elders](#9-c-and-c----the-legendary-elders)
-  - [9.1 Character Sheet](#91-character-sheet)
-  - [9.2 When to Use C/C++](#92-when-to-use-cc)
-- [10. HTML and CSS -- The Visual Artisans](#10-html-and-css----the-visual-artisans)
-  - [10.1 Character Sheet](#101-character-sheet)
-  - [10.2 HTML: The Castle's Structure](#102-html-the-castles-structure)
-  - [10.3 CSS: The Castle's Decoration](#103-css-the-castles-decoration)
-- [11. SQL -- The Castle's Librarian](#11-sql----the-castles-librarian)
-  - [11.1 Character Sheet](#111-character-sheet)
-  - [11.2 Essential Commands](#112-essential-commands)
-  - [11.3 When to Use SQL](#113-when-to-use-sql)
-- [12. Comparative Table: All Classes](#12-comparative-table-all-classes)
-- [13. How to Choose Your Class](#13-how-to-choose-your-class)
-  - [13.1 Decision Guide by Goal](#131-decision-guide-by-goal)
-  - [13.2 The Council of the Wise](#132-the-council-of-the-wise)
-- [14. Polyglotism: The Multiclass Warrior](#14-polyglotism-the-multiclass-warrior)
-- [References](#references)
-
----
 
 ## Prologue: The Class Selection Screen
 
@@ -807,6 +749,6 @@ Depth (specialization)
 
 <div align="center">
 
-⬅️ [Previous: Level 3-8: Internet](3-8-internet.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-10: Frameworks](3-10-frameworks.md)
+⬅️ [Previous: Level 3-8: Internet](3-8-internet.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 3-10: Frameworks](3-10-frameworks.md)
 
 </div>

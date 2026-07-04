@@ -32,51 +32,6 @@ tags: ["agentic-devops", "mario", "world-5", "ghas", "security", "code-scanning"
 
 ---
 
-## TABLE OF CONTENTS
-
-- [Introduction -- The Castle Needs More Than Walls](#introduction--the-castle-needs-more-than-walls)
-- [Section 1 -- What is GitHub Advanced Security (GHAS)](#section-1--what-is-github-advanced-security-ghas)
-  - [GHAS Overview](#ghas-overview)
-  - [The 4 Security Pillars](#the-4-security-pillars)
-  - [Table: The 4 Pillars vs Castle Defenses](#table-the-4-pillars-vs-castle-defenses)
-- [Section 2 -- Code Scanning (CodeQL): The Trap Detector](#section-2--code-scanning-codeql-the-trap-detector)
-  - [What is Code Scanning](#what-is-code-scanning)
-  - [How CodeQL Works](#how-codeql-works)
-  - [Types of Vulnerabilities CodeQL Detects](#types-of-vulnerabilities-codeql-detects)
-  - [Configuring Code Scanning](#configuring-code-scanning)
-  - [Copilot Autofix: The Automatic Repairer](#copilot-autofix-the-automatic-repairer)
-- [Section 3 -- Secret Scanning: The Anti-Theft Alarm](#section-3--secret-scanning-the-anti-theft-alarm)
-  - [What is Secret Scanning](#what-is-secret-scanning)
-  - [What Counts as a "Secret"](#what-counts-as-a-secret)
-  - [How Secret Scanning Works](#how-secret-scanning-works)
-  - [Push Protection: The Final Barrier](#push-protection-the-final-barrier)
-  - [Configuring Secret Scanning](#configuring-secret-scanning)
-- [Section 4 -- Dependabot: The Inspector Toad](#section-4--dependabot-the-inspector-toad)
-  - [What is Dependabot](#what-is-dependabot)
-  - [Dependabot's 3 Functions](#dependabots-3-functions)
-  - [How Dependabot Works](#how-dependabot-works)
-  - [Configuring Dependabot](#configuring-dependabot)
-- [Section 5 -- Supply Chain Security: The Trustworthy Item Shop](#section-5--supply-chain-security-the-trustworthy-item-shop)
-  - [What is Supply Chain Security](#what-is-supply-chain-security)
-  - [Types of Supply Chain Attacks](#types-of-supply-chain-attacks)
-  - [GitHub's Defenses](#githubs-defenses)
-  - [Dependency Graph and SBOM](#dependency-graph-and-sbom)
-- [Section 6 -- Security Overview Dashboard: The Control Room](#section-6--security-overview-dashboard-the-control-room)
-  - [What is the Security Overview](#what-is-the-security-overview)
-  - [Dashboard Metrics](#dashboard-metrics)
-  - [Using the Dashboard in Practice](#using-the-dashboard-in-practice)
-- [Section 7 -- Push Protection: The Gate That Won't Open for Secrets](#section-7--push-protection-the-gate-that-wont-open-for-secrets)
-  - [What is Push Protection](#what-is-push-protection)
-  - [How Push Protection Works](#how-push-protection-works)
-  - [What Happens When Push Protection Blocks](#what-happens-when-push-protection-blocks)
-- [Section 8 -- Master Table: Everything Together](#section-8--master-table-everything-together)
-- [Section 9 -- Why This Matters: A Leaked Secret = Game Over](#section-9--why-this-matters-a-leaked-secret--game-over)
-  - [Real Game Over Stories](#real-game-over-stories)
-  - [The Cost of NOT Having Security](#the-cost-of-not-having-security)
-  - [The Cost of HAVING Security](#the-cost-of-having-security)
-- [What We Learned -- Summary Table](#what-we-learned--summary-table)
-
----
 
 ## Introduction -- The Castle Needs More Than Walls
 
@@ -761,6 +716,6 @@ She stored this power-up in her inventory and headed to the next stage of the Mu
 
 <div align="center">
 
-⬅️ [Previous: Level 5-8: Three Horizons](5-8_three-horizons.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-10: SDD](5-10_sdd.md)
+⬅️ [Previous: Level 5-8: Three Horizons](5-8_three-horizons.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 5-10: SDD](5-10_sdd.md)
 
 </div>

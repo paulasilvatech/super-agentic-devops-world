@@ -32,63 +32,6 @@ tags: ["agentic-devops", "mario", "world-7", "rag", "embeddings", "vector-databa
 
 ---
 
-## TABLE OF CONTENTS
-
-- [Prologue: The Mario Who Only Knew World 1](#prologue-the-mario-who-only-knew-world-1)
-- [1. The Problem: LLMs Only Know What They Learned](#1-the-problem-llms-only-know-what-they-learned)
-  - [1.1 The Training Limit](#11-the-training-limit)
-  - [1.2 What Happens When the LLM Doesn't Know?](#12-what-happens-when-the-llm-doesnt-know)
-  - [1.3 The Mario Analogy: Mario Stuck in World 1](#13-the-mario-analogy-mario-stuck-in-world-1)
-- [2. The Solution: RAG — Retrieval-Augmented Generation](#2-the-solution-rag--retrieval-augmented-generation)
-  - [2.1 What is RAG?](#21-what-is-rag)
-  - [2.2 RAG in One Sentence](#22-rag-in-one-sentence)
-  - [2.3 The Mario Analogy: The Magic Encyclopedia](#23-the-mario-analogy-the-magic-encyclopedia)
-
-<div align="center">
-<img src="../../diagrams/svg/rag-architecture.svg" alt="RAG Architecture: Indexing, Retrieval, and Generation" width="800">
-<br><em>RAG Architecture: Indexing, Retrieval, and Generation</em>
-</div>
-- [3. How RAG Works: Step by Step](#3-how-rag-works-step-by-step)
-  - [3.1 Phase 1: Indexing (Preparing the Library)](#31-phase-1-indexing-preparing-the-library)
-  - [3.2 Phase 2: Retrieval (Finding the Right Book)](#32-phase-2-retrieval-finding-the-right-book)
-  - [3.3 Phase 3: Generation (Giving the Informed Answer)](#33-phase-3-generation-giving-the-informed-answer)
-  - [3.4 Complete ASCII Diagram](#34-complete-ascii-diagram)
-- [4. Key Concepts Explained Simply](#4-key-concepts-explained-simply)
-  - [4.1 Embeddings — Coordinates on the Map](#41-embeddings--coordinates-on-the-map)
-  - [4.2 Vector Database — The Enchanted Shelf](#42-vector-database--the-enchanted-shelf)
-  - [4.3 Chunks — Breaking the Book into Pages](#43-chunks--breaking-the-book-into-pages)
-  - [4.4 Similarity Search — Finding the Nearest Star](#44-similarity-search--finding-the-nearest-star)
-  - [4.5 Grounding — Answers Based on the Books](#45-grounding--answers-based-on-the-books)
-  - [4.6 Complete Concepts Table](#46-complete-concepts-table)
-- [5. The Complete Mario Analogy: The Magic Library](#5-the-complete-mario-analogy-the-magic-library)
-  - [5.1 Normal Mario vs RAG Mario](#51-normal-mario-vs-rag-mario)
-  - [5.2 The Story of the Magic Library](#52-the-story-of-the-magic-library)
-  - [5.3 Table: Without RAG vs With RAG](#53-table-without-rag-vs-with-rag)
-- [6. When to Use RAG](#6-when-to-use-rag)
-  - [6.1 Ideal Scenarios for RAG](#61-ideal-scenarios-for-rag)
-  - [6.2 When NOT to Use RAG](#62-when-not-to-use-rag)
-  - [6.3 Decision Table](#63-decision-table)
-- [7. RAG Architecture in Practice](#7-rag-architecture-in-practice)
-  - [7.1 Components of a RAG Architecture](#71-components-of-a-rag-architecture)
-  - [7.2 Complete Architecture Diagram](#72-complete-architecture-diagram)
-  - [7.3 Common Technologies](#73-common-technologies)
-- [8. Chunking Strategies: How to Break Your Documents](#8-chunking-strategies-how-to-break-your-documents)
-  - [8.1 Types of Chunking](#81-types-of-chunking)
-  - [8.2 Overlap: The Overlapping Technique](#82-overlap-the-overlapping-technique)
-  - [8.3 The Mario Analogy: Cutting the Map into Pieces](#83-the-mario-analogy-cutting-the-map-into-pieces)
-- [9. Common Problems and How to Solve Them](#9-common-problems-and-how-to-solve-them)
-  - [9.1 The Model Doesn't Find the Right Information](#91-the-model-doesnt-find-the-right-information)
-  - [9.2 The Model Hallucinates Even With RAG](#92-the-model-hallucinates-even-with-rag)
-  - [9.3 Responses Are Slow](#93-responses-are-slow)
-  - [9.4 Troubleshooting Table](#94-troubleshooting-table)
-- [10. Advanced RAG: Techniques for the Next Level](#10-advanced-rag-techniques-for-the-next-level)
-  - [10.1 Hybrid Search](#101-hybrid-search)
-  - [10.2 Re-ranking](#102-re-ranking)
-  - [10.3 Multi-Query RAG](#103-multi-query-rag)
-  - [10.4 Agentic RAG](#104-agentic-rag)
-- [11. Final Table: Without RAG vs With RAG](#11-final-table-without-rag-vs-with-rag)
-
----
 
 ## Prologue: The Mario Who Only Knew World 1
 
@@ -1128,6 +1071,6 @@ The next level will lead her to discover how to **chain** AI operations into dev
 
 <div align="center">
 
-⬅️ [Previous: Level 7-1: Azure AI Foundry](7-1-azure-ai-foundry.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-3: LangChain](7-3-langchain.md)
+⬅️ [Previous: Level 7-1: Azure AI Foundry](7-1-azure-ai-foundry.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 7-3: LangChain](7-3-langchain.md)
 
 </div>

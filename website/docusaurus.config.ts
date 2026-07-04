@@ -21,6 +21,9 @@ const config: Config = {
 
   markdown: {
     format: 'detect',
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
 
   clientModules: [
@@ -28,7 +31,6 @@ const config: Config = {
   ],
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
 
   headTags: [
     {

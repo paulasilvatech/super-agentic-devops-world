@@ -33,54 +33,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Construction Dilemma](#prologue-the-construction-dilemma)
-- [1. What Is Cloud Computing?](#1-what-is-cloud-computing)
-  - [1.1 Before the Cloud: The On-Premises World](#11-before-the-cloud-the-on-premises-world)
-  - [1.2 The Cloud Revolution](#12-the-cloud-revolution)
-  - [1.3 The Three Great Cloud Kingdoms](#13-the-three-great-cloud-kingdoms)
-- [2. IaaS: Empty Land — Build Everything](#2-iaas-empty-land--build-everything)
-  - [2.1 What You Get](#21-what-you-get)
-  - [2.2 What You Need to Do](#22-what-you-need-to-do)
-  - [2.3 Real-World IaaS Examples](#23-real-world-iaas-examples)
-  - [2.4 When to Use IaaS](#24-when-to-use-iaas)
-- [3. PaaS: Pre-Built Castle — Just Decorate](#3-paas-pre-built-castle--just-decorate)
-  - [3.1 What You Get](#31-what-you-get)
-  - [3.2 What You Need to Do](#32-what-you-need-to-do)
-  - [3.3 Real-World PaaS Examples](#33-real-world-paas-examples)
-  - [3.4 When to Use PaaS](#34-when-to-use-paas)
-- [4. SaaS: Furnished Castle — Move In](#4-saas-furnished-castle--move-in)
-  - [4.1 What You Get](#41-what-you-get)
-  - [4.2 What You Need to Do](#42-what-you-need-to-do)
-  - [4.3 Real-World SaaS Examples](#43-real-world-saas-examples)
-  - [4.4 When to Use SaaS](#44-when-to-use-saas)
-- [5. Serverless: Magic — Appears When Needed](#5-serverless-magic--appears-when-needed)
-  - [5.1 The Serverless Concept](#51-the-serverless-concept)
-  - [5.2 How Serverless Works](#52-how-serverless-works)
-  - [5.3 Azure Functions: Practical Example](#53-azure-functions-practical-example)
-  - [5.4 Advantages and Limitations](#54-advantages-and-limitations)
-- [6. Visual Comparison: Pizza as a Service](#6-visual-comparison-pizza-as-a-service)
-- [7. Shared Responsibility Model](#7-shared-responsibility-model)
-  - [7.1 What Is Shared Responsibility](#71-what-is-shared-responsibility)
-  - [7.2 Responsibility Table](#72-responsibility-table)
-  - [7.3 Why This Matters](#73-why-this-matters)
-- [8. Deployment Models: Where the Castle Is Located](#8-deployment-models-where-the-castle-is-located)
-  - [8.1 Public Cloud](#81-public-cloud)
-  - [8.2 Private Cloud](#82-private-cloud)
-  - [8.3 Hybrid Cloud](#83-hybrid-cloud)
-  - [8.4 Multi-Cloud](#84-multi-cloud)
-- [9. Cloud Costs: Mushroom Kingdom Economics](#9-cloud-costs-mushroom-kingdom-economics)
-  - [9.1 Pay-as-you-go](#91-pay-as-you-go)
-  - [9.2 Reserved Instances](#92-reserved-instances)
-  - [9.3 Spot Instances](#93-spot-instances)
-  - [9.4 Free Tiers](#94-free-tiers)
-- [10. Choosing the Right Model](#10-choosing-the-right-model)
-  - [10.1 Decision Tree](#101-decision-tree)
-  - [10.2 Final Summary Table](#102-final-summary-table)
-- [References](#references)
-
----
 
 ## Prologue: The Construction Dilemma
 
@@ -694,6 +646,6 @@ Do you need total control over the OS?
 
 <div align="center">
 
-⬅️ [Previous: Level 4-1: Auth](4-1-auth.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-3: Architecture](4-3-arquitetura.md)
+⬅️ [Previous: Level 4-1: Auth](4-1-auth.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 4-3: Architecture](4-3-arquitetura.md)
 
 </div>

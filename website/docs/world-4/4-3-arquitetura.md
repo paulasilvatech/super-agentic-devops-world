@@ -34,51 +34,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Castle Blueprint](#prologue-the-castle-blueprint)
-- [1. What Is Software Architecture?](#1-what-is-software-architecture)
-  - [1.1 Why Architecture Matters](#11-why-architecture-matters)
-  - [1.2 Architectural Decisions](#12-architectural-decisions)
-- [2. Monolith: The Single Castle](#2-monolith-the-single-castle)
-  - [2.1 What Is a Monolith](#21-what-is-a-monolith)
-  - [2.2 Structure of a Monolith](#22-structure-of-a-monolith)
-  - [2.3 Advantages and Disadvantages](#23-advantages-and-disadvantages)
-  - [2.4 When the Monolith Is the Right Choice](#24-when-the-monolith-is-the-right-choice)
-- [3. Microservices: The Village of Specialized Houses](#3-microservices-the-village-of-specialized-houses)
-  - [3.1 What Are Microservices](#31-what-are-microservices)
-  - [3.2 Anatomy of a Microservices Architecture](#32-anatomy-of-a-microservices-architecture)
-  - [3.3 Communication Between Services](#33-communication-between-services)
-  - [3.4 Advantages and Disadvantages](#34-advantages-and-disadvantages)
-  - [3.5 When to Use Microservices](#35-when-to-use-microservices)
-- [4. Serverless Architecture](#4-serverless-architecture)
-  - [4.1 Functions as Building Blocks](#41-functions-as-building-blocks)
-  - [4.2 Common Serverless Patterns](#42-common-serverless-patterns)
-  - [4.3 When to Use Serverless](#43-when-to-use-serverless)
-- [5. Event-Driven Architecture: Messenger Bells](#5-event-driven-architecture-messenger-bells)
-  - [5.1 What Is Event-Driven Architecture](#51-what-is-event-driven-architecture)
-  - [5.2 Main Components](#52-main-components)
-  - [5.3 Practical Example: TodoApp Event-Driven](#53-practical-example-todoapp-event-driven)
-  - [5.4 Event Sourcing and CQRS](#54-event-sourcing-and-cqrs)
-- [6. MVC: The Three Rooms of the Castle](#6-mvc-the-three-rooms-of-the-castle)
-  - [6.1 What Is MVC](#61-what-is-mvc)
-  - [6.2 How MVC Works](#62-how-mvc-works)
-  - [6.3 MVC in Express.js](#63-mvc-in-expressjs)
-- [7. Clean Architecture: The Castle with Concentric Walls](#7-clean-architecture-the-castle-with-concentric-walls)
-  - [7.1 The Dependency Principle](#71-the-dependency-principle)
-  - [7.2 The 4 Layers](#72-the-4-layers)
-  - [7.3 Practical Example](#73-practical-example)
-- [8. Complementary Architectural Patterns](#8-complementary-architectural-patterns)
-  - [8.1 API Gateway](#81-api-gateway)
-  - [8.2 BFF: Backend for Frontend](#82-bff-backend-for-frontend)
-  - [8.3 Strangler Fig: Migrating from the Monolith](#83-strangler-fig-migrating-from-the-monolith)
-- [9. Comparison: Which Architecture to Choose?](#9-comparison-which-architecture-to-choose)
-  - [9.1 Comparison Table](#91-comparison-table)
-  - [9.2 Decision Tree](#92-decision-tree)
-- [10. Final Summary Table](#10-final-summary-table)
-- [References](#references)
-
----
 
 ## Prologue: The Castle Blueprint
 
@@ -890,6 +845,6 @@ Does the team have fewer than 5 people?
 
 <div align="center">
 
-⬅️ [Previous: Level 4-2: Cloud Models](4-2-cloud_models.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-4: Advanced Deploy](4-4-deploy_avancado.md)
+⬅️ [Previous: Level 4-2: Cloud Models](4-2-cloud_models.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 4-4: Advanced Deploy](4-4-deploy_avancado.md)
 
 </div>

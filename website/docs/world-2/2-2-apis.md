@@ -34,48 +34,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Toad Messenger](#prologue-the-toad-messenger)
-- [1. Frontend, Backend, and Full Stack: The Kingdoms of the Mushroom Kingdom](#1-frontend-backend-and-full-stack-the-kingdoms-of-the-mushroom-kingdom)
-  - [1.1 The Frontend: What the Player Sees](#11-the-frontend-what-the-player-sees)
-  - [1.2 The Backend: What Happens Behind the Scenes](#12-the-backend-what-happens-behind-the-scenes)
-  - [1.3 The Full Stack: The Complete Adventurer](#13-the-full-stack-the-complete-adventurer)
-  - [1.4 Table: Frontend vs Backend vs Full Stack](#14-table-frontend-vs-backend-vs-full-stack)
-- [2. What Is an API?](#2-what-is-an-api)
-  - [2.1 Fundamental Definition](#21-fundamental-definition)
-  - [2.2 Why Do APIs Exist?](#22-why-do-apis-exist)
-  - [2.3 APIs in Everyday Life](#23-apis-in-everyday-life)
-- [3. REST: The Messenger's Protocol](#3-rest-the-messengers-protocol)
-  - [3.1 What Is REST?](#31-what-is-rest)
-  - [3.2 The 6 REST Principles](#32-the-6-rest-principles)
-  - [3.3 URLs as Mushroom Kingdom Addresses](#33-urls-as-mushroom-kingdom-addresses)
-- [4. HTTP Methods: The Toad's Missions](#4-http-methods-the-toads-missions)
-  - [4.1 GET -- Fetch Information](#41-get----fetch-information)
-  - [4.2 POST -- Deliver a Package](#42-post----deliver-a-package)
-  - [4.3 PUT -- Replace Something](#43-put----replace-something)
-  - [4.4 PATCH -- Fix Something](#44-patch----fix-something)
-  - [4.5 DELETE -- Destroy Something](#45-delete----destroy-something)
-  - [4.6 Complete Table: HTTP Methods](#46-complete-table-http-methods)
-- [5. Status Codes: The Messenger's Replies](#5-status-codes-the-messengers-replies)
-  - [5.1 2xx Family -- Mission Accomplished](#51-2xx-family----mission-accomplished)
-  - [5.2 3xx Family -- Redirect](#52-3xx-family----redirect)
-  - [5.3 4xx Family -- Requester Error](#53-4xx-family----requester-error)
-  - [5.4 5xx Family -- Castle Error](#54-5xx-family----castle-error)
-  - [5.5 Table: The Most Important Status Codes](#55-table-the-most-important-status-codes)
-- [6. JSON: The Lingua Franca of the Mushroom Kingdom](#6-json-the-lingua-franca-of-the-mushroom-kingdom)
-  - [6.1 What Is JSON?](#61-what-is-json)
-  - [6.2 Basic Structure](#62-basic-structure)
-  - [6.3 JSON in Practice: Request and Response](#63-json-in-practice-request-and-response)
-- [7. Building an API in Practice](#7-building-an-api-in-practice)
-  - [7.1 Complete Example: Tasks API (TodoApp)](#71-complete-example-tasks-api-todoapp)
-  - [7.2 Testing with curl and Postman](#72-testing-with-curl-and-postman)
-- [8. APIs in the Cloud: Azure API Management](#8-apis-in-the-cloud-azure-api-management)
-- [9. API Best Practices](#9-api-best-practices)
-- [10. Final Summary Table](#10-final-summary-table)
-- [References](#references)
-
----
 
 ## Prologue: The Toad Messenger
 
@@ -684,7 +642,7 @@ When your API goes to production, you need more control. **Azure API Management 
 
 <div align="center">
 
-⬅️ [Previous: Level 2-1: Environments](2-1-ambientes.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-3: Security](2-3-seguranca.md)
+⬅️ [Previous: Level 2-1: Environments](2-1-ambientes.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 2-3: Security](2-3-seguranca.md)
 
 </div>
 

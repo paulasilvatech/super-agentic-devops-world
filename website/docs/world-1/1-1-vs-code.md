@@ -25,55 +25,6 @@ tags: ["agentic-devops", "mario", "world-1", "vs-code", "fundamentals"]
 
 ---
 
-## Table of Contents
-
-- [Prologue — Pressing START](#prologue--pressing-start)
-- [1. What Is Code?](#1-what-is-code)
-  - [1.1 The Language of the Mushroom Kingdom](#11-the-language-of-the-mushroom-kingdom)
-  - [1.2 Code Is Like Level Instructions](#12-code-is-like-level-instructions)
-  - [1.3 From Text to Program: How the Magic Works](#13-from-text-to-program-how-the-magic-works)
-- [2. What Is VS Code?](#2-what-is-vs-code)
-  - [2.1 The Game Console](#21-the-game-console)
-  - [2.2 Why VS Code?](#22-why-vs-code)
-  - [2.3 Table: VS Code Parts vs Console Parts](#23-table-vs-code-parts-vs-console-parts)
-- [3. Installing VS Code — Turning On the Console](#3-installing-vs-code--turning-on-the-console)
-  - [3.1 Step by Step: Windows](#31-step-by-step-windows)
-  - [3.2 Step by Step: macOS](#32-step-by-step-macos)
-  - [3.3 Step by Step: Linux](#33-step-by-step-linux)
-  - [3.4 Verifying the Installation](#34-verifying-the-installation)
-- [4. Getting to Know the Screen — The Main Menu](#4-getting-to-know-the-screen--the-main-menu)
-  - [4.1 Sidebar — The Navigation Menu](#41-sidebar--the-navigation-menu)
-  - [4.2 Central Editor — The Game Screen](#42-central-editor--the-game-screen)
-  - [4.3 Status Bar — The Game HUD](#43-status-bar--the-game-hud)
-  - [4.4 Command Palette — The Cheat Menu](#44-command-palette--the-cheat-menu)
-  - [4.5 Visual Map: VS Code Anatomy](#45-visual-map-vs-code-anatomy)
-- [5. Extensions — Controller Accessories](#5-extensions--controller-accessories)
-  - [5.1 What Are Extensions?](#51-what-are-extensions)
-  - [5.2 Essential Extensions for Beginners](#52-essential-extensions-for-beginners)
-  - [5.3 How to Install Extensions](#53-how-to-install-extensions)
-  - [5.4 GitHub Copilot — Your First Companion](#54-github-copilot--your-first-companion)
-- [6. The Integrated Terminal — The Debug Menu](#6-the-integrated-terminal--the-debug-menu)
-  - [6.1 What Is the Terminal?](#61-what-is-the-terminal)
-  - [6.2 Opening the Terminal](#62-opening-the-terminal)
-  - [6.3 Basic Commands — Your First Cheats](#63-basic-commands--your-first-cheats)
-  - [6.4 Table: Terminal Commands vs Game Actions](#64-table-terminal-commands-vs-game-actions)
-- [7. Your First File — Level 1-1 Complete](#7-your-first-file--level-1-1-complete)
-  - [7.1 Creating a Folder (Your First World)](#71-creating-a-folder-your-first-world)
-  - [7.2 Creating a File (Your First Level)](#72-creating-a-file-your-first-level)
-  - [7.3 Writing Code (Building the Level)](#73-writing-code-building-the-level)
-  - [7.4 Saving (Manual Save Game)](#74-saving-manual-save-game)
-  - [7.5 Running (Pressing Play)](#75-running-pressing-play)
-- [8. Keyboard Shortcuts — Secret Combos](#8-keyboard-shortcuts--secret-combos)
-  - [8.1 The 10 Shortcuts Every Player Needs](#81-the-10-shortcuts-every-player-needs)
-  - [8.2 Combo Table](#82-combo-table)
-- [9. Basic Settings — Adjusting the Console](#9-basic-settings--adjusting-the-console)
-  - [9.1 Color Theme (Console Skin)](#91-color-theme-console-skin)
-  - [9.2 Font Size](#92-font-size)
-  - [9.3 Auto Save — Automatic Saving](#93-auto-save--automatic-saving)
-- [Summary — What We Learned in Level 1-1](#summary--what-we-learned-in-level-1-1)
-- [References](#references)
-
----
 
 ## Prologue — Pressing START
 
@@ -698,6 +649,6 @@ By default, VS Code **does not auto-save**. To enable auto save:
 
 <div align="center">
 
-🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-2: Git](1-2-git.md)
+🗺️ [World Map](../intro.md) · ➡️ [Next: Level 1-2: Git](1-2-git.md)
 
 </div>

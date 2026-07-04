@@ -34,19 +34,6 @@ tags: ["agentic-devops", "mario", "world-6", "orchestration", "multi-agent"]
 
 ---
 
-## TABLE OF CONTENTS
-
-1. [Introduction — Multiplayer Mode](#introduction)
-2. [What is Multi-Agent Orchestration](#what-is-it)
-3. [Lean Agent + Rich Skill Pattern](#lean-agent)
-4. [Complete Orchestration Flow](#complete-flow)
-5. [Handoffs — Character Tag-Team](#handoffs)
-6. [Boss Battle — Checklist Before Bowser](#boss-battle)
-7. [The 4 Worlds (Main Workflows)](#4-worlds)
-8. [The 6 Power-Up Layers (Context)](#6-layers)
-9. [Conclusion — The Multiplayer Symphony](#conclusion)
-
----
 
 ## Introduction — Multiplayer Mode
 
@@ -590,6 +577,6 @@ She collected the Star Coin from this world and headed to the next...
 
 <div align="center">
 
-⬅️ [Previous: Level 6-6: MCP Practical](6-6-mcp-practical.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-8: Token Optimization](6-8-token-optimization.md)
+⬅️ [Previous: Level 6-6: MCP Practical](6-6-mcp-practical.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 6-8: Token Optimization](6-8-token-optimization.md)
 
 </div>

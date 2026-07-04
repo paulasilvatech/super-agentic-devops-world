@@ -16,6 +16,36 @@
   margin-top: 1.5rem;
 }
 
+.pixelImage {
+  image-rendering: pixelated;
+}
+
+.sectionTitle {
+  text-align: center;
+}
+
+.sectionTitleTight {
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.sectionIntro {
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.sectionIntroCompact {
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 1.5rem;
+}
+
+.featureColumn {
+  margin-bottom: 1.5rem;
+}
+
 /* Hero mascot */
 .heroMascot {
   margin: 0.5rem 0;
@@ -23,8 +53,15 @@
 }
 
 @keyframes heroFloat {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 /* Coin message popup */
@@ -32,9 +69,9 @@
   font-family: 'Press Start 2P', monospace;
   font-size: 0.55rem;
   color: var(--mario-gold);
-  text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
   padding: 6px 16px;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   display: inline-block;
   margin: 0.5rem 0;
@@ -42,10 +79,24 @@
 }
 
 @keyframes coinPopup {
-  0% { opacity: 0; transform: translateY(10px); }
-  15% { opacity: 1; transform: translateY(0); }
-  80% { opacity: 1; }
-  100% { opacity: 0; transform: translateY(-10px); }
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  15% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
 }
 
 /* Progress bar */
@@ -71,15 +122,14 @@
   width: 100%;
   border-radius: 3px;
   background: linear-gradient(90deg,
-    var(--world-1),
-    var(--world-2),
-    var(--world-3),
-    var(--world-4),
-    var(--world-5),
-    var(--world-6),
-    var(--world-7),
-    var(--world-8)
-  );
+      var(--world-1),
+      var(--world-2),
+      var(--world-3),
+      var(--world-4),
+      var(--world-5),
+      var(--world-6),
+      var(--world-7),
+      var(--world-8));
   opacity: 0.3;
 }
 
@@ -91,12 +141,87 @@
   border-radius: 50%;
   transform: translate(-50%, -50%);
   border: 2px solid white;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   z-index: 1;
 }
 
+.progressDotWorld1 {
+  background: var(--world-1);
+  left: 0%;
+}
+
+.progressDotWorld2 {
+  background: var(--world-2);
+  left: 14.2857%;
+}
+
+.progressDotWorld3 {
+  background: var(--world-3);
+  left: 28.5714%;
+}
+
+.progressDotWorld4 {
+  background: var(--world-4);
+  left: 42.8571%;
+}
+
+.progressDotWorld5 {
+  background: var(--world-5);
+  left: 57.1429%;
+}
+
+.progressDotWorld6 {
+  background: var(--world-6);
+  left: 71.4286%;
+}
+
+.progressDotWorld7 {
+  background: var(--world-7);
+  left: 85.7143%;
+}
+
+.progressDotWorld8 {
+  background: var(--world-8);
+  left: 100%;
+}
+
 .progressDotActive {
   transform: translate(-50%, -50%) scale(1.6);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.worldColumn {
+  margin-bottom: 1.2rem;
+}
+
+.worldCardLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.worldCardLink:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.worldLevels {
+  text-align: center;
+}
+
+.pipeDividerSpaced {
+  margin-bottom: 1rem;
+}
+
+.centeredRow {
+  justify-content: center;
+}
+
+.bannerImage {
+  max-width: 850px;
+  width: 100%;
+}
+
+.bannerCta {
+  margin-top: 2rem;
 }

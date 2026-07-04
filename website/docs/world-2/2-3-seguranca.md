@@ -33,43 +33,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Intruder in the Castle](#prologue-the-intruder-in-the-castle)
-- [1. Why Does Security Matter?](#1-why-does-security-matter)
-  - [1.1 The Mushroom Kingdom Without Protection](#11-the-mushroom-kingdom-without-protection)
-  - [1.2 The 3 Pillars of Security: CIA](#12-the-3-pillars-of-security-cia)
-- [2. Secrets: The Castle Keys](#2-secrets-the-castle-keys)
-  - [2.1 What Are Secrets?](#21-what-are-secrets)
-  - [2.2 Everyday Examples of Secrets](#22-everyday-examples-of-secrets)
-  - [2.3 The Fatal Mistake: Secrets in Code](#23-the-fatal-mistake-secrets-in-code)
-- [3. Environment Variables: The Secret Pocket](#3-environment-variables-the-secret-pocket)
-  - [3.1 What Are Environment Variables?](#31-what-are-environment-variables)
-  - [3.2 The .env File: Your Secret Pocket](#32-the-env-file-your-secret-pocket)
-  - [3.3 The .gitignore: The Invisibility Spell](#33-the-gitignore-the-invisibility-spell)
-- [4. HTTPS and SSL/TLS: The Invisible Shield](#4-https-and-ssltls-the-invisible-shield)
-  - [4.1 HTTP vs HTTPS](#41-http-vs-https)
-  - [4.2 How SSL/TLS Works](#42-how-ssltls-works)
-  - [4.3 The Handshake: Secret Greeting](#43-the-handshake-secret-greeting)
-  - [4.4 Certificates: The Royal Seal](#44-certificates-the-royal-seal)
-- [5. Azure Key Vault: Toad's Treasure Room](#5-azure-key-vault-toads-treasure-room)
-  - [5.1 What Is Key Vault?](#51-what-is-key-vault)
-  - [5.2 What to Store in Key Vault?](#52-what-to-store-in-key-vault)
-  - [5.3 How It Works in Practice](#53-how-it-works-in-practice)
-  - [5.4 Comparison: .env vs Key Vault](#54-comparison-env-vs-key-vault)
-- [6. GitHub Secrets: Protecting the Pipeline](#6-github-secrets-protecting-the-pipeline)
-  - [6.1 Secrets in GitHub Actions](#61-secrets-in-github-actions)
-  - [6.2 Environment Secrets](#62-environment-secrets)
-- [7. Authentication and Authorization: Who You Are and What You Can Do](#7-authentication-and-authorization-who-you-are-and-what-you-can-do)
-  - [7.1 Authentication vs Authorization](#71-authentication-vs-authorization)
-  - [7.2 Tokens and API Keys](#72-tokens-and-api-keys)
-- [8. The 10 Commandments of Security](#8-the-10-commandments-of-security)
-- [9. Common Attacks and How to Defend Yourself](#9-common-attacks-and-how-to-defend-yourself)
-  - [9.1 The Villains of the Mushroom Kingdom](#91-the-villains-of-the-mushroom-kingdom)
-- [10. Final Summary Table](#10-final-summary-table)
-- [References](#references)
-
----
 
 ## Prologue: The Intruder in the Castle
 
@@ -583,6 +546,6 @@ const values = [nomeDoUsuario];
 
 <div align="center">
 
-⬅️ [Previous: Level 2-2: APIs](2-2-apis.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-4: DNS](2-4-dns.md)
+⬅️ [Previous: Level 2-2: APIs](2-2-apis.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 2-4: DNS](2-4-dns.md)
 
 </div>

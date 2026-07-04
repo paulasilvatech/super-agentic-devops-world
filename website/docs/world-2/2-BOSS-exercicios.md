@@ -35,42 +35,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: Boom Boom Appears](#prologue-boom-boom-appears)
-- [1. Boss Battle Rules](#1-boss-battle-rules)
-- [2. Quest 2-1: Parallel Worlds (Environments)](#2-quest-2-1-parallel-worlds-environments)
-  - [2.1 Exercise: Create Environment Branches](#21-exercise-create-environment-branches)
-  - [2.2 Exercise: Configure Variables per Environment](#22-exercise-configure-variables-per-environment)
-  - [2.3 BONUS Challenge: Ephemeral Environment](#23-bonus-challenge-ephemeral-environment)
-- [3. Quest 2-2: The Messenger (APIs)](#3-quest-2-2-the-messenger-apis)
-  - [3.1 Exercise: Build a Simple REST API](#31-exercise-build-a-simple-rest-api)
-  - [3.2 Exercise: Test with curl](#32-exercise-test-with-curl)
-  - [3.3 BONUS Challenge: Document with Swagger](#33-bonus-challenge-document-with-swagger)
-- [4. Quest 2-3: Protection Spells (Security)](#4-quest-2-3-protection-spells-security)
-  - [4.1 Exercise: Configure .env and .gitignore](#41-exercise-configure-env-and-gitignore)
-  - [4.2 Exercise: Configure GitHub Secrets](#42-exercise-configure-github-secrets)
-  - [4.3 BONUS Challenge: Create a Key Vault on Azure](#43-bonus-challenge-create-a-key-vault-on-azure)
-- [5. Quest 2-4: The World Map (DNS)](#5-quest-2-4-the-world-map-dns)
-  - [5.1 Exercise: Investigate DNS with Tools](#51-exercise-investigate-dns-with-tools)
-  - [5.2 Exercise: Map the Anatomy of URLs](#52-exercise-map-the-anatomy-of-urls)
-- [6. Quest 2-5: Tournament Rules (Methodologies)](#6-quest-2-5-tournament-rules-methodologies)
-  - [6.1 Exercise: Create a Kanban Board in GitHub Projects](#61-exercise-create-a-kanban-board-in-github-projects)
-  - [6.2 Exercise: Write User Stories](#62-exercise-write-user-stories)
-  - [6.3 Exercise: Simulate a Sprint Planning](#63-exercise-simulate-a-sprint-planning)
-- [7. Quest 2-6: The DevOps Alliance (IaC)](#7-quest-2-6-the-devops-alliance-iac)
-  - [7.1 Exercise: Write a Bicep Blueprint](#71-exercise-write-a-bicep-blueprint)
-  - [7.2 Exercise: Basic CI Pipeline](#72-exercise-basic-ci-pipeline)
-  - [7.3 BONUS Challenge: Terraform Init-Plan-Apply](#73-bonus-challenge-terraform-init-plan-apply)
-- [8. Quest 2-7: The Senses (Observability)](#8-quest-2-7-the-senses-observability)
-  - [8.1 Exercise: Add Structured Logging](#81-exercise-add-structured-logging)
-  - [8.2 Exercise: Create Health Check Endpoint](#82-exercise-create-health-check-endpoint)
-  - [8.3 BONUS Challenge: Simple Dashboard](#83-bonus-challenge-simple-dashboard)
-- [9. Final Boss Battle: The Integrated Challenge](#9-final-boss-battle-the-integrated-challenge)
-- [10. Scoring Table and Self-Assessment](#10-scoring-table-and-self-assessment)
-- [References](#references)
-
----
 
 ## Prologue: Boom Boom Appears
 
@@ -737,6 +701,6 @@ todoapp-world2/
 
 <div align="center">
 
-⬅️ [Previous: Level 2-7: Observability](2-7-observabilidade.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-1: Skill Tree](../world-3-sky/3-1-arvore_habilidades.md)
+⬅️ [Previous: Level 2-7: Observability](2-7-observabilidade.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 3-1: Skill Tree](../world-3/3-1-arvore_habilidades.md)
 
 </div>

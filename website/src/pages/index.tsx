@@ -1,19 +1,30 @@
-import type {ReactNode} from 'react';
-import {useState} from 'react';
+import type { ReactNode } from 'react';
+import { useState } from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
-import {motion} from 'framer-motion';
-import {TypeAnimation} from 'react-type-animation';
+import { motion } from 'framer-motion';
+import { TypeAnimation } from 'react-type-animation';
 import ScrollReveal from '@site/src/components/animations/ScrollReveal';
 import CountUp from '@site/src/components/animations/CountUp';
 
 import styles from './index.module.css';
 
+const progressDotWorldClasses = [
+  styles.progressDotWorld1,
+  styles.progressDotWorld2,
+  styles.progressDotWorld3,
+  styles.progressDotWorld4,
+  styles.progressDotWorld5,
+  styles.progressDotWorld6,
+  styles.progressDotWorld7,
+  styles.progressDotWorld8,
+];
+
 /* ===== PIXEL IMAGE HELPER ===== */
-function PixelImg({src, alt, size = 64}: {src: string; alt: string; size?: number}) {
+function PixelImg({ src, alt, size = 64 }: { src: string; alt: string; size?: number }) {
   const url = useBaseUrl(src);
   return (
     <img
@@ -21,7 +32,7 @@ function PixelImg({src, alt, size = 64}: {src: string; alt: string; size?: numbe
       alt={alt}
       width={size}
       height={size}
-      style={{imageRendering: 'pixelated'}}
+      className={styles.pixelImage}
       loading="lazy"
     />
   );
@@ -56,7 +67,7 @@ function HUD() {
 }
 
 /* ===== ? BLOCK ===== */
-function QuestionBlock({onClick, hit}: {onClick: () => void; hit: boolean}) {
+function QuestionBlock({ onClick, hit }: { onClick: () => void; hit: boolean }) {
   return (
     <div
       className={`q-block ${hit ? 'q-block--hit' : ''}`}
@@ -70,7 +81,7 @@ function QuestionBlock({onClick, hit}: {onClick: () => void; hit: boolean}) {
 
 /* ===== HERO ===== */
 function Hero() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   const [hits, setHits] = useState([false, false, false, false, false]);
   const messages = [
     '1UP! You got a Power-Up!',
@@ -165,16 +176,16 @@ function Features() {
   return (
     <section className="features-section">
       <div className="container">
-        <Heading as="h2" style={{textAlign: 'center', marginBottom: '0.3rem'}}>
+        <Heading as="h2" className={styles.sectionTitleTight}>
           Every Concept Has a Mario Equivalent
         </Heading>
-        <p style={{textAlign: 'center', color: 'var(--ifm-color-emphasis-600)', marginBottom: '2rem', fontSize: '0.95rem'}}>
+        <p className={styles.sectionIntro}>
           If you've ever played Mario, you can understand DevOps.
         </p>
         <div className="row">
           {features.map((f, i) => (
             <ScrollReveal key={i} delay={i * 0.08} direction={i % 2 === 0 ? 'left' : 'right'}>
-              <div className="col col--12" style={{marginBottom: '1.5rem'}}>
+              <div className={`col col--12 ${styles.featureColumn}`}>
                 <div className="feature-block">
                   <div className="feature-block__icon">
                     <PixelImg src={f.img} alt={f.title} size={80} />
@@ -196,7 +207,7 @@ function Story() {
   return (
     <section className="story">
       <div className="container">
-        <Heading as="h2" style={{textAlign: 'center'}}>
+        <Heading as="h2" className={styles.sectionTitle}>
           Made for Sofia
         </Heading>
         <div className="story__content">
@@ -252,11 +263,7 @@ function WorldMap() {
             {worlds.map((w) => (
               <div
                 key={w.num}
-                className={`${styles.progressDot} ${hoveredWorld === w.num ? styles.progressDotActive : ''}`}
-                style={{
-                  background: `var(--world-${w.num})`,
-                  left: `${((w.num - 1) / 7) * 100}%`,
-                }}
+                className={`${styles.progressDot} ${progressDotWorldClasses[w.num - 1]} ${hoveredWorld === w.num ? styles.progressDotActive : ''}`}
                 title={w.theme}
               />
             ))}
@@ -265,10 +272,10 @@ function WorldMap() {
 
         <div className="row world-path">
           {worlds.map((w) => (
-            <div key={w.num} className="col col--3" style={{marginBottom: '1.2rem'}}>
+            <div key={w.num} className={`col col--3 ${styles.worldColumn}`}>
               <Link
                 to={w.link}
-                style={{textDecoration: 'none', color: 'inherit'}}
+                className={styles.worldCardLink}
                 onMouseEnter={() => setHoveredWorld(w.num)}
                 onMouseLeave={() => setHoveredWorld(null)}
               >
@@ -281,7 +288,7 @@ function WorldMap() {
                   </Heading>
                   <p className="world-card__theme">{w.theme}</p>
                   <p className="world-card__desc">{w.desc}</p>
-                  <div style={{textAlign: 'center'}}>
+                  <div className={styles.worldLevels}>
                     <span className="world-card__levels">{w.levels} Levels</span>
                   </div>
                 </div>
@@ -301,25 +308,25 @@ const quickLinks = [
   { img: '/img/features/books.png', label: 'RAG', world: 'W7-2', to: '/docs/world-7/7-2-rag' },
   { img: '/img/features/sdd.png', label: 'Spec-Driven Development', world: 'W5-10', to: '/docs/world-5/5-10_sdd' },
   { img: '/img/features/agents.png', label: 'Custom Agents', world: 'W6-1', to: '/docs/world-6/6-1-custom-agents' },
-  { img: '/img/features/hooks.png', label: 'Hands-on Project', world: 'W7-Boss', to: '/docs/world-7/7-boss-practical-project' },
+  { img: '/img/features/hooks.png', label: 'Hands-on Project', world: 'W7-Boss', to: '/docs/world-7/boss-practical-project' },
 ];
 
 function QuickStart() {
   return (
     <section className="quickstart">
       <div className="container">
-        <Heading as="h2" style={{textAlign: 'center', marginBottom: '0.3rem'}}>
+        <Heading as="h2" className={styles.sectionTitleTight}>
           Quick Start
         </Heading>
-        <p style={{textAlign: 'center', color: 'var(--ifm-color-emphasis-600)', marginBottom: '1.5rem'}}>
+        <p className={styles.sectionIntroCompact}>
           Know the basics? Warp directly to what you need.
         </p>
 
-        <div className="pipe-divider" style={{marginBottom: '1rem'}}>
+        <div className={`pipe-divider ${styles.pipeDividerSpaced}`}>
           <div className="pipe-divider__pipe" />
         </div>
 
-        <div className="row" style={{justifyContent: 'center'}}>
+        <div className={`row ${styles.centeredRow}`}>
           <div className="col col--6">
             {quickLinks.map((q, i) => (
               <Link key={i} to={q.to} className="pipe-link">
@@ -346,11 +353,10 @@ function Banner() {
         <img
           src={bannerSrc}
           alt="Super Agentic DevOps World — Made for Sofia"
-          className="banner-image"
-          style={{maxWidth: '850px', width: '100%'}}
+          className={`banner-image ${styles.bannerImage}`}
           loading="lazy"
         />
-        <div style={{marginTop: '2rem'}}>
+        <div className={styles.bannerCta}>
           <Link className="btn-start btn-green" to="/docs/intro">
             START AT WORLD 1-1
           </Link>

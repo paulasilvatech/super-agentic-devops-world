@@ -33,54 +33,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: Why Is It So Slow?](#prologue-why-is-it-so-slow)
-- [1. What Is Performance?](#1-what-is-performance)
-  - [1.1 Fundamental Metrics](#11-fundamental-metrics)
-  - [1.2 Why Performance Matters](#12-why-performance-matters)
-  - [1.3 The 3-Second Rule](#13-the-3-second-rule)
-- [2. Cache: Power-Ups in Your Pocket](#2-cache-power-ups-in-your-pocket)
-  - [2.1 What Is Cache](#21-what-is-cache)
-  - [2.2 How Cache Works](#22-how-cache-works)
-  - [2.3 Cache Hit vs Cache Miss](#23-cache-hit-vs-cache-miss)
-  - [2.4 Cache Levels](#24-cache-levels)
-- [3. Redis: The Magic Pocket](#3-redis-the-magic-pocket)
-  - [3.1 What Is Redis](#31-what-is-redis)
-  - [3.2 Redis Data Structures](#32-redis-data-structures)
-  - [3.3 Redis in Practice: TodoApp](#33-redis-in-practice-todoapp)
-  - [3.4 Common Patterns with Redis](#34-common-patterns-with-redis)
-  - [3.5 Redis on Azure](#35-redis-on-azure)
-- [4. CDN: Item Shops in Every World](#4-cdn-item-shops-in-every-world)
-  - [4.1 What Is CDN](#41-what-is-cdn)
-  - [4.2 How CDN Works](#42-how-cdn-works)
-  - [4.3 Configuring CDN on Azure](#43-configuring-cdn-on-azure)
-  - [4.4 What to Put on the CDN](#44-what-to-put-on-the-cdn)
-- [5. Cache Strategies](#5-cache-strategies)
-  - [5.1 Cache-Aside (Lazy Loading)](#51-cache-aside-lazy-loading)
-  - [5.2 Write-Through](#52-write-through)
-  - [5.3 Write-Behind (Write-Back)](#53-write-behind-write-back)
-  - [5.4 TTL: Cache Time to Live](#54-ttl-cache-time-to-live)
-  - [5.5 Cache Invalidation](#55-cache-invalidation)
-- [6. Backend Performance](#6-backend-performance)
-  - [6.1 Query Optimization (N+1 Problem)](#61-query-optimization-n1-problem)
-  - [6.2 Database Indexes](#62-database-indexes)
-  - [6.3 Connection Pooling](#63-connection-pooling)
-  - [6.4 Response Compression](#64-response-compression)
-- [7. Frontend Performance](#7-frontend-performance)
-  - [7.1 Lazy Loading: Build When Needed](#71-lazy-loading-build-when-needed)
-  - [7.2 Code Splitting](#72-code-splitting)
-  - [7.3 Image Optimization](#73-image-optimization)
-  - [7.4 Debounce and Throttle](#74-debounce-and-throttle)
-- [8. Performance Monitoring](#8-performance-monitoring)
-  - [8.1 Core Web Vitals](#81-core-web-vitals)
-  - [8.2 APM: Application Performance Monitoring](#82-apm-application-performance-monitoring)
-  - [8.3 Profiling Tools](#83-profiling-tools)
-- [9. Performance Checklist](#9-performance-checklist)
-- [10. Final Summary Table](#10-final-summary-table)
-- [References](#references)
-
----
 
 ## Prologue: Why Is It So Slow?
 
@@ -919,6 +871,6 @@ async function getTodos(userId) {
 
 <div align="center">
 
-⬅️ [Previous: Level 4-6: Data Structures](4-6-estruturas_dados.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-8: Messaging](4-8-mensageria.md)
+⬅️ [Previous: Level 4-6: Data Structures](4-6-estruturas_dados.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 4-8: Messaging](4-8-mensageria.md)
 
 </div>
