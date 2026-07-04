@@ -70,7 +70,7 @@ const config: Config = {
     localeConfigs: {
       en: { label: 'English', direction: 'ltr', htmlLang: 'en-US' },
       'pt-BR': { label: 'Português (BR)', direction: 'ltr', htmlLang: 'pt-BR' },
-      es: { label: 'Español', direction: 'ltr', htmlLang: 'es-ES' },
+      es: { label: 'Español', direction: 'ltr', htmlLang: 'es' },
     },
   },
 

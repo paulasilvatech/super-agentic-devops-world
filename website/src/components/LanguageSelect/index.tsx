@@ -7,6 +7,9 @@ import styles from './styles.module.css';
 
 const STORAGE_KEY = 'sadw-language-selected';
 
+/** Entry document visitors land on after choosing a language. */
+const START_DOC_PATH = 'docs/intro';
+
 type LanguageOption = {
   /** Docusaurus locale code, e.g. "en", "pt-BR", "es". */
   locale: string;
@@ -78,7 +81,7 @@ export default function LanguageSelect(): ReactNode {
         return;
       }
       // Cross-locale navigation needs a full page load to a different base path.
-      window.location.href = `${localeBasePath(baseUrl, locale, defaultLocale)}docs/intro`;
+      window.location.href = `${localeBasePath(baseUrl, locale, defaultLocale)}${START_DOC_PATH}`;
     },
     [baseUrl, currentLocale, defaultLocale, remember],
   );
