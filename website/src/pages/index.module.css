@@ -103,6 +103,8 @@
   background: transparent;
   font: inherit;
   cursor: pointer;
+  margin: 0;
+  outline-offset: 2px;
   padding: 0;
 }
 

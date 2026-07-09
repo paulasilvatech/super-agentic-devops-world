@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useState } from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -459,15 +459,7 @@ function QuestionBlock({
 function Hero({ siteTitle, copy, hud }: { siteTitle: string; copy: HomeCopy['hero']; hud: HudItem[] }) {
   const [hits, setHits] = useState([false, false, false, false, false]);
   const [message, setMessage] = useState('');
-  const typeSequence = useMemo<Array<string | number>>(() => {
-    const sequence: Array<string | number> = [];
-
-    copy.typeLines.forEach((line) => {
-      sequence.push(line, 1800);
-    });
-
-    return sequence;
-  }, [copy.typeLines]);
+  const typeSequence = copy.typeLines.flatMap((line) => [line, 1800]) as Array<string | number>;
 
   const hitBlock = useCallback((index: number) => {
     setHits((currentHits) => {
@@ -675,8 +667,8 @@ function Story({ copy }: { copy: HomeCopy['story'] }) {
           {copy.title}
         </Heading>
         <div className="story__content">
-          {copy.paragraphs.map((paragraph) => (
-            <p key={paragraph}>{paragraph}</p>
+         {copy.paragraphs.map((paragraph, index) => (
+           <p key={index}>{paragraph}</p>
           ))}
           <blockquote>
             <p>
@@ -763,8 +755,8 @@ function QuickStart({ copy }: { copy: HomeCopy['quickStart'] }) {
 
         <div className={`row ${styles.centeredRow}`}>
           <div className="col col--6">
-            {copy.links.map((link) => (
-              <Link key={`${link.world}-${link.label}`} to={link.to} className="pipe-link">
+            {copy.links.map((link, index) => (
+              <Link key={index} to={link.to} className="pipe-link">
                 <span className="pipe-link__icon">
                   <PixelImg src={link.img} alt={link.label} size={32} />
                 </span>
