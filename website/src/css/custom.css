@@ -1119,6 +1119,73 @@ img {
 /* ===== DIAGRAMS ===== */
 .docs-image-container img { max-width: 100%; height: auto; }
 
+/* ===== DIAGRAM / FIGURE POLISH ===== */
+/* Centered figures that contain an image are framed like a game "screen":
+   a clean white canvas keeps light-designed SVG diagrams legible in dark
+   mode, with a world-tinted border, soft shadow, and a subtle hover zoom. */
+.markdown div[align='center']:has(img) {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 100%;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 2px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.markdown div[align='center']:has(img):hover {
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+}
+
+.markdown div[align='center']:has(img) img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.25s ease;
+}
+
+.markdown div[align='center']:has(img):hover img {
+  transform: scale(1.015);
+}
+
+/* Figure caption (the <em> under the image) becomes a real caption.
+   The caption always sits on the fixed white figure canvas (kept white in
+   both themes for SVG legibility), so a fixed mid-grey is used deliberately
+   instead of a theme variable, which would be unreadable in dark mode. */
+.markdown div[align='center']:has(img) em {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  font-style: normal;
+  color: #55606e;
+}
+
+[data-theme='dark'] .markdown div[align='center']:has(img) {
+  border-color: var(--ifm-color-emphasis-300);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* World-tinted figure frames */
+html[data-doc-world='1'] .markdown div[align='center']:has(img) { border-color: color-mix(in srgb, var(--world-1) 45%, transparent); }
+html[data-doc-world='2'] .markdown div[align='center']:has(img) { border-color: color-mix(in srgb, var(--world-2) 45%, transparent); }
+html[data-doc-world='3'] .markdown div[align='center']:has(img) { border-color: color-mix(in srgb, var(--world-3) 45%, transparent); }
+html[data-doc-world='4'] .markdown div[align='center']:has(img) { border-color: color-mix(in srgb, var(--world-4) 45%, transparent); }
+html[data-doc-world='5'] .markdown div[align='center']:has(img) { border-color: color-mix(in srgb, var(--world-5) 45%, transparent); }
+html[data-doc-world='6'] .markdown div[align='center']:has(img) { border-color: color-mix(in srgb, var(--world-6) 45%, transparent); }
+html[data-doc-world='7'] .markdown div[align='center']:has(img) { border-color: color-mix(in srgb, var(--world-7) 55%, transparent); }
+html[data-doc-world='8'] .markdown div[align='center']:has(img) { border-color: color-mix(in srgb, var(--world-8) 45%, transparent); }
+
+@media (prefers-reduced-motion: reduce) {
+  .markdown div[align='center']:has(img),
+  .markdown div[align='center']:has(img) img {
+    transition: none;
+  }
+  .markdown div[align='center']:has(img):hover img {
+    transform: none;
+  }
+}
+
 /* ===== ACHIEVEMENTS ===== */
 .achievement {
   display: inline-block;
