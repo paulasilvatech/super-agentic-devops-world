@@ -5,10 +5,10 @@ import AchievementBadge from '@site/src/components/AchievementBadge';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 export default {
-    ...MDXComponents,
-    MarioTip,
-    ConceptCard,
-    AchievementBadge,
-    Tabs,
-    TabItem,
+  ...MDXComponents,
+  MarioTip,
+  ConceptCard,
+  AchievementBadge,
+  Tabs,
+  TabItem,
 };
