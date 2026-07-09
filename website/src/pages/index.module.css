@@ -46,7 +46,6 @@
   margin-bottom: 1.5rem;
 }
 
-/* Hero mascot */
 .heroMascot {
   margin: 0.5rem 0;
   animation: heroFloat 3s ease-in-out infinite;
@@ -64,7 +63,6 @@
   }
 }
 
-/* Coin message popup */
 .coinMessage {
   font-family: 'Press Start 2P', monospace;
   font-size: 0.55rem;
@@ -99,7 +97,80 @@
   }
 }
 
-/* Progress bar */
+.questionBlock {
+  appearance: none;
+  padding: 0;
+}
+
+.heroTypeLine {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.6rem;
+  line-height: 1.8;
+  color: #fff7b2;
+  min-height: 2.4rem;
+  max-width: 56rem;
+  margin: 0 auto 1.25rem;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.45);
+}
+
+.heroCtaGroup {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.secondaryButton {
+  background: linear-gradient(180deg, #43B047 0%, #2E8B2E 100%);
+}
+
+.secondaryButton:hover {
+  box-shadow: 0 0 0 3px rgba(67, 176, 71, 0.18);
+}
+
+.questLog {
+  max-width: 760px;
+  margin: 1.75rem auto 0;
+  padding: 1rem 1.15rem;
+  border: 3px solid rgba(255, 255, 255, 0.18);
+  border-radius: 14px;
+  background: rgba(11, 24, 56, 0.28);
+  backdrop-filter: blur(6px);
+}
+
+.questLogTitle {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.55rem;
+  color: #FBD000;
+}
+
+.questLogList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.questLogItem {
+  color: white;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: left;
+  position: relative;
+  padding-left: 1.15rem;
+}
+
+.questLogItem::before {
+  content: '★';
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  color: #FBD000;
+}
+
 .progressBar {
   max-width: 600px;
   margin: 0 auto 2rem;
@@ -191,6 +262,110 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
+.questSection {
+  padding: 3rem 0;
+  background: linear-gradient(180deg,
+      rgba(92, 148, 252, 0.06) 0%,
+      rgba(67, 176, 71, 0.04) 100%);
+}
+
+.questGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.questCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.9rem;
+  height: 100%;
+  padding: 1.35rem;
+  border-radius: 18px;
+  text-decoration: none;
+  color: inherit;
+  background: var(--ifm-card-background-color);
+  border: 3px solid rgba(92, 148, 252, 0.15);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.06);
+}
+
+.questCard:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.questBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(67, 176, 71, 0.12);
+  color: var(--mario-green);
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.48rem;
+}
+
+.questCardTitle {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.questCardDescription {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.65;
+  flex: 1;
+}
+
+.questCardCta {
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+}
+
+.learningLoopSection {
+  padding: 3rem 0;
+}
+
+.learningLoopGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.learningCard {
+  height: 100%;
+  padding: 1.25rem;
+  border-radius: 16px;
+  border: 2px dashed rgba(251, 208, 0, 0.45);
+  background: var(--ifm-background-surface-color);
+}
+
+.learningStep {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.85rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  background: var(--mario-gold);
+  color: #533700;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.48rem;
+}
+
+.learningTitle {
+  margin-bottom: 0.55rem;
+  font-size: 1rem;
+}
+
+.learningDescription {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+}
+
 .worldColumn {
   margin-bottom: 1.2rem;
 }
@@ -224,4 +399,43 @@
 
 .bannerCta {
   margin-top: 2rem;
+}
+
+@media (max-width: 996px) {
+  .heroTypeLine {
+    min-height: 3.2rem;
+    font-size: 0.52rem;
+  }
+
+  .questGrid,
+  .learningLoopGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .questLog {
+    padding: 0.9rem 1rem;
+  }
+
+  .questLogItem {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .heroTypeLine {
+    min-height: 4rem;
+    font-size: 0.48rem;
+  }
+
+  .heroCtaGroup {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .questGrid,
+  .learningLoopGrid {
+    grid-template-columns: 1fr;
+  }
 }
