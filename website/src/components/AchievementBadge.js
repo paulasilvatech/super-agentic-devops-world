@@ -6,7 +6,7 @@ const worldColors = [
 export default function AchievementBadge({ name, world = 1, icon = '🏆' }) {
     const [unlocked, setUnlocked] = useState(false);
     const color = worldColors[world] || '#E52521';
-    return (<button onClick={() => setUnlocked(!unlocked)} style={{
+    return (<button type="button" onClick={() => setUnlocked(!unlocked)} style={{
             display: 'inline-flex',
             alignItems: 'center',
             gap: '6px',
