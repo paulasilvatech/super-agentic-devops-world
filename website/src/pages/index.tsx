@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -199,7 +199,7 @@ const homeContent: Record<string, HomeCopy> = {
           badge: 'Boss Battle',
           title: 'Practice With a Real Mission',
           desc: 'Go straight to the practical project when you want to learn by building something concrete.',
-          to: '/docs/world-7/7-boss-practical-project',
+          to: '/docs/world-7/boss-practical-project',
           cta: 'Enter the boss fight',
         },
       ],
@@ -259,7 +259,7 @@ const homeContent: Record<string, HomeCopy> = {
         { img: '/img/features/books.png', label: 'RAG', world: 'W7-2', to: '/docs/world-7/7-2-rag' },
         { img: '/img/features/sdd.png', label: 'Spec-Driven Development', world: 'W5-10', to: '/docs/world-5/5-10_sdd' },
         { img: '/img/features/agents.png', label: 'Custom Agents', world: 'W6-1', to: '/docs/world-6/6-1-custom-agents' },
-        { img: '/img/features/hooks.png', label: 'Hands-on Project', world: 'W7-Boss', to: '/docs/world-7/7-boss-practical-project' },
+        { img: '/img/features/hooks.png', label: 'Hands-on Project', world: 'W7-Boss', to: '/docs/world-7/boss-practical-project' },
       ],
     },
     banner: {
@@ -336,7 +336,7 @@ const homeContent: Record<string, HomeCopy> = {
           badge: 'Batalha do Chefe',
           title: 'Praticar com uma Missão Real',
           desc: 'Vá direto para o projeto prático quando quiser aprender construindo algo concreto.',
-          to: '/docs/world-7/7-boss-practical-project',
+          to: '/docs/world-7/boss-practical-project',
           cta: 'Entrar na luta do chefe',
         },
       ],
@@ -396,7 +396,7 @@ const homeContent: Record<string, HomeCopy> = {
         { img: '/img/features/books.png', label: 'RAG', world: 'M7-2', to: '/docs/world-7/7-2-rag' },
         { img: '/img/features/sdd.png', label: 'Spec-Driven Development', world: 'M5-10', to: '/docs/world-5/5-10_sdd' },
         { img: '/img/features/agents.png', label: 'Agentes Personalizados', world: 'M6-1', to: '/docs/world-6/6-1-custom-agents' },
-        { img: '/img/features/hooks.png', label: 'Projeto Prático', world: 'M7-Chefe', to: '/docs/world-7/7-boss-practical-project' },
+        { img: '/img/features/hooks.png', label: 'Projeto Prático', world: 'M7-Chefe', to: '/docs/world-7/boss-practical-project' },
       ],
     },
     banner: {
@@ -423,7 +423,7 @@ function HUD({ items }: { items: HudItem[] }) {
   return (
     <div className="hud">
       {items.map((item) => (
-        <div key={`${item.label}-${item.value}`} className="hud__item">
+        <div key={item.label} className="hud__item">
           <span className="hud__label">{item.label}</span>
           <span className="hud__value">{item.value}</span>
         </div>
@@ -459,13 +459,17 @@ function QuestionBlock({
 function Hero({ siteTitle, copy, hud }: { siteTitle: string; copy: HomeCopy['hero']; hud: HudItem[] }) {
   const [hits, setHits] = useState([false, false, false, false, false]);
   const [message, setMessage] = useState('');
-  const typeSequence: Array<string | number> = [];
+  const typeSequence = useMemo<Array<string | number>>(() => {
+    const sequence: Array<string | number> = [];
 
-  copy.typeLines.forEach((line) => {
-    typeSequence.push(line, 1800);
-  });
+    copy.typeLines.forEach((line) => {
+      sequence.push(line, 1800);
+    });
 
-  function hitBlock(index: number) {
+    return sequence;
+  }, [copy.typeLines]);
+
+  const hitBlock = useCallback((index: number) => {
     if (hits[index]) {
       return;
     }
@@ -475,7 +479,7 @@ function Hero({ siteTitle, copy, hud }: { siteTitle: string; copy: HomeCopy['her
     setHits(nextHits);
     setMessage(copy.messages[index]);
     setTimeout(() => setMessage(''), 2000);
-  }
+  }, [copy.messages, hits]);
 
   return (
     <header className="hero--game">
@@ -518,9 +522,9 @@ function Hero({ siteTitle, copy, hud }: { siteTitle: string; copy: HomeCopy['her
           <Link className="btn-start" to="/docs/intro">
             {copy.primaryCta}
           </Link>
-          <Link className={`btn-start ${styles.secondaryButton}`} to={copy.secondaryCtaTo}>
+          <a className={`btn-start ${styles.secondaryButton}`} href={copy.secondaryCtaTo}>
             {copy.secondaryCta}
-          </Link>
+          </a>
         </div>
 
         <div className={styles.questLog}>
@@ -576,15 +580,27 @@ function QuestModes({ copy }: { copy: HomeCopy['questModes'] }) {
           {copy.items.map((item, index) => (
             <ScrollReveal key={item.title} delay={index * 0.08}>
               <motion.div whileHover={{ y: -6 }} whileTap={{ scale: 0.98 }}>
-                <Link to={item.to} className={styles.questCard}>
-                  <span className={styles.questBadge}>{item.badge}</span>
-                  <PixelImg src={item.img} alt={item.title} size={72} />
-                  <Heading as="h3" className={styles.questCardTitle}>
-                    {item.title}
-                  </Heading>
-                  <p className={styles.questCardDescription}>{item.desc}</p>
-                  <span className={styles.questCardCta}>{item.cta}</span>
-                </Link>
+                {item.to.startsWith('#') ? (
+                  <a href={item.to} className={styles.questCard}>
+                    <span className={styles.questBadge}>{item.badge}</span>
+                    <PixelImg src={item.img} alt={item.title} size={72} />
+                    <Heading as="h3" className={styles.questCardTitle}>
+                      {item.title}
+                    </Heading>
+                    <p className={styles.questCardDescription}>{item.desc}</p>
+                    <span className={styles.questCardCta}>{item.cta}</span>
+                  </a>
+                ) : (
+                  <Link to={item.to} className={styles.questCard}>
+                    <span className={styles.questBadge}>{item.badge}</span>
+                    <PixelImg src={item.img} alt={item.title} size={72} />
+                    <Heading as="h3" className={styles.questCardTitle}>
+                      {item.title}
+                    </Heading>
+                    <p className={styles.questCardDescription}>{item.desc}</p>
+                    <span className={styles.questCardCta}>{item.cta}</span>
+                  </Link>
+                )}
               </motion.div>
             </ScrollReveal>
           ))}
@@ -784,7 +800,7 @@ function Banner({ copy }: { copy: HomeCopy['banner'] }) {
 
 export default function Home(): ReactNode {
   const { siteConfig, i18n } = useDocusaurusContext();
-  const copy = homeContent[i18n.currentLocale] ?? homeContent.en;
+  const copy = homeContent[i18n.currentLocale] || homeContent.en;
 
   return (
     <Layout title={copy.meta.title} description={copy.meta.description}>
