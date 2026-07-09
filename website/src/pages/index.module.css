@@ -99,6 +99,10 @@
 
 .questionBlock {
   appearance: none;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
   padding: 0;
 }
 

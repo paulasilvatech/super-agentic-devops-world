@@ -470,16 +470,18 @@ function Hero({ siteTitle, copy, hud }: { siteTitle: string; copy: HomeCopy['her
   }, [copy.typeLines]);
 
   const hitBlock = useCallback((index: number) => {
-    if (hits[index]) {
-      return;
-    }
+    setHits((currentHits) => {
+      if (currentHits[index]) {
+        return currentHits;
+      }
 
-    const nextHits = [...hits];
-    nextHits[index] = true;
-    setHits(nextHits);
-    setMessage(copy.messages[index]);
-    setTimeout(() => setMessage(''), 2000);
-  }, [copy.messages, hits]);
+      const nextHits = [...currentHits];
+      nextHits[index] = true;
+      setMessage(copy.messages[index]);
+      setTimeout(() => setMessage(''), 2000);
+      return nextHits;
+    });
+  }, [copy.messages]);
 
   return (
     <header className="hero--game">
@@ -493,7 +495,7 @@ function Hero({ siteTitle, copy, hud }: { siteTitle: string; copy: HomeCopy['her
         <div className="question-blocks">
           {hits.map((hit, index) => (
             <QuestionBlock
-              key={copy.messages[index]}
+              key={index}
               hit={hit}
               onClick={() => hitBlock(index)}
               label={copy.questionBlockLabel}
