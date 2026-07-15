@@ -258,4 +258,4 @@ format: md
 
 ## References
 
-- [ANALOGIA_MARIO_REFERENCIA.md](./ANALOGIA_MARIO_REFERENCIA.md) — Complete reference guide of Mario analogies for Agentic DevOps
+- [ANALOGIA_MARIO_REFERENCIA.md](./brand-guide.md) — Complete reference guide of Mario analogies for Agentic DevOps

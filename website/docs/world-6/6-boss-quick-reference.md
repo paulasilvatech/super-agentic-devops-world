@@ -25,15 +25,6 @@ tags: ["agentic-devops", "mario", "world-6", "cheat-sheet", "reference"]
 
 ---
 
-## Table of Contents
-
-- [Section 1 — Directory Structure](#section-1--directory-structure)
-- [Section 2 — Decision Table](#section-2--decision-table)
-- [Section 3 — Frontmatter Cheat Sheet](#section-3--frontmatter-cheat-sheet)
-- [Section 4 — Complete Inventory](#section-4--complete-inventory)
-- [Section 5 — Gamer Glossary](#section-5--gamer-glossary)
-
----
 
 **Version:** 2.0 — Mushroom Kingdom Edition
 **Author:** Paula Silva | Software Global Black Belt, Microsoft Americas
@@ -434,6 +425,6 @@ Sofia collected all the Star Coins, defeated all the Bosses, unlocked all the Wo
 
 <div align="center">
 
-⬅️ [Previous: Level 6-8: Token Optimization](6-8-token-optimization.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-1: Azure AI Foundry](../world-7-star-world/7-1-azure-ai-foundry.md)
+⬅️ [Previous: Level 6-8: Token Optimization](6-8-token-optimization.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 7-1: Azure AI Foundry](../world-7/7-1-azure-ai-foundry.md)
 
 </div>

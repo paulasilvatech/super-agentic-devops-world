@@ -32,68 +32,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Mushroom Kingdom's Coin Budget](#prologue-the-mushroom-kingdoms-coin-budget)
-- [1. What Are Tokens?](#1-what-are-tokens)
-  - [1.1 Tokens as Mario's Coins](#11-tokens-as-marios-coins)
-  - [1.2 How Tokenization Works](#12-how-tokenization-works)
-  - [1.3 The Context Window: The Size of the Coin Bag](#13-the-context-window-the-size-of-the-coin-bag)
-  - [1.4 Table: Models and Their Coin Limits](#14-table-models-and-their-coin-limits)
-- [2. Context Management in VS Code](#2-context-management-in-vs-code)
-  - [2.1 The Player's Inventory: What Copilot Sees](#21-the-players-inventory-what-copilot-sees)
-  - [2.2 Open Tabs = Equipped Items](#22-open-tabs--equipped-items)
-  - [2.3 Relevant Files vs Noise](#23-relevant-files-vs-noise)
-  - [2.4 The Power of .github/copilot-instructions.md](#24-the-power-of-githubcopilot-instructionsmd)
-  - [2.5 Workspace Indexing: The Complete Level Map](#25-workspace-indexing-the-complete-level-map)
-  - [2.6 Practice: Organizing Your Inventory](#26-practice-organizing-your-inventory)
-- [3. Chat Optimization](#3-chat-optimization)
-  - [3.1 Wasteful Prompts vs Efficient Prompts](#31-wasteful-prompts-vs-efficient-prompts)
-  - [3.2 The Multi-Coin Block Rule](#32-the-multi-coin-block-rule)
-  - [3.3 Chat Variables: Warp Pipe Shortcuts](#33-chat-variables-warp-pipe-shortcuts)
-  - [3.4 Conversation History: The Player's Memory](#34-conversation-history-the-players-memory)
-  - [3.5 When to Start a New Conversation](#35-when-to-start-a-new-conversation)
-  - [3.6 Table: Approximate Cost per Interaction Type](#36-table-approximate-cost-per-interaction-type)
-- [4. Completions Optimization (Inline)](#4-completions-optimization-inline)
-  - [4.1 The Intelligent Auto-Complete](#41-the-intelligent-auto-complete)
-  - [4.2 Completions Context: Mario's Field of Vision](#42-completions-context-marios-field-of-vision)
-  - [4.3 Comments as Guides: Level Signposts](#43-comments-as-guides-level-signposts)
-  - [4.4 Naming Conventions: Names That Tell Stories](#44-naming-conventions-names-that-tell-stories)
-  - [4.5 Practice: Maximizing Completions with Minimum Tokens](#45-practice-maximizing-completions-with-minimum-tokens)
-- [5. Efficiency in Agent Mode](#5-efficiency-in-agent-mode)
-  - [5.1 Agent Mode: Yoshi on Autopilot -- Powerful but Expensive](#51-agent-mode-yoshi-on-autopilot--powerful-but-expensive)
-  - [5.2 The Anatomy of an Agent Mode Session](#52-the-anatomy-of-an-agent-mode-session)
-  - [5.3 Strategies to Reduce Agent Mode Cost](#53-strategies-to-reduce-agent-mode-cost)
-  - [5.4 Agent Mode vs Ask Mode vs Completions: When to Use Each](#54-agent-mode-vs-ask-mode-vs-completions-when-to-use-each)
-  - [5.5 Background Agents and Token Consumption](#55-background-agents-and-token-consumption)
-  - [5.6 Table: Relative Cost by Mode](#56-table-relative-cost-by-mode)
-- [6. Enterprise Governance](#6-enterprise-governance)
-  - [6.1 The King Must Control the Treasury](#61-the-king-must-control-the-treasury)
-  - [6.2 Usage Policies: Tournament Rules](#62-usage-policies-tournament-rules)
-  - [6.3 Access Controls and Permissions](#63-access-controls-and-permissions)
-  - [6.4 Consumption Monitoring: The Game Scoreboard](#64-consumption-monitoring-the-game-scoreboard)
-  - [6.5 Content Exclusions: Forbidden Map Areas](#65-content-exclusions-forbidden-map-areas)
-  - [6.6 Audit Logs: The Match Replay](#66-audit-logs-the-match-replay)
-  - [6.7 Table: Available Enterprise Controls](#67-table-available-enterprise-controls)
-- [7. Model Selection](#7-model-selection)
-  - [7.1 Each Level Calls for a Different Power-Up](#71-each-level-calls-for-a-different-power-up)
-  - [7.2 Models Available in Copilot](#72-models-available-in-copilot)
-  - [7.3 Cost vs Capability: The Decision Matrix](#73-cost-vs-capability-the-decision-matrix)
-  - [7.4 When to Use Each Model](#74-when-to-use-each-model)
-  - [7.5 Multi-Model Strategy: Combining Power-Ups](#75-multi-model-strategy-combining-power-ups)
-- [8. ROI Metrics](#8-roi-metrics)
-  - [8.1 Measuring Returns: How Many Coins Did You Save?](#81-measuring-returns-how-many-coins-did-you-save)
-  - [8.2 Productivity Metrics](#82-productivity-metrics)
-  - [8.3 Quality Metrics](#83-quality-metrics)
-  - [8.4 Cost Metrics](#84-cost-metrics)
-  - [8.5 The Copilot Dashboard: Your Real-Time Scoreboard](#85-the-copilot-dashboard-your-real-time-scoreboard)
-  - [8.6 Calculating ROI in Practice](#86-calculating-roi-in-practice)
-  - [8.7 Table: Complete ROI Framework](#87-table-complete-roi-framework)
-- [9. Practical Guide: 10 Golden Rules to Save Tokens](#9-practical-guide-10-golden-rules-to-save-tokens)
-- [10. Final Summary Table](#10-final-summary-table)
-- [References](#references)
-
----
 
 ## Prologue: The Mushroom Kingdom's Coin Budget
 
@@ -1065,6 +1003,6 @@ Use the GitHub dashboard to track acceptance rate. If it's below 30%, your promp
 
 <div align="center">
 
-⬅️ [Previous: Level 6-7: Orchestration](6-7-orchestration.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-BOSS: Quick Reference](6-boss-quick-reference.md)
+⬅️ [Previous: Level 6-7: Orchestration](6-7-orchestration.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 6-BOSS: Quick Reference](6-boss-quick-reference.md)
 
 </div>

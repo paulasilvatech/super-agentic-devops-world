@@ -33,52 +33,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: Mario's Inventory](#prologue-marios-inventory)
-- [1. Why Do Data Structures Matter?](#1-why-do-data-structures-matter)
-  - [1.1 Data Is Everywhere](#11-data-is-everywhere)
-  - [1.2 The Problem with Unorganized Data](#12-the-problem-with-unorganized-data)
-- [2. Primitive Types: The Basic Items](#2-primitive-types-the-basic-items)
-  - [2.1 String, Number, Boolean, Null, Undefined](#21-string-number-boolean-null-undefined)
-  - [2.2 When to Use Each Type](#22-when-to-use-each-type)
-- [3. Arrays: Row of Coins](#3-arrays-row-of-coins)
-  - [3.1 What Is an Array](#31-what-is-an-array)
-  - [3.2 Basic Array Operations](#32-basic-array-operations)
-  - [3.3 Powerful Array Methods](#33-powerful-array-methods)
-  - [3.4 Chaining Methods](#34-chaining-methods)
-- [4. Objects: Treasure Chest](#4-objects-treasure-chest)
-  - [4.1 What Is an Object](#41-what-is-an-object)
-  - [4.2 Accessing Properties](#42-accessing-properties)
-  - [4.3 Manipulating Objects](#43-manipulating-objects)
-  - [4.4 Destructuring: Opening the Chest](#44-destructuring-opening-the-chest)
-  - [4.5 Spread Operator: Cloning the Chest](#45-spread-operator-cloning-the-chest)
-- [5. JSON: The Universal Treasure Map](#5-json-the-universal-treasure-map)
-  - [5.1 What Is JSON](#51-what-is-json)
-  - [5.2 JSON Rules](#52-json-rules)
-  - [5.3 JSON vs JavaScript Object](#53-json-vs-javascript-object)
-  - [5.4 Parsing and Stringify](#54-parsing-and-stringify)
-- [6. Nested Structures: Chest Within a Chest](#6-nested-structures-chest-within-a-chest)
-  - [6.1 Arrays of Objects](#61-arrays-of-objects)
-  - [6.2 Objects with Arrays](#62-objects-with-arrays)
-  - [6.3 Deeply Nested Structures](#63-deeply-nested-structures)
-  - [6.4 Accessing Nested Data Safely](#64-accessing-nested-data-safely)
-- [7. API Responses: The Standard Format](#7-api-responses-the-standard-format)
-  - [7.1 Standard Response Structure](#71-standard-response-structure)
-  - [7.2 Pagination](#72-pagination)
-  - [7.3 Standardized Errors](#73-standardized-errors)
-  - [7.4 Consuming APIs: Fetch and Axios](#74-consuming-apis-fetch-and-axios)
-- [8. Map, Set and Other Structures](#8-map-set-and-other-structures)
-  - [8.1 Map: The Translation Dictionary](#81-map-the-translation-dictionary)
-  - [8.2 Set: The Collection Without Duplicates](#82-set-the-collection-without-duplicates)
-  - [8.3 Stack and Queue: Pile and Line](#83-stack-and-queue-pile-and-line)
-- [9. TypeScript: Types for Your Structures](#9-typescript-types-for-your-structures)
-  - [9.1 Interfaces and Types](#91-interfaces-and-types)
-  - [9.2 Generics: Flexible Structures](#92-generics-flexible-structures)
-- [10. Final Summary Table](#10-final-summary-table)
-- [References](#references)
-
----
 
 ## Prologue: Mario's Inventory
 
@@ -1015,6 +969,6 @@ const user = findById<User>(users, "mario-001");
 
 <div align="center">
 
-⬅️ [Previous: Level 4-5: Git Workflows](4-5-git_workflows.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-7: Cache & Performance](4-7-cache_performance.md)
+⬅️ [Previous: Level 4-5: Git Workflows](4-5-git_workflows.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 4-7: Cache & Performance](4-7-cache_performance.md)
 
 </div>

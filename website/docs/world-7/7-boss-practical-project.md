@@ -33,23 +33,6 @@ tags: ["agentic-devops", "mario", "world-7", "project", "rag-agent", "hands-on"]
 
 ---
 
-## TABLE OF CONTENTS
-
-1. [Introduction — The Star World Final Boss Battle](#introduction)
-2. [The Project: Toad Helper](#the-project)
-3. [Toad Helper Architecture](#architecture)
-4. [Prerequisites — Gearing Up for the Battle](#prerequisites)
-5. [Step 1 — Project Structure](#step-1)
-6. [Step 2 — The Agent Engine (LLM Connection)](#step-2)
-7. [Step 3 — The Royal Library (RAG)](#step-3)
-8. [Step 4 — The Tool Inventory (Tools)](#step-4)
-9. [Step 5 — The Complete Agent](#step-5)
-10. [Step 6 — Testing the Toad Helper](#step-6)
-11. [Step 7 — Improvements and Next Steps](#step-7)
-12. [Final Checklist — Boss Defeated?](#checklist)
-13. [Conclusion — Power-Up Unlocked!](#conclusion)
-
----
 
 ## Introduction — The Star World Final Boss Battle
 
@@ -1459,6 +1442,6 @@ All Star Coins from World 7 have been collected!
 
 <div align="center">
 
-⬅️ [Previous: Level 7-6: IDP Backstage](7-6-idp-backstage.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 8-1: How Everything Connects](../world-8-final-castle/8-1-how-everything-connects.md)
+⬅️ [Previous: Level 7-6: IDP Backstage](7-6-idp-backstage.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 8-1: How Everything Connects](../world-8/8-1-how-everything-connects.md)
 
 </div>

@@ -25,50 +25,6 @@ tags: ["agentic-devops", "mario", "world-1", "azure", "cloud", "fundamentals"]
 
 ---
 
-## Table of Contents
-
-- [Prologue — Beyond the Console](#prologue--beyond-the-console)
-- [1. What Is Cloud Computing?](#1-what-is-cloud-computing)
-  - [1.1 The Problem: Your Console Has Limits](#11-the-problem-your-console-has-limits)
-  - [1.2 The Solution: Someone Else's Computers](#12-the-solution-someone-elses-computers)
-  - [1.3 The 3 Cloud Models (IaaS, PaaS, SaaS)](#13-the-3-cloud-models-iaas-paas-saas)
-  - [1.4 Table: Cloud Models vs Game Levels](#14-table-cloud-models-vs-game-levels)
-- [2. What Is Azure?](#2-what-is-azure)
-  - [2.1 Microsoft's Open World](#21-microsofts-open-world)
-  - [2.2 Azure vs Other Providers](#22-azure-vs-other-providers)
-  - [2.3 Regions — The Map's Kingdoms](#23-regions--the-maps-kingdoms)
-- [3. Creating Your Azure Account — Entering the Open World](#3-creating-your-azure-account--entering-the-open-world)
-  - [3.1 Azure Free Account](#31-azure-free-account)
-  - [3.2 The Azure Portal — The World Map](#32-the-azure-portal--the-world-map)
-  - [3.3 Azure CLI — Terminal Control](#33-azure-cli--terminal-control)
-- [4. Resource Groups — The Organized Kingdoms](#4-resource-groups--the-organized-kingdoms)
-  - [4.1 What Is a Resource Group?](#41-what-is-a-resource-group)
-  - [4.2 Creating a Resource Group](#42-creating-a-resource-group)
-- [5. Essential Services — Kingdom Buildings](#5-essential-services--kingdom-buildings)
-  - [5.1 Azure App Service — The Ready-Made Castle](#51-azure-app-service--the-ready-made-castle)
-  - [5.2 Azure Kubernetes Service (AKS) — The Yoshi Fleet](#52-azure-kubernetes-service-aks--the-yoshi-fleet)
-  - [5.3 Azure Storage — The Treasure Vault](#53-azure-storage--the-treasure-vault)
-  - [5.4 Azure SQL / Cosmos DB — The Royal Library](#54-azure-sql--cosmos-db--the-royal-library)
-  - [5.5 Microsoft Entra ID — The Royal ID Card](#55-microsoft-entra-id--the-royal-id-card)
-  - [5.6 Azure Monitor — The Watchtowers](#56-azure-monitor--the-watchtowers)
-  - [5.7 Azure Functions — The Freelance Toads](#57-azure-functions--the-freelance-toads)
-  - [5.8 Azure Container Apps — The Self-Managed Yoshis](#58-azure-container-apps--the-self-managed-yoshis)
-  - [5.9 Complete Table: Azure Services vs Mario Buildings](#59-complete-table-azure-services-vs-mario-buildings)
-- [6. Subscriptions and Costs — The Kingdom's Coins](#6-subscriptions-and-costs--the-kingdoms-coins)
-  - [6.1 How Billing Works](#61-how-billing-works)
-  - [6.2 Tips to Avoid Overspending](#62-tips-to-avoid-overspending)
-  - [6.3 Azure Pricing Calculator](#63-azure-pricing-calculator)
-- [7. Your First Azure Deploy — Publishing the Game](#7-your-first-azure-deploy--publishing-the-game)
-  - [7.1 Static Site Deploy](#71-static-site-deploy)
-  - [7.2 Deploy via GitHub Actions](#72-deploy-via-github-actions)
-- [8. Basic Security — Protecting the Kingdom](#8-basic-security--protecting-the-kingdom)
-  - [8.1 Principle of Least Privilege](#81-principle-of-least-privilege)
-  - [8.2 Managed Identity — The Automatic Royal Seal](#82-managed-identity--the-automatic-royal-seal)
-  - [8.3 Azure Key Vault — The Key Safe](#83-azure-key-vault--the-key-safe)
-- [Summary — What We Learned in Level 1-5](#summary--what-we-learned-in-level-1-5)
-- [References](#references)
-
----
 
 ## Prologue — Beyond the Console
 
@@ -549,6 +505,6 @@ az keyvault secret set \
 
 <div align="center">
 
-⬅️ [Previous: Level 1-4: GitHub Actions](1-4-github-actions.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-6: Azure AI](1-6-azure-ai.md)
+⬅️ [Previous: Level 1-4: GitHub Actions](1-4-github-actions.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 1-6: Azure AI](1-6-azure-ai.md)
 
 </div>

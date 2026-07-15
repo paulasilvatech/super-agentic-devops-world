@@ -32,23 +32,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Introduction -- The World 5 Final Boss Castle](#introduction--the-world-5-final-boss-castle)
-- [Boss Battle Rules](#boss-battle-rules)
-- [Room 1 -- DevOps Evolution (Level 5-1)](#room-1--devops-evolution-level-5-1)
-- [Room 2 -- AI Maturity Levels (Level 5-2)](#room-2--ai-maturity-levels-level-5-2)
-- [Room 3 -- Complete GitHub Copilot (Level 5-3)](#room-3--complete-github-copilot-level-5-3)
-- [Room 4 -- AI Agents (Levels 5-4, 5-5, 5-6)](#room-4--ai-agents-levels-5-4-5-5-5-6)
-- [Room 5 -- MCP in Depth (Level 5-7)](#room-5--mcp-in-depth-level-5-7)
-- [Room 6 -- Three Horizons (Level 5-8)](#room-6--three-horizons-level-5-8)
-- [Room 7 -- GitHub Advanced Security (Level 5-9)](#room-7--github-advanced-security-level-5-9)
-- [Room 8 -- Final Challenge: Connect the Concepts](#room-8--final-challenge-connect-the-concepts)
-- [Answer Key -- Boss Battle Answers](#answer-key--boss-battle-answers)
-- [Scoring Table](#scoring-table)
-- [References](#references)
-
----
 
 ## Introduction -- The World 5 Final Boss Castle
 
@@ -509,6 +492,6 @@ Option A is Level 1 (too manual). C is insecure (no review, push directly to mai
 
 <div align="center">
 
-⬅️ [Previous: Level 5-10: SDD](5-10_sdd.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-1: Custom Agents](../world-6-bowser-castle-2/6-1-custom-agents.md)
+⬅️ [Previous: Level 5-10: SDD](5-10_sdd.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 6-1: Custom Agents](../world-6/6-1-custom-agents.md)
 
 </div>

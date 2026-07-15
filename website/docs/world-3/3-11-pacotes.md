@@ -35,53 +35,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Overstuffed Backpack](#prologue-the-overstuffed-backpack)
-- [1. What Are Packages and Dependencies?](#1-what-are-packages-and-dependencies)
-  - [1.1 Packages: Shop Items](#11-packages-shop-items)
-  - [1.2 Dependencies: Items that Need Other Items](#12-dependencies-items-that-need-other-items)
-  - [1.3 Why Not Build Everything from Scratch?](#13-why-not-build-everything-from-scratch)
-- [2. Package Managers: The Item Shops](#2-package-managers-the-item-shops)
-  - [2.1 npm and Yarn (JavaScript/TypeScript)](#21-npm-and-yarn-javascripttypescript)
-  - [2.2 pip (Python)](#22-pip-python)
-  - [2.3 NuGet (C# / .NET)](#23-nuget-c--net)
-  - [2.4 Other Managers](#24-other-managers)
-  - [2.5 Comparison Table](#25-comparison-table)
-- [3. package.json: The Official Inventory](#3-packagejson-the-official-inventory)
-  - [3.1 Anatomy of package.json](#31-anatomy-of-packagejson)
-  - [3.2 dependencies vs devDependencies](#32-dependencies-vs-devdependencies)
-  - [3.3 Scripts: Magic Shortcuts](#33-scripts-magic-shortcuts)
-  - [3.4 Creating a package.json from Scratch](#34-creating-a-packagejson-from-scratch)
-- [4. requirements.txt and pyproject.toml: The Python Inventory](#4-requirementstxt-and-pyprojecttoml-the-python-inventory)
-  - [4.1 Basic requirements.txt](#41-basic-requirementstxt)
-  - [4.2 Virtual Environments: Separate Backpacks](#42-virtual-environments-separate-backpacks)
-  - [4.3 pyproject.toml: The Modern Inventory](#43-pyprojecttoml-the-modern-inventory)
-- [5. Lock Files: Freezing the Exact Versions](#5-lock-files-freezing-the-exact-versions)
-  - [5.1 The Problem Lock Files Solve](#51-the-problem-lock-files-solve)
-  - [5.2 package-lock.json Explained](#52-package-lockjson-explained)
-  - [5.3 Golden Rules for Lock Files](#53-golden-rules-for-lock-files)
-- [6. Dependency Versioning: Ranges](#6-dependency-versioning-ranges)
-  - [6.1 Tilde (~) and Caret (^)](#61-tilde--and-caret-)
-  - [6.2 Other Ranges](#62-other-ranges)
-  - [6.3 Which One to Use?](#63-which-one-to-use)
-- [7. Dependency Hell: When Items Conflict](#7-dependency-hell-when-items-conflict)
-  - [7.1 What Is Dependency Hell](#71-what-is-dependency-hell)
-  - [7.2 Types of Conflict](#72-types-of-conflict)
-  - [7.3 How to Resolve Conflicts](#73-how-to-resolve-conflicts)
-  - [7.4 How to Prevent Dependency Hell](#74-how-to-prevent-dependency-hell)
-- [8. Dependency Security: Poisoned Items](#8-dependency-security-poisoned-items)
-  - [8.1 The Risk of Dependencies](#81-the-risk-of-dependencies)
-  - [8.2 Security Audits](#82-security-audits)
-  - [8.3 Dependabot and Renovate](#83-dependabot-and-renovate)
-- [9. Monorepos and Workspaces: Shared Inventory](#9-monorepos-and-workspaces-shared-inventory)
-  - [9.1 What Is a Monorepo](#91-what-is-a-monorepo)
-  - [9.2 Monorepo Tools](#92-monorepo-tools)
-- [10. Best Practices: Inventory Rules](#10-best-practices-inventory-rules)
-- [11. Final Summary Table](#11-final-summary-table)
-- [References](#references)
-
----
 
 ## Prologue: The Overstuffed Backpack
 
@@ -808,6 +761,6 @@ todoapp-monorepo/
 
 <div align="center">
 
-⬅️ [Previous: Level 3-10: Frameworks](3-10-frameworks.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-BOSS: Exercises](3-BOSS-exercicios.md)
+⬅️ [Previous: Level 3-10: Frameworks](3-10-frameworks.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 3-BOSS: Exercises](3-BOSS-exercicios.md)
 
 </div>

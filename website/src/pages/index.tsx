@@ -1,19 +1,30 @@
-import type {ReactNode} from 'react';
-import {useState} from 'react';
+import type { ReactNode } from 'react';
+import { useState } from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
-import {motion} from 'framer-motion';
-import {TypeAnimation} from 'react-type-animation';
+import Translate, { translate } from '@docusaurus/Translate';
 import ScrollReveal from '@site/src/components/animations/ScrollReveal';
 import CountUp from '@site/src/components/animations/CountUp';
+import LanguageSelect from '@site/src/components/LanguageSelect';
 
 import styles from './index.module.css';
 
+const progressDotWorldClasses = [
+  styles.progressDotWorld1,
+  styles.progressDotWorld2,
+  styles.progressDotWorld3,
+  styles.progressDotWorld4,
+  styles.progressDotWorld5,
+  styles.progressDotWorld6,
+  styles.progressDotWorld7,
+  styles.progressDotWorld8,
+];
+
 /* ===== PIXEL IMAGE HELPER ===== */
-function PixelImg({src, alt, size = 64}: {src: string; alt: string; size?: number}) {
+function PixelImg({ src, alt, size = 64 }: { src: string; alt: string; size?: number }) {
   const url = useBaseUrl(src);
   return (
     <img
@@ -21,7 +32,7 @@ function PixelImg({src, alt, size = 64}: {src: string; alt: string; size?: numbe
       alt={alt}
       width={size}
       height={size}
-      style={{imageRendering: 'pixelated'}}
+      className={styles.pixelImage}
       loading="lazy"
     />
   );
@@ -56,7 +67,7 @@ function HUD() {
 }
 
 /* ===== ? BLOCK ===== */
-function QuestionBlock({onClick, hit}: {onClick: () => void; hit: boolean}) {
+function QuestionBlock({ onClick, hit }: { onClick: () => void; hit: boolean }) {
   return (
     <div
       className={`q-block ${hit ? 'q-block--hit' : ''}`}
@@ -70,7 +81,7 @@ function QuestionBlock({onClick, hit}: {onClick: () => void; hit: boolean}) {
 
 /* ===== HERO ===== */
 function Hero() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   const [hits, setHits] = useState([false, false, false, false, false]);
   const messages = [
     '1UP! You got a Power-Up!',
@@ -119,7 +130,9 @@ function Hero() {
         <p className="hero__game-subtitle">{siteConfig.tagline}</p>
 
         <Link className="btn-start" to="/docs/intro">
-          PRESS START
+          <Translate id="homepage.hero.pressStart" description="Hero start button">
+            PRESS START
+          </Translate>
         </Link>
       </div>
     </header>
@@ -129,11 +142,11 @@ function Hero() {
 /* ===== STATS ===== */
 function Stats() {
   const items = [
-    { num: 8, suffix: '', label: 'Worlds' },
-    { num: 70, suffix: '+', label: 'Levels' },
-    { num: 14, suffix: '', label: 'SVG Diagrams' },
-    { num: 124, suffix: '+', label: 'Glossary Terms' },
-    { num: 2, suffix: '', label: 'Languages' },
+    { num: 8, suffix: '', label: translate({ id: 'homepage.stats.worlds', message: 'Worlds' }) },
+    { num: 70, suffix: '+', label: translate({ id: 'homepage.stats.levels', message: 'Levels' }) },
+    { num: 14, suffix: '', label: translate({ id: 'homepage.stats.diagrams', message: 'SVG Diagrams' }) },
+    { num: 124, suffix: '+', label: translate({ id: 'homepage.stats.terms', message: 'Glossary Terms' }) },
+    { num: 3, suffix: '', label: translate({ id: 'homepage.stats.languages', message: 'Languages' }) },
   ];
   return (
     <section className="stats-row">
@@ -153,28 +166,28 @@ function Stats() {
 
 /* ===== FEATURES ===== */
 const features = [
-  { img: '/img/features/agents.png', title: 'Agents = Characters', desc: 'AI Agents are the playable characters of DevOps. They observe, think, plan, and act — autonomously.' },
-  { img: '/img/features/skills.png', title: 'Skills = Power-Ups', desc: 'Each new skill makes the agent more capable — like grabbing a Fire Flower or a Cape Feather.' },
-  { img: '/img/features/instructions.png', title: 'Instructions = Rules', desc: 'Custom instructions define how agents behave — the rulebook that shapes every action they take.' },
-  { img: '/img/features/hooks.png', title: 'Hooks = ? Blocks', desc: 'Hooks trigger actions at key moments. Hit the block — something always happens.' },
-  { img: '/img/features/mcp.png', title: 'MCP = Warp Zones', desc: 'Model Context Protocol connects agents to external tools — instant teleportation to any system.' },
-  { img: '/img/features/sdd.png', title: 'SDD = Blueprints', desc: 'Spec-Driven Development: design the castle blueprint before building it. Architecture first.' },
+  { img: '/img/features/agents.png', title: translate({ id: 'homepage.features.agents.title', message: 'Agents = Characters' }), desc: translate({ id: 'homepage.features.agents.desc', message: 'AI Agents are the playable characters of DevOps. They observe, think, plan, and act — autonomously.' }) },
+  { img: '/img/features/skills.png', title: translate({ id: 'homepage.features.skills.title', message: 'Skills = Power-Ups' }), desc: translate({ id: 'homepage.features.skills.desc', message: 'Each new skill makes the agent more capable — like grabbing a Fire Flower or a Cape Feather.' }) },
+  { img: '/img/features/instructions.png', title: translate({ id: 'homepage.features.instructions.title', message: 'Instructions = Rules' }), desc: translate({ id: 'homepage.features.instructions.desc', message: 'Custom instructions define how agents behave — the rulebook that shapes every action they take.' }) },
+  { img: '/img/features/hooks.png', title: translate({ id: 'homepage.features.hooks.title', message: 'Hooks = ? Blocks' }), desc: translate({ id: 'homepage.features.hooks.desc', message: 'Hooks trigger actions at key moments. Hit the block — something always happens.' }) },
+  { img: '/img/features/mcp.png', title: translate({ id: 'homepage.features.mcp.title', message: 'MCP = Warp Zones' }), desc: translate({ id: 'homepage.features.mcp.desc', message: 'Model Context Protocol connects agents to external tools — instant teleportation to any system.' }) },
+  { img: '/img/features/sdd.png', title: translate({ id: 'homepage.features.sdd.title', message: 'SDD = Blueprints' }), desc: translate({ id: 'homepage.features.sdd.desc', message: 'Spec-Driven Development: design the castle blueprint before building it. Architecture first.' }) },
 ];
 
 function Features() {
   return (
     <section className="features-section">
       <div className="container">
-        <Heading as="h2" style={{textAlign: 'center', marginBottom: '0.3rem'}}>
-          Every Concept Has a Mario Equivalent
+        <Heading as="h2" className={styles.sectionTitleTight}>
+          <Translate id="homepage.features.title">Every Concept Has a Mario Equivalent</Translate>
         </Heading>
-        <p style={{textAlign: 'center', color: 'var(--ifm-color-emphasis-600)', marginBottom: '2rem', fontSize: '0.95rem'}}>
-          If you've ever played Mario, you can understand DevOps.
+        <p className={styles.sectionIntro}>
+          <Translate id="homepage.features.intro">If you've ever played Mario, you can understand DevOps.</Translate>
         </p>
         <div className="row">
           {features.map((f, i) => (
             <ScrollReveal key={i} delay={i * 0.08} direction={i % 2 === 0 ? 'left' : 'right'}>
-              <div className="col col--12" style={{marginBottom: '1.5rem'}}>
+              <div className={`col col--12 ${styles.featureColumn}`}>
                 <div className="feature-block">
                   <div className="feature-block__icon">
                     <PixelImg src={f.img} alt={f.title} size={80} />
@@ -196,25 +209,32 @@ function Story() {
   return (
     <section className="story">
       <div className="container">
-        <Heading as="h2" style={{textAlign: 'center'}}>
-          Made for Sofia
+        <Heading as="h2" className={styles.sectionTitle}>
+          <Translate id="homepage.story.title">Made for Sofia</Translate>
         </Heading>
         <div className="story__content">
           <p>
-            Sofia is my daughter. When she asked me to teach her about software development,
-            I realized that the usual tutorials weren't built for someone starting from absolute zero.
+            <Translate id="homepage.story.p1">
+              Sofia is my daughter. When she asked me to teach her about software development,
+              I realized that the usual tutorials weren't built for someone starting from absolute zero.
+            </Translate>
           </p>
           <p>
-            So I decided to explain everything through <strong>Super Mario World</strong> — a game
-            where the rules are simple, the progression is clear, and anyone can play.
+            <Translate
+              id="homepage.story.p2"
+              values={{ game: <strong>Super Mario World</strong> }}>
+              {'So I decided to explain everything through {game} — a game where the rules are simple, the progression is clear, and anyone can play.'}
+            </Translate>
           </p>
           <blockquote>
             <p>
-              <strong>"Made for Sofia"</strong> is more than a subtitle. It's a promise: this content
-              was built with the same care, patience, and love that a parent puts into
-              teaching their child. No jargon without explanation. No concept without an analogy.
+              <Translate
+                id="homepage.story.quote"
+                values={{ promise: <strong>"Made for Sofia"</strong> }}>
+                {'{promise} is more than a subtitle. It\'s a promise: this content was built with the same care, patience, and love that a parent puts into teaching their child. No jargon without explanation. No concept without an analogy.'}
+              </Translate>
             </p>
-            <p><em>Every developer starts at World 1-1. Sofia did. And now, so can you.</em></p>
+            <p><em><Translate id="homepage.story.quoteEm">Every developer starts at World 1-1. Sofia did. And now, so can you.</Translate></em></p>
           </blockquote>
         </div>
       </div>
@@ -224,14 +244,14 @@ function Story() {
 
 /* ===== WORLD MAP ===== */
 const worlds = [
-  { img: '/img/worlds/world-1.png', name: 'World 1', theme: 'Green Plains', desc: 'VS Code, Git, GitHub, Actions, Azure', link: '/docs/world-1/1-1-vs-code', levels: 8, num: 1 },
-  { img: '/img/worlds/world-2.png', name: 'World 2', theme: 'Underground', desc: 'APIs, Security, DNS, DevOps', link: '/docs/world-2/2-1-ambientes', levels: 8, num: 2 },
-  { img: '/img/worlds/world-3.png', name: 'World 3', theme: 'Sky World', desc: 'Docker, Tests, Languages, Frameworks', link: '/docs/world-3/3-1-arvore_habilidades', levels: 12, num: 3 },
-  { img: '/img/worlds/world-4.png', name: 'World 4', theme: 'Water World', desc: 'Auth, Architecture, Deploy, Cache', link: '/docs/world-4/4-1-auth', levels: 9, num: 4 },
-  { img: '/img/worlds/world-5.png', name: 'World 5', theme: "Bowser's Castle 1", desc: 'Copilot, AI Agents, GHAS, SDD', link: '/docs/world-5/5-1_devops-evolution', levels: 11, num: 5 },
-  { img: '/img/worlds/world-6.png', name: 'World 6', theme: "Bowser's Castle 2", desc: 'Skills, Hooks, MCP, Orchestration', link: '/docs/world-6/6-1-custom-agents', levels: 10, num: 6 },
-  { img: '/img/worlds/world-7.png', name: 'World 7', theme: 'Star World', desc: 'RAG, LangChain, IDP/Backstage', link: '/docs/world-7/7-1-azure-ai-foundry', levels: 7, num: 7 },
-  { img: '/img/worlds/world-8.png', name: 'World 8', theme: 'Final Castle', desc: 'Complete Picture, Glossary', link: '/docs/world-8/8-1-how-everything-connects', levels: 4, num: 8 },
+  { img: '/img/worlds/world-1.png', name: 'World 1', theme: translate({ id: 'homepage.world1.theme', message: 'Green Plains' }), desc: translate({ id: 'homepage.world1.desc', message: 'VS Code, Git, GitHub, Actions, Azure' }), link: '/docs/world-1/1-1-vs-code', levels: 8, num: 1 },
+  { img: '/img/worlds/world-2.png', name: 'World 2', theme: translate({ id: 'homepage.world2.theme', message: 'Underground' }), desc: translate({ id: 'homepage.world2.desc', message: 'APIs, Security, DNS, DevOps' }), link: '/docs/world-2/2-1-ambientes', levels: 8, num: 2 },
+  { img: '/img/worlds/world-3.png', name: 'World 3', theme: translate({ id: 'homepage.world3.theme', message: 'Sky World' }), desc: translate({ id: 'homepage.world3.desc', message: 'Docker, Tests, Languages, Frameworks' }), link: '/docs/world-3/3-1-arvore_habilidades', levels: 12, num: 3 },
+  { img: '/img/worlds/world-4.png', name: 'World 4', theme: translate({ id: 'homepage.world4.theme', message: 'Water World' }), desc: translate({ id: 'homepage.world4.desc', message: 'Auth, Architecture, Deploy, Cache' }), link: '/docs/world-4/4-1-auth', levels: 9, num: 4 },
+  { img: '/img/worlds/world-5.png', name: 'World 5', theme: translate({ id: 'homepage.world5.theme', message: "Bowser's Castle 1" }), desc: translate({ id: 'homepage.world5.desc', message: 'Copilot, AI Agents, GHAS, SDD' }), link: '/docs/world-5/5-1_devops-evolution', levels: 11, num: 5 },
+  { img: '/img/worlds/world-6.png', name: 'World 6', theme: translate({ id: 'homepage.world6.theme', message: "Bowser's Castle 2" }), desc: translate({ id: 'homepage.world6.desc', message: 'Skills, Hooks, MCP, Orchestration' }), link: '/docs/world-6/6-1-custom-agents', levels: 10, num: 6 },
+  { img: '/img/worlds/world-7.png', name: 'World 7', theme: translate({ id: 'homepage.world7.theme', message: 'Star World' }), desc: translate({ id: 'homepage.world7.desc', message: 'RAG, LangChain, IDP/Backstage' }), link: '/docs/world-7/7-1-azure-ai-foundry', levels: 7, num: 7 },
+  { img: '/img/worlds/world-8.png', name: 'World 8', theme: translate({ id: 'homepage.world8.theme', message: 'Final Castle' }), desc: translate({ id: 'homepage.world8.desc', message: 'Complete Picture, Glossary' }), link: '/docs/world-8/8-1-how-everything-connects', levels: 4, num: 8 },
 ];
 
 function WorldMap() {
@@ -241,10 +261,10 @@ function WorldMap() {
     <section className="world-map">
       <div className="container">
         <Heading as="h2" className="world-map__title">
-          The World Map
+          <Translate id="homepage.worldMap.title">The World Map</Translate>
         </Heading>
         <p className="world-map__subtitle">
-          8 Worlds from beginner to advanced — choose your path
+          <Translate id="homepage.worldMap.subtitle">8 Worlds from beginner to advanced — choose your path</Translate>
         </p>
 
         <div className={styles.progressBar}>
@@ -252,11 +272,7 @@ function WorldMap() {
             {worlds.map((w) => (
               <div
                 key={w.num}
-                className={`${styles.progressDot} ${hoveredWorld === w.num ? styles.progressDotActive : ''}`}
-                style={{
-                  background: `var(--world-${w.num})`,
-                  left: `${((w.num - 1) / 7) * 100}%`,
-                }}
+                className={`${styles.progressDot} ${progressDotWorldClasses[w.num - 1]} ${hoveredWorld === w.num ? styles.progressDotActive : ''}`}
                 title={w.theme}
               />
             ))}
@@ -265,10 +281,10 @@ function WorldMap() {
 
         <div className="row world-path">
           {worlds.map((w) => (
-            <div key={w.num} className="col col--3" style={{marginBottom: '1.2rem'}}>
+            <div key={w.num} className={`col col--3 ${styles.worldColumn}`}>
               <Link
                 to={w.link}
-                style={{textDecoration: 'none', color: 'inherit'}}
+                className={styles.worldCardLink}
                 onMouseEnter={() => setHoveredWorld(w.num)}
                 onMouseLeave={() => setHoveredWorld(null)}
               >
@@ -281,8 +297,12 @@ function WorldMap() {
                   </Heading>
                   <p className="world-card__theme">{w.theme}</p>
                   <p className="world-card__desc">{w.desc}</p>
-                  <div style={{textAlign: 'center'}}>
-                    <span className="world-card__levels">{w.levels} Levels</span>
+                  <div className={styles.worldLevels}>
+                    <span className="world-card__levels">
+                      <Translate id="homepage.worldMap.levels" values={{ count: w.levels }}>
+                        {'{count} Levels'}
+                      </Translate>
+                    </span>
                   </div>
                 </div>
               </Link>
@@ -301,25 +321,25 @@ const quickLinks = [
   { img: '/img/features/books.png', label: 'RAG', world: 'W7-2', to: '/docs/world-7/7-2-rag' },
   { img: '/img/features/sdd.png', label: 'Spec-Driven Development', world: 'W5-10', to: '/docs/world-5/5-10_sdd' },
   { img: '/img/features/agents.png', label: 'Custom Agents', world: 'W6-1', to: '/docs/world-6/6-1-custom-agents' },
-  { img: '/img/features/hooks.png', label: 'Hands-on Project', world: 'W7-Boss', to: '/docs/world-7/7-boss-practical-project' },
+  { img: '/img/features/hooks.png', label: 'Hands-on Project', world: 'W7-Boss', to: '/docs/world-7/boss-practical-project' },
 ];
 
 function QuickStart() {
   return (
     <section className="quickstart">
       <div className="container">
-        <Heading as="h2" style={{textAlign: 'center', marginBottom: '0.3rem'}}>
-          Quick Start
+        <Heading as="h2" className={styles.sectionTitleTight}>
+          <Translate id="homepage.quickStart.title">Quick Start</Translate>
         </Heading>
-        <p style={{textAlign: 'center', color: 'var(--ifm-color-emphasis-600)', marginBottom: '1.5rem'}}>
-          Know the basics? Warp directly to what you need.
+        <p className={styles.sectionIntroCompact}>
+          <Translate id="homepage.quickStart.intro">Know the basics? Warp directly to what you need.</Translate>
         </p>
 
-        <div className="pipe-divider" style={{marginBottom: '1rem'}}>
+        <div className={`pipe-divider ${styles.pipeDividerSpaced}`}>
           <div className="pipe-divider__pipe" />
         </div>
 
-        <div className="row" style={{justifyContent: 'center'}}>
+        <div className={`row ${styles.centeredRow}`}>
           <div className="col col--6">
             {quickLinks.map((q, i) => (
               <Link key={i} to={q.to} className="pipe-link">
@@ -346,13 +366,12 @@ function Banner() {
         <img
           src={bannerSrc}
           alt="Super Agentic DevOps World — Made for Sofia"
-          className="banner-image"
-          style={{maxWidth: '850px', width: '100%'}}
+          className={`banner-image ${styles.bannerImage}`}
           loading="lazy"
         />
-        <div style={{marginTop: '2rem'}}>
+        <div className={styles.bannerCta}>
           <Link className="btn-start btn-green" to="/docs/intro">
-            START AT WORLD 1-1
+            <Translate id="homepage.banner.cta">START AT WORLD 1-1</Translate>
           </Link>
         </div>
       </div>
@@ -364,8 +383,9 @@ function Banner() {
 export default function Home(): ReactNode {
   return (
     <Layout
-      title="Press START to Learn"
-      description="The complete guide to Agentic DevOps explained through Super Mario World analogies">
+      title={translate({ id: 'homepage.meta.title', message: 'Press START to Learn' })}
+      description={translate({ id: 'homepage.meta.description', message: 'The complete guide to Agentic DevOps explained through Super Mario World analogies' })}>
+      <LanguageSelect />
       <Hero />
       <main>
         <Stats />

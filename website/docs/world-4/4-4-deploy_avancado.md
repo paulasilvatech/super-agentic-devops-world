@@ -34,52 +34,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Invisible Changing of the Guard](#prologue-the-invisible-changing-of-the-guard)
-- [1. The Problem with Traditional Deploy](#1-the-problem-with-traditional-deploy)
-  - [1.1 The "Big Bang" Deploy](#11-the-big-bang-deploy)
-  - [1.2 Downtime: The Enemy](#12-downtime-the-enemy)
-  - [1.3 What We Want: Zero Downtime](#13-what-we-want-zero-downtime)
-- [2. Blue-Green Deployment: Two Identical Castles](#2-blue-green-deployment-two-identical-castles)
-  - [2.1 How It Works](#21-how-it-works)
-  - [2.2 Flow Diagram](#22-flow-diagram)
-  - [2.3 Implementation on Azure](#23-implementation-on-azure)
-  - [2.4 Pros and Cons](#24-pros-and-cons)
-- [3. Canary Deployment: Toad the Explorer](#3-canary-deployment-toad-the-explorer)
-  - [3.1 How It Works](#31-how-it-works)
-  - [3.2 Gradual Progression](#32-gradual-progression)
-  - [3.3 Metrics for Decision Making](#33-metrics-for-decision-making)
-  - [3.4 Practical Implementation](#34-practical-implementation)
-- [4. Rolling Deployment: Gradual Changing of the Guard](#4-rolling-deployment-gradual-changing-of-the-guard)
-  - [4.1 How It Works](#41-how-it-works)
-  - [4.2 Rolling Update on Kubernetes](#42-rolling-update-on-kubernetes)
-  - [4.3 Important Settings](#43-important-settings)
-- [5. Feature Flags: Invisible Doors](#5-feature-flags-invisible-doors)
-  - [5.1 What Are Feature Flags](#51-what-are-feature-flags)
-  - [5.2 Types of Feature Flags](#52-types-of-feature-flags)
-  - [5.3 Simple Implementation](#53-simple-implementation)
-  - [5.4 Feature Flag Tools](#54-feature-flag-tools)
-  - [5.5 Best Practices](#55-best-practices)
-- [6. A/B Testing: Two Versions of the Castle](#6-ab-testing-two-versions-of-the-castle)
-  - [6.1 What Is A/B Testing](#61-what-is-ab-testing)
-  - [6.2 How It Works Technically](#62-how-it-works-technically)
-  - [6.3 Metrics and Decisions](#63-metrics-and-decisions)
-- [7. Rollback: The Emergency Portal](#7-rollback-the-emergency-portal)
-  - [7.1 When to Roll Back](#71-when-to-roll-back)
-  - [7.2 Rollback Strategies](#72-rollback-strategies)
-  - [7.3 Automatic Rollback](#73-automatic-rollback)
-  - [7.4 Database Rollback: The Hardest Problem](#74-database-rollback-the-hardest-problem)
-- [8. GitOps: The Map Is the Truth](#8-gitops-the-map-is-the-truth)
-  - [8.1 The GitOps Principle](#81-the-gitops-principle)
-  - [8.2 How GitOps Works](#82-how-gitops-works)
-- [9. Strategy Comparison](#9-strategy-comparison)
-  - [9.1 Comparison Table](#91-comparison-table)
-  - [9.2 Decision Tree](#92-decision-tree)
-- [10. Final Summary Table](#10-final-summary-table)
-- [References](#references)
-
----
 
 ## Prologue: The Invisible Changing of the Guard
 
@@ -813,6 +767,6 @@ How much downtime is acceptable?
 
 <div align="center">
 
-⬅️ [Previous: Level 4-3: Architecture](4-3-arquitetura.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-5: Git Workflows](4-5-git_workflows.md)
+⬅️ [Previous: Level 4-3: Architecture](4-3-arquitetura.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 4-5: Git Workflows](4-5-git_workflows.md)
 
 </div>

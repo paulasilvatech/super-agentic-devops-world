@@ -34,51 +34,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Guild Rules Posted on the Wall](#prologue-the-guild-rules-posted-on-the-wall)
-- [1. Why Do Projects Need Rules?](#1-why-do-projects-need-rules)
-  - [1.1 Chaos Without Rules](#11-chaos-without-rules)
-  - [1.2 The Organized Guild](#12-the-organized-guild)
-- [2. SemVer: The Version Numbering System](#2-semver-the-version-numbering-system)
-  - [2.1 What Is Semantic Versioning](#21-what-is-semantic-versioning)
-  - [2.2 The Three Magic Numbers: MAJOR.MINOR.PATCH](#22-the-three-magic-numbers-majorminorpatch)
-  - [2.3 Practical SemVer Examples](#23-practical-semver-examples)
-  - [2.4 Pre-release and Build Metadata](#24-pre-release-and-build-metadata)
-  - [2.5 Golden Rules of SemVer](#25-golden-rules-of-semver)
-- [3. README.md: The Game Manual](#3-readmemd-the-game-manual)
-  - [3.1 Why Every Project Needs a README](#31-why-every-project-needs-a-readme)
-  - [3.2 Anatomy of a Perfect README](#32-anatomy-of-a-perfect-readme)
-  - [3.3 Professional README Template](#33-professional-readme-template)
-  - [3.4 Badges: The Hero's Emblems](#34-badges-the-heros-emblems)
-- [4. .gitignore: The "Do Not Pack" List](#4-gitignore-the-do-not-pack-list)
-  - [4.1 What It Is and Why It Exists](#41-what-it-is-and-why-it-exists)
-  - [4.2 .gitignore Syntax](#42-gitignore-syntax)
-  - [4.3 .gitignore by Language](#43-gitignore-by-language)
-  - [4.4 Classic .gitignore Mistakes](#44-classic-gitignore-mistakes)
-- [5. CONTRIBUTING.md: How to Join the Guild](#5-contributingmd-how-to-join-the-guild)
-  - [5.1 Why Document How to Contribute](#51-why-document-how-to-contribute)
-  - [5.2 Structure of a Good CONTRIBUTING](#52-structure-of-a-good-contributing)
-  - [5.3 Complete Template](#53-complete-template)
-- [6. CODE_OF_CONDUCT.md: The Guild's Code of Honor](#6-code_of_conductmd-the-guilds-code-of-honor)
-  - [6.1 Why Have a Code of Conduct](#61-why-have-a-code-of-conduct)
-  - [6.2 Contributor Covenant](#62-contributor-covenant)
-  - [6.3 Enforcing the Code of Conduct](#63-enforcing-the-code-of-conduct)
-- [7. CODEOWNERS: Who Guards Each Room of the Castle](#7-codeowners-who-guards-each-room-of-the-castle)
-  - [7.1 What Is CODEOWNERS](#71-what-is-codeowners)
-  - [7.2 Syntax and Examples](#72-syntax-and-examples)
-  - [7.3 Ownership Strategies](#73-ownership-strategies)
-- [8. LICENSE: The Game's Usage License](#8-license-the-games-usage-license)
-  - [8.1 Why Licenses Matter](#81-why-licenses-matter)
-  - [8.2 Most Common Licenses](#82-most-common-licenses)
-- [9. Other Essential Files](#9-other-essential-files)
-  - [9.1 CHANGELOG.md](#91-changelogmd)
-  - [9.2 .editorconfig](#92-editorconfig)
-  - [9.3 .nvmrc and .tool-versions](#93-nvmrc-and-tool-versions)
-- [10. Final Table: The Complete Guild Kit](#10-final-table-the-complete-guild-kit)
-- [References](#references)
-
----
 
 ## Prologue: The Guild Rules Posted on the Wall
 
@@ -317,11 +272,11 @@ Usage examples with code or screenshots.
 
 ## How to Contribute
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+See [CONTRIBUTING.md](https://github.com/paulasilvatech/super-agentic-devops-world/blob/main/CONTRIBUTING.md) for details.
 
 ## License
 
-Distributed under the MIT license. See [LICENSE](./LICENSE).
+Distributed under the MIT license. See [LICENSE](https://github.com/paulasilvatech/super-agentic-devops-world/blob/main/LICENSE).
 
 ## Authors
 
@@ -814,6 +769,6 @@ python 3.12.0
 
 <div align="center">
 
-⬅️ [Previous: Level 3-6: Databases](3-6-banco_dados.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-8: Internet](3-8-internet.md)
+⬅️ [Previous: Level 3-6: Databases](3-6-banco_dados.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 3-8: Internet](3-8-internet.md)
 
 </div>

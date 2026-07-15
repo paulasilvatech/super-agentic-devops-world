@@ -33,55 +33,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: Who Are You, Anyway?](#prologue-who-are-you-anyway)
-- [1. Authentication vs Authorization](#1-authentication-vs-authorization)
-  - [1.1 Authentication: Proving Who You Are](#11-authentication-proving-who-you-are)
-  - [1.2 Authorization: Proving What You Can Do](#12-authorization-proving-what-you-can-do)
-  - [1.3 Comparison Table](#13-comparison-table)
-- [2. Passwords and Hashing: The Secret Vault](#2-passwords-and-hashing-the-secret-vault)
-  - [2.1 Why Never Store Passwords in Plain Text](#21-why-never-store-passwords-in-plain-text)
-  - [2.2 Hashing: The Irreversible Transformation](#22-hashing-the-irreversible-transformation)
-  - [2.3 Salt: The Protective Seasoning](#23-salt-the-protective-seasoning)
-  - [2.4 bcrypt in Practice](#24-bcrypt-in-practice)
-- [3. JWT: The Magic Token](#3-jwt-the-magic-token)
-  - [3.1 What Is a JWT](#31-what-is-a-jwt)
-  - [3.2 Anatomy of a JWT](#32-anatomy-of-a-jwt)
-  - [3.3 How JWT Works in Practice](#33-how-jwt-works-in-practice)
-  - [3.4 Access Token vs Refresh Token](#34-access-token-vs-refresh-token)
-  - [3.5 Code Example: Generating a JWT](#35-code-example-generating-a-jwt)
-- [4. OAuth 2.0: Asking the King to Confirm Your Identity](#4-oauth-20-asking-the-king-to-confirm-your-identity)
-  - [4.1 The Problem OAuth Solves](#41-the-problem-oauth-solves)
-  - [4.2 The 4 Roles of OAuth](#42-the-4-roles-of-oauth)
-  - [4.3 The Authorization Code Flow](#43-the-authorization-code-flow)
-  - [4.4 OAuth Flow Diagram](#44-oauth-flow-diagram)
-- [5. Social Login: The Kings Vouch for You](#5-social-login-the-kings-vouch-for-you)
-  - [5.1 Login with Google, Microsoft, GitHub](#51-login-with-google-microsoft-github)
-  - [5.2 How to Implement Social Login](#52-how-to-implement-social-login)
-  - [5.3 Advantages and Disadvantages](#53-advantages-and-disadvantages)
-- [6. RBAC: Different Keys for Different Rooms](#6-rbac-different-keys-for-different-rooms)
-  - [6.1 What Is RBAC](#61-what-is-rbac)
-  - [6.2 Common Roles in Applications](#62-common-roles-in-applications)
-  - [6.3 Implementing RBAC](#63-implementing-rbac)
-  - [6.4 Authorization Middleware](#64-authorization-middleware)
-- [7. Sessions vs Tokens: Two Philosophies](#7-sessions-vs-tokens-two-philosophies)
-  - [7.1 Session-Based: The Guard Who Remembers You](#71-session-based-the-guard-who-remembers-you)
-  - [7.2 Token-Based: The Passport You Carry](#72-token-based-the-passport-you-carry)
-  - [7.3 When to Use Each One](#73-when-to-use-each-one)
-- [8. Advanced Security: Extra Protections](#8-advanced-security-extra-protections)
-  - [8.1 CORS: Who Can Knock on the Door](#81-cors-who-can-knock-on-the-door)
-  - [8.2 Rate Limiting: Attempt Limits](#82-rate-limiting-attempt-limits)
-  - [8.3 MFA: Double Verification](#83-mfa-double-verification)
-  - [8.4 HTTPS: The Secret Tunnel](#84-https-the-secret-tunnel)
-- [9. Auth in Practice: TodoApp with JWT](#9-auth-in-practice-todoapp-with-jwt)
-  - [9.1 Complete Registration Flow](#91-complete-registration-flow)
-  - [9.2 Complete Login Flow](#92-complete-login-flow)
-  - [9.3 Protecting Routes](#93-protecting-routes)
-- [10. Final Summary Table](#10-final-summary-table)
-- [References](#references)
-
----
 
 ## Prologue: Who Are You, Anyway?
 
@@ -862,6 +813,6 @@ router.delete('/api/users/:id', verifyToken, requirePermission('delete:user'), a
 
 <div align="center">
 
-⬅️ [Previous: Level 3-BOSS: Exercises](../world-3-sky/3-BOSS-exercicios.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-2: Cloud Models](4-2-cloud_models.md)
+⬅️ [Previous: Level 3-BOSS: Exercises](../world-3/3-BOSS-exercicios.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 4-2: Cloud Models](4-2-cloud_models.md)
 
 </div>

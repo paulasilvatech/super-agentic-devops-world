@@ -31,44 +31,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Introduction -- The Trophy Room](#introduction--the-trophy-room)
-- [Section 1 -- The Timeline: Three Eras of Combat](#section-1--the-timeline-three-eras-of-combat)
-  - [1.1 Overview of the Eras](#11-overview-of-the-eras)
-  - [1.2 Comparison Table: The Three Eras](#12-comparison-table-the-three-eras)
-- [Section 2 -- 1st Era: Traditional DevOps (Manual Combat)](#section-2--1st-era-traditional-devops-manual-combat)
-  - [2.1 What is Traditional DevOps](#21-what-is-traditional-devops)
-  - [2.2 The Mario Analogy: Fighting with Swords](#22-the-mario-analogy-fighting-with-swords)
-  - [2.3 Tools of the 1st Era](#23-tools-of-the-1st-era)
-  - [2.4 Limitations of Manual Combat](#24-limitations-of-manual-combat)
-  - [2.5 What Traditional DevOps Achieved](#25-what-traditional-devops-achieved)
-- [Section 3 -- 2nd Era: DevSecOps (Swords + Shields)](#section-3--2nd-era-devsecops-swords--shields)
-  - [3.1 What is DevSecOps](#31-what-is-devsecops)
-  - [3.2 The Mario Analogy: Adding Shields to the Arsenal](#32-the-mario-analogy-adding-shields-to-the-arsenal)
-  - [3.3 Shift Left: Security from the Start](#33-shift-left-security-from-the-start)
-  - [3.4 Tools of the 2nd Era](#34-tools-of-the-2nd-era)
-  - [3.5 What DevSecOps Achieved](#35-what-devsecops-achieved)
-- [Section 4 -- 3rd Era: Agentic DevOps (Autonomous Companions)](#section-4--3rd-era-agentic-devops-autonomous-companions)
-  - [4.1 What is Agentic DevOps](#41-what-is-agentic-devops)
-  - [4.2 The Mario Analogy: Commanding an Army of Companions](#42-the-mario-analogy-commanding-an-army-of-companions)
-  - [4.3 What Agents Do in Agentic DevOps](#43-what-agents-do-in-agentic-devops)
-  - [4.4 Tools of the 3rd Era](#44-tools-of-the-3rd-era)
-  - [4.5 The Fundamental Shift](#45-the-fundamental-shift)
-- [Section 5 -- Comparing the Three Eras in Practice](#section-5--comparing-the-three-eras-in-practice)
-  - [5.1 Scenario: Fixing a Bug in Production](#51-scenario-fixing-a-bug-in-production)
-  - [5.2 Scenario: Building a New Feature](#52-scenario-building-a-new-feature)
-  - [5.3 Scenario: Doing Code Review](#53-scenario-doing-code-review)
-- [Section 6 -- The Simplified Evolution](#section-6--the-simplified-evolution)
-  - [6.1 The Evolution Formula](#61-the-evolution-formula)
-  - [6.2 Final Analogy: The History of the Mushroom Kingdom](#62-final-analogy-the-history-of-the-mushroom-kingdom)
-- [Section 7 -- Why Understanding the Evolution Matters](#section-7--why-understanding-the-evolution-matters)
-  - [7.1 You Need to Know Where You Came From](#71-you-need-to-know-where-you-came-from)
-  - [7.2 The Future is Agentic](#72-the-future-is-agentic)
-- [What We Learned -- Summary Table](#what-we-learned--summary-table)
-- [References](#references)
-
----
 
 ## Introduction -- The Trophy Room
 
@@ -493,6 +455,6 @@ The most valuable skill of the future isn't writing code fast. It's **writing cl
 
 <div align="center">
 
-⬅️ [Previous: Level 4-BOSS: Partial Glossary](../world-4-water/4-BOSS-glossario_parcial.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-2: AI Maturity](5-2_ai-maturity.md)
+⬅️ [Previous: Level 4-BOSS: Partial Glossary](../world-4/4-BOSS-glossario_parcial.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 5-2: AI Maturity](5-2_ai-maturity.md)
 
 </div>

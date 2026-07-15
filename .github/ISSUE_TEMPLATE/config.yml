@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions & Discussions
+    url: https://github.com/paulasilvatech/super-agentic-devops-world/discussions
+    about: Ask questions, share ideas, or start an open-ended conversation here.
+  - name: 📖 Read the guide
+    url: https://paulasilvatech.github.io/super-agentic-devops-world/
+    about: Most questions are already answered inside the guide itself.
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/paulasilvatech/super-agentic-devops-world/security/advisories/new
+    about: Please report security issues privately — do not open a public issue.

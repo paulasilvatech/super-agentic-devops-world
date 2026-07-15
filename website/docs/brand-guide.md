@@ -477,7 +477,7 @@ tags:
 - [1. First Concept](#1-first-concept)
 - [2. Second Concept](#2-second-concept)
 - [Boss Battle Checklist](#boss-battle-checklist)
-- [POWER-UP UNLOCKED!](#power-up-unlocked)
+- [POWER-UP UNLOCKED!](#power-up-unlocked-1)
 - [References](#references)
 
 ## Prologue

@@ -25,56 +25,6 @@ tags: ["agentic-devops", "mario", "world-1", "git", "fundamentals"]
 
 ---
 
-## Table of Contents
-
-- [Prologue — The Player Who Lost Everything](#prologue--the-player-who-lost-everything)
-- [1. What Is Version Control?](#1-what-is-version-control)
-  - [1.1 The Problem: No Save Game](#11-the-problem-no-save-game)
-  - [1.2 The Solution: Git — The Ultimate Memory Card](#12-the-solution-git--the-ultimate-memory-card)
-  - [1.3 Table: Git vs Mario's Save System](#13-table-git-vs-marios-save-system)
-- [2. Installing Git — Buying the Memory Card](#2-installing-git--buying-the-memory-card)
-  - [2.1 Windows](#21-windows)
-  - [2.2 macOS](#22-macos)
-  - [2.3 Linux](#23-linux)
-  - [2.4 Initial Setup — Engraving Your Name on the Memory Card](#24-initial-setup--engraving-your-name-on-the-memory-card)
-- [3. Fundamental Concepts — The Memory Card Manual](#3-fundamental-concepts--the-memory-card-manual)
-  - [3.1 Repository (Repo) — The Game Cartridge](#31-repository-repo--the-game-cartridge)
-  - [3.2 The .git Folder — The Memory Card Chip](#32-the-git-folder--the-memory-card-chip)
-  - [3.3 The 3 States: Working, Staging, Committed](#33-the-3-states-working-staging-committed)
-  - [3.4 Diagram: The 3 States of Git](#34-diagram-the-3-states-of-git)
-- [4. Your First Repository — Inserting the Memory Card](#4-your-first-repository--inserting-the-memory-card)
-  - [4.1 git init — Formatting the Memory Card](#41-git-init--formatting-the-memory-card)
-  - [4.2 git status — Checking the Save State](#42-git-status--checking-the-save-state)
-  - [4.3 git add — Selecting What to Save](#43-git-add--selecting-what-to-save)
-  - [4.4 git commit — Actually Saving](#44-git-commit--actually-saving)
-  - [4.5 Full Practice: From Zero to First Commit](#45-full-practice-from-zero-to-first-commit)
-- [5. Save History — git log](#5-save-history--git-log)
-  - [5.1 Viewing Your History](#51-viewing-your-history)
-  - [5.2 Understanding the git log Output](#52-understanding-the-git-log-output)
-  - [5.3 Alternative Formats](#53-alternative-formats)
-- [6. Undoing Things — Going Back in Time](#6-undoing-things--going-back-in-time)
-  - [6.1 git checkout — Loading an Old Save](#61-git-checkout--loading-an-old-save)
-  - [6.2 git diff — Comparing Saves](#62-git-diff--comparing-saves)
-  - [6.3 git restore — Undoing Changes](#63-git-restore--undoing-changes)
-- [7. Branches — Parallel Universes](#7-branches--parallel-universes)
-  - [7.1 What Is a Branch?](#71-what-is-a-branch)
-  - [7.2 Creating a Branch](#72-creating-a-branch)
-  - [7.3 Switching Branches](#73-switching-branches)
-  - [7.4 Merge — Joining Universes](#74-merge--joining-universes)
-  - [7.5 Diagram: Branches as Parallel Universes](#75-diagram-branches-as-parallel-universes)
-- [8. Commit Best Practices — The Art of Saving Well](#8-commit-best-practices--the-art-of-saving-well)
-  - [8.1 Clear Commit Messages](#81-clear-commit-messages)
-  - [8.2 Small and Frequent Commits](#82-small-and-frequent-commits)
-  - [8.3 Conventional Commits — The Coin Standard](#83-conventional-commits--the-coin-standard)
-- [9. Git in VS Code — The Visual Save System](#9-git-in-vs-code--the-visual-save-system)
-  - [9.1 Source Control Panel](#91-source-control-panel)
-  - [9.2 Visual Indicators](#92-visual-indicators)
-  - [9.3 GitLens — Super Save Vision](#93-gitlens--super-save-vision)
-- [10. Essential Commands Table](#10-essential-commands-table)
-- [Summary — What We Learned in Level 1-2](#summary--what-we-learned-in-level-1-2)
-- [References](#references)
-
----
 
 ## Prologue — The Player Who Lost Everything
 
@@ -734,6 +684,6 @@ The **GitLens** extension adds superpowers to Git in VS Code:
 
 <div align="center">
 
-⬅️ [Previous: Level 1-1: VS Code](1-1-vs-code.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-3: GitHub](1-3-github.md)
+⬅️ [Previous: Level 1-1: VS Code](1-1-vs-code.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 1-3: GitHub](1-3-github.md)
 
 </div>

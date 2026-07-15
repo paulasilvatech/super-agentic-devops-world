@@ -34,18 +34,6 @@ tags: ["agentic-devops", "mario", "world-6", "mcp", "model-context-protocol"]
 
 ---
 
-## TABLE OF CONTENTS
-
-1. [Introduction: The Warp Zone Room](#introduction)
-2. [What is MCP?](#what-is-mcp)
-3. [MCP Architecture: The 4 Pillars](#mcp-architecture)
-4. [How to Configure MCP](#how-to-configure-mcp)
-5. [Popular MCP Servers](#popular-mcp-servers)
-6. [MCP Security](#mcp-security)
-7. [MCP + Agents = Complete Agentic DevOps](#mcp-agents)
-8. [Next Steps](#next-steps)
-
----
 
 ## Introduction: The Warp Zone Room
 
@@ -391,6 +379,6 @@ She collected the Star Coin from this world and headed to the next...
 
 <div align="center">
 
-⬅️ [Previous: Level 6-5: Hooks](6-5-hooks.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-7: Orchestration](6-7-orchestration.md)
+⬅️ [Previous: Level 6-5: Hooks](6-5-hooks.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 6-7: Orchestration](6-7-orchestration.md)
 
 </div>

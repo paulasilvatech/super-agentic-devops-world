@@ -25,64 +25,6 @@ tags: ["agentic-devops", "mario", "world-3", "testing", "jest", "tdd", "qa", "te
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Training Dojo](#prologue-the-training-dojo)
-- [1. Why Test?](#1-why-test)
-  - [1.1 The Cost of Not Testing](#11-the-cost-of-not-testing)
-  - [1.2 Confidence to Change](#12-confidence-to-change)
-  - [1.3 Living Documentation](#13-living-documentation)
-- [2. The Test Pyramid: Many Small, Few Large](#2-the-test-pyramid-many-small-few-large)
-  - [2.1 Base: Unit Tests (Many)](#21-base-unit-tests-many)
-  - [2.2 Middle: Integration Tests (Some)](#22-middle-integration-tests-some)
-  - [2.3 Top: End-to-End Tests (Few)](#23-top-end-to-end-tests-few)
-  - [2.4 Pyramid Diagram](#24-pyramid-diagram)
-- [3. Unit Tests: Hitting One Dummy at a Time](#3-unit-tests-hitting-one-dummy-at-a-time)
-  - [3.1 What Is a Unit Test?](#31-what-is-a-unit-test)
-  - [3.2 Anatomy of a Test: Arrange-Act-Assert](#32-anatomy-of-a-test-arrange-act-assert)
-  - [3.3 Jest: The Training Arena](#33-jest-the-training-arena)
-  - [3.4 First Test with Jest](#34-first-test-with-jest)
-  - [3.5 Matchers: The Verifications](#35-matchers-the-verifications)
-  - [3.6 Testing Real TodoApp Functions](#36-testing-real-todoapp-functions)
-- [4. Integration Tests: Two Dummies at the Same Time](#4-integration-tests-two-dummies-at-the-same-time)
-  - [4.1 What Is an Integration Test?](#41-what-is-an-integration-test)
-  - [4.2 Testing API + Database](#42-testing-api--database)
-  - [4.3 Supertest: Testing HTTP APIs](#43-supertest-testing-http-apis)
-  - [4.4 Test Database](#44-test-database)
-- [5. End-to-End Tests: Full Battle Simulation](#5-end-to-end-tests-full-battle-simulation)
-  - [5.1 What Is an E2E Test?](#51-what-is-an-e2e-test)
-  - [5.2 Cypress and Playwright: The Simulators](#52-cypress-and-playwright-the-simulators)
-  - [5.3 E2E Test Example](#53-e2e-test-example)
-- [6. TDD: Plan the Fight Before Fighting](#6-tdd-plan-the-fight-before-fighting)
-  - [6.1 What Is TDD?](#61-what-is-tdd)
-  - [6.2 The Red-Green-Refactor Cycle](#62-the-red-green-refactor-cycle)
-  - [6.3 TDD in Practice: Creating a Filter Function](#63-tdd-in-practice-creating-a-filter-function)
-  - [6.4 When to Use TDD and When Not To](#64-when-to-use-tdd-and-when-not-to)
-- [7. Mocks, Stubs, and Spies: Substitute Dummies](#7-mocks-stubs-and-spies-substitute-dummies)
-  - [7.1 Mock: The Stunt Double](#71-mock-the-stunt-double)
-  - [7.2 Stub: The Programmed Response](#72-stub-the-programmed-response)
-  - [7.3 Spy: The Secret Agent](#73-spy-the-secret-agent)
-  - [7.4 When to Use Each One](#74-when-to-use-each-one)
-- [8. Coverage: Percentage of Dummies Tested](#8-coverage-percentage-of-dummies-tested)
-  - [8.1 What Is Coverage?](#81-what-is-coverage)
-  - [8.2 Generating a Coverage Report with Jest](#82-generating-a-coverage-report-with-jest)
-  - [8.3 What Percentage to Aim For?](#83-what-percentage-to-aim-for)
-  - [8.4 Coverage Is Not Everything](#84-coverage-is-not-everything)
-- [9. React Component Tests](#9-react-component-tests)
-  - [9.1 Testing Library: Testing Like the User](#91-testing-library-testing-like-the-user)
-  - [9.2 Testing Rendering](#92-testing-rendering)
-  - [9.3 Testing Interactions](#93-testing-interactions)
-  - [9.4 Testing States and Effects](#94-testing-states-and-effects)
-- [10. Tests in CI/CD: Automating the Dojo](#10-tests-in-cicd-automating-the-dojo)
-  - [10.1 Tests in GitHub Actions](#101-tests-in-github-actions)
-  - [10.2 Blocking PRs Without Tests](#102-blocking-prs-without-tests)
-- [11. QA: Princess Peach in Action](#11-qa-princess-peach-in-action)
-  - [11.1 The Role of QA](#111-the-role-of-qa)
-  - [11.2 Manual QA vs Automated QA](#112-manual-qa-vs-automated-qa)
-- [Summary -- What We Learned in Level 3-4](#summary----what-we-learned-in-level-3-4)
-- [References](#references)
-
----
 
 ## Prologue: The Training Dojo
 
@@ -1190,6 +1132,6 @@ Peach -- the QA Engineer -- doesn't just run automated tests. She:
 
 <div align="center">
 
-⬅️ [Previous: Level 3-3: Docker](3-3-docker.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-5: Open Source](3-5-open_source.md)
+⬅️ [Previous: Level 3-3: Docker](3-3-docker.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 3-5: Open Source](3-5-open_source.md)
 
 </div>

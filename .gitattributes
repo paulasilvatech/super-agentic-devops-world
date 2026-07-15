@@ -1,0 +1,37 @@
+# Normalize line endings to LF on checkin, auto on checkout.
+* text=auto eol=lf
+
+# Explicitly declare text files
+*.md      text
+*.mdx     text
+*.txt     text
+*.ts      text
+*.tsx     text
+*.js      text
+*.jsx     text
+*.json    text
+*.jsonc   text
+*.yml     text
+*.yaml    text
+*.css     text
+*.html    text
+*.svg     text
+
+# Binary assets — never normalize, never diff as text
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.ico     binary
+*.webp    binary
+*.pdf     binary
+*.woff    binary
+*.woff2   binary
+*.ttf     binary
+*.eot     binary
+
+# GitHub Linguist hints — keep language stats meaningful
+website/build/**       linguist-generated
+website/.docusaurus/** linguist-generated
+package-lock.json      linguist-generated
+*.svg                  linguist-detectable=false

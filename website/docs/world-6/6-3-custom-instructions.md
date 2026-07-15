@@ -33,24 +33,6 @@ tags: ["agentic-devops", "mario", "world-6", "instructions"]
 
 ---
 
-## TABLE OF CONTENTS
-
-- [Introduction: The Game Rulebook](#introduction-the-game-rulebook)
-- [Section 1: What Are Custom Instructions](#section-1-what-are-custom-instructions)
-- [Section 2: The 3 Levels of Instructions](#section-2-the-3-levels-of-instructions)
-  - [Level 1: Universal Rules (gravity)](#level-1-universal-rules-gravity)
-  - [Level 2: Level Rules (water/sky/castle)](#level-2-level-rules)
-  - [Level 2B: Sky Level Rules (Frontend)](#level-2b-sky-level-rules-frontend)
-  - [Level 2C: Castle Rules (Database)](#level-2c-castle-rules-database)
-- [Section 3: The applyTo Field in Detail](#section-3-the-applyto-field-in-detail)
-- [Section 4: Priority Hierarchy](#section-4-priority-hierarchy)
-- [Section 5: Comparative Table — Instructions vs Skills vs Agents vs Prompts](#section-5-comparative-table)
-- [Section 6: Best Practices Checklist](#section-6-best-practices-checklist)
-- [Bonus: Recommended File Structure](#bonus-recommended-file-structure)
-- [Practical Example: Create Instructions for a Real Project](#practical-example-create-instructions-for-a-real-project)
-- [Final Tips & Common Mistakes to Avoid](#final-tips--common-mistakes-to-avoid)
-
----
 
 ## Introduction: The Game Rulebook
 
@@ -578,6 +560,6 @@ She stored this knowledge in her **Game Rulebook** and headed to the next level.
 
 <div align="center">
 
-⬅️ [Previous: Level 6-2: Agent Skills](6-2-agent-skills.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-4: Prompt Files](6-4-prompt-files.md)
+⬅️ [Previous: Level 6-2: Agent Skills](6-2-agent-skills.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 6-4: Prompt Files](6-4-prompt-files.md)
 
 </div>

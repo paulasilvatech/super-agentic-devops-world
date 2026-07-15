@@ -25,55 +25,6 @@ tags: ["agentic-devops", "mario", "world-1", "github-actions", "ci-cd", "fundame
 
 ---
 
-## Table of Contents
-
-- [Prologue — The Lakitu That Works for You](#prologue--the-lakitu-that-works-for-you)
-- [1. The Problem: Repetitive Tasks](#1-the-problem-repetitive-tasks)
-  - [1.1 The Exhausting Manual Cycle](#11-the-exhausting-manual-cycle)
-  - [1.2 What Could Be Automated?](#12-what-could-be-automated)
-- [2. What Is CI/CD?](#2-what-is-cicd)
-  - [2.1 CI — Continuous Integration](#21-ci--continuous-integration)
-  - [2.2 CD — Continuous Delivery/Deployment](#22-cd--continuous-deliverydeployment)
-  - [2.3 Table: CI/CD vs Lakitu](#23-table-cicd-vs-lakitu)
-  - [2.4 Diagram: The CI/CD Pipeline](#24-diagram-the-cicd-pipeline)
-- [3. What Is GitHub Actions?](#3-what-is-github-actions)
-  - [3.1 GitHub's Automation Platform](#31-githubs-automation-platform)
-  - [3.2 Essential Vocabulary](#32-essential-vocabulary)
-  - [3.3 Table: Actions Vocabulary vs Mario](#33-table-actions-vocabulary-vs-mario)
-- [4. YAML — The Lakitu's Instruction Scroll](#4-yaml--the-lakitus-instruction-scroll)
-  - [4.1 What Is YAML?](#41-what-is-yaml)
-  - [4.2 Basic YAML Rules](#42-basic-yaml-rules)
-  - [4.3 Annotated Example](#43-annotated-example)
-- [5. Your First Workflow — Waking Up the Lakitu](#5-your-first-workflow--waking-up-the-lakitu)
-  - [5.1 Directory Structure](#51-directory-structure)
-  - [5.2 "Hello Mushroom Kingdom" Workflow](#52-hello-mushroom-kingdom-workflow)
-  - [5.3 Line-by-Line Explanation](#53-line-by-line-explanation)
-  - [5.4 Running the Workflow](#54-running-the-workflow)
-- [6. Triggers — When the Lakitu Wakes Up](#6-triggers--when-the-lakitu-wakes-up)
-  - [6.1 Types of Triggers](#61-types-of-triggers)
-  - [6.2 Common Triggers Table](#62-common-triggers-table)
-  - [6.3 Practical Examples](#63-practical-examples)
-- [7. Jobs and Steps — The Lakitu's Tasks](#7-jobs-and-steps--the-lakitus-tasks)
-  - [7.1 Jobs — Work Blocks](#71-jobs--work-blocks)
-  - [7.2 Steps — Individual Steps](#72-steps--individual-steps)
-  - [7.3 Runners — Where the Lakitu Works](#73-runners--where-the-lakitu-works)
-  - [7.4 Diagram: Workflow > Jobs > Steps](#74-diagram-workflow--jobs--steps)
-- [8. Marketplace Actions — Power-Ups for the Lakitu](#8-marketplace-actions--power-ups-for-the-lakitu)
-  - [8.1 What Are Reusable Actions?](#81-what-are-reusable-actions)
-  - [8.2 Essential Actions](#82-essential-actions)
-- [9. Practical Workflow Examples](#9-practical-workflow-examples)
-  - [9.1 Basic CI Workflow (Test on Every Push)](#91-basic-ci-workflow-test-on-every-push)
-  - [9.2 Lint Workflow (Check Quality)](#92-lint-workflow-check-quality)
-  - [9.3 Workflow with Deploy (CD)](#93-workflow-with-deploy-cd)
-- [10. Viewing Results — The Lakitu's Report](#10-viewing-results--the-lakitus-report)
-  - [10.1 The Actions Tab on GitHub](#101-the-actions-tab-on-github)
-  - [10.2 Workflow Statuses](#102-workflow-statuses)
-  - [10.3 Badges — Quality Seals](#103-badges--quality-seals)
-- [11. Secrets — The Lakitu's Secret Keys](#11-secrets--the-lakitus-secret-keys)
-- [Summary — What We Learned in Level 1-4](#summary--what-we-learned-in-level-1-4)
-- [References](#references)
-
----
 
 ## Prologue — The Lakitu That Works for You
 
@@ -744,6 +695,6 @@ To configure secrets:
 
 <div align="center">
 
-⬅️ [Previous: Level 1-3: GitHub](1-3-github.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-5: Azure](1-5-azure.md)
+⬅️ [Previous: Level 1-3: GitHub](1-3-github.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 1-5: Azure](1-5-azure.md)
 
 </div>

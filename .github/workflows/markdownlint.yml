@@ -1,0 +1,42 @@
+name: Markdown lint
+
+# Lints only Markdown files changed in a pull request. This lets the project
+# adopt linting without forcing a risky rewrite of the existing guide content.
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - .markdownlint.json
+      - .github/workflows/markdownlint.yml
+
+permissions:
+  contents: read
+
+jobs:
+  markdownlint:
+    name: Lint changed Markdown
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Determine changed Markdown files
+        id: changed
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.sha }}
+        run: |
+          files=$(git diff --name-only --diff-filter=ACMR "$BASE_SHA" "$HEAD_SHA" -- '*.md' | tr '\n' ' ')
+          echo "files=$files" >> "$GITHUB_OUTPUT"
+          echo "Changed Markdown files: ${files:-<none>}"
+
+      - name: Run markdownlint on changed files
+        if: steps.changed.outputs.files != ''
+        run: npx --yes markdownlint-cli2 ${{ steps.changed.outputs.files }}

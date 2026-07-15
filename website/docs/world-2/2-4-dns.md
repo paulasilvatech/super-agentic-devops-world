@@ -32,47 +32,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Castle Without an Address](#prologue-the-castle-without-an-address)
-- [1. IP Addresses: The Exact Coordinates](#1-ip-addresses-the-exact-coordinates)
-  - [1.1 What Is an IP?](#11-what-is-an-ip)
-  - [1.2 IPv4 vs IPv6](#12-ipv4-vs-ipv6)
-  - [1.3 Public vs Private IPs](#13-public-vs-private-ips)
-- [2. Domains: The Castle's Friendly Name](#2-domains-the-castles-friendly-name)
-  - [2.1 Anatomy of a Domain](#21-anatomy-of-a-domain)
-  - [2.2 TLDs: The Top-Level Kingdoms](#22-tlds-the-top-level-kingdoms)
-  - [2.3 Subdomains: The Castle Wings](#23-subdomains-the-castle-wings)
-- [3. DNS: The Mushroom Kingdom Translation System](#3-dns-the-mushroom-kingdom-translation-system)
-  - [3.1 What Is DNS?](#31-what-is-dns)
-  - [3.2 How Name Resolution Works](#32-how-name-resolution-works)
-  - [3.3 The 4 DNS Servers: The Chain of Toads](#33-the-4-dns-servers-the-chain-of-toads)
-  - [3.4 Complete Diagram: From Name to IP](#34-complete-diagram-from-name-to-ip)
-- [4. DNS Records: The Instructions on the Map](#4-dns-records-the-instructions-on-the-map)
-  - [4.1 A Record: The Main Address](#41-a-record-the-main-address)
-  - [4.2 CNAME Record: The Alias](#42-cname-record-the-alias)
-  - [4.3 MX Record: The Post Office](#43-mx-record-the-post-office)
-  - [4.4 TXT Record: The Notes](#44-txt-record-the-notes)
-  - [4.5 Complete DNS Records Table](#45-complete-dns-records-table)
-- [5. Registering a Domain: Buying Your Castle](#5-registering-a-domain-buying-your-castle)
-  - [5.1 Domain Registrars](#51-domain-registrars)
-  - [5.2 The Registration Process](#52-the-registration-process)
-  - [5.3 WHOIS: The Castle Owner's Record](#53-whois-the-castle-owners-record)
-- [6. DNS in Practice with Azure](#6-dns-in-practice-with-azure)
-  - [6.1 Azure DNS Zones](#61-azure-dns-zones)
-  - [6.2 Configuring a Custom Domain on Azure](#62-configuring-a-custom-domain-on-azure)
-- [7. DNS Cache: The Toad with Good Memory](#7-dns-cache-the-toad-with-good-memory)
-  - [7.1 TTL: Information Expiration Time](#71-ttl-information-expiration-time)
-  - [7.2 Why Cache Matters](#72-why-cache-matters)
-  - [7.3 Cache Problems: Outdated Information](#73-cache-problems-outdated-information)
-- [8. DNS and Security](#8-dns-and-security)
-  - [8.1 DNS Spoofing: The Impostor Toad](#81-dns-spoofing-the-impostor-toad)
-  - [8.2 DNSSEC: The Anti-Forgery Seal](#82-dnssec-the-anti-forgery-seal)
-- [9. DNS Diagnostic Tools](#9-dns-diagnostic-tools)
-- [10. Final Summary Table](#10-final-summary-table)
-- [References](#references)
-
----
 
 ## Prologue: The Castle Without an Address
 
@@ -573,6 +532,6 @@ host todoapp.com.br
 
 <div align="center">
 
-⬅️ [Previous: Level 2-3: Security](2-3-seguranca.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-5: Methodologies](2-5-metodologias.md)
+⬅️ [Previous: Level 2-3: Security](2-3-seguranca.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 2-5: Methodologies](2-5-metodologias.md)
 
 </div>

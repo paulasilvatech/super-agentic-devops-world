@@ -38,55 +38,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Castle Equipment Room](#prologue-the-castle-equipment-room)
-- [1. Framework vs Library: The Fundamental Difference](#1-framework-vs-library-the-fundamental-difference)
-  - [1.1 What Is a Library](#11-what-is-a-library)
-  - [1.2 What Is a Framework](#12-what-is-a-framework)
-  - [1.3 Inversion of Control: Who's in Charge?](#13-inversion-of-control-whos-in-charge)
-  - [1.4 Comparison Table](#14-comparison-table)
-- [2. Frontend Frameworks and Libraries](#2-frontend-frameworks-and-libraries)
-  - [2.1 React -- Luigi's Special Boots](#21-react----luigis-special-boots)
-  - [2.2 Vue.js -- The Magical Adaptation Necklace](#22-vuejs----the-magical-adaptation-necklace)
-  - [2.3 Angular -- The Complete Imperial Armor](#23-angular----the-complete-imperial-armor)
-  - [2.4 Svelte -- The Ninja's Lightweight Suit](#24-svelte----the-ninjas-lightweight-suit)
-  - [2.5 Frontend Comparison](#25-frontend-comparison)
-- [3. Full-Stack and Meta-Frameworks](#3-full-stack-and-meta-frameworks)
-  - [3.1 Next.js -- The Hero's Complete Suit](#31-nextjs----the-heros-complete-suit)
-  - [3.2 Nuxt.js -- The Complete Suit Vue Edition](#32-nuxtjs----the-complete-suit-vue-edition)
-  - [3.3 Remix -- The Retro-Modern Suit](#33-remix----the-retro-modern-suit)
-  - [3.4 Astro -- The Stellar Suit (Static Content)](#34-astro----the-stellar-suit-static-content)
-- [4. Backend Frameworks](#4-backend-frameworks)
-  - [4.1 Express.js -- Toad's Speed Potion](#41-expressjs----toads-speed-potion)
-  - [4.2 Fastify -- The Turbocharged Speed Potion](#42-fastify----the-turbocharged-speed-potion)
-  - [4.3 ASP.NET Core -- The Knight's Forge](#43-aspnet-core----the-knights-forge)
-  - [4.4 Django -- The Mage's Staff (Python)](#44-django----the-mages-staff-python)
-  - [4.5 FastAPI -- The Modern Staff (Python)](#45-fastapi----the-modern-staff-python)
-  - [4.6 Spring Boot -- The Tank's Hammer (Java)](#46-spring-boot----the-tanks-hammer-java)
-  - [4.7 Backend Comparison](#47-backend-comparison)
-- [5. CSS Frameworks](#5-css-frameworks)
-  - [5.1 Tailwind CSS -- The Modular Paint Kit](#51-tailwind-css----the-modular-paint-kit)
-  - [5.2 Bootstrap -- The Ready-Made Decoration Kit](#52-bootstrap----the-ready-made-decoration-kit)
-- [6. Testing Frameworks](#6-testing-frameworks)
-  - [6.1 Jest -- The Training Ground](#61-jest----the-training-ground)
-  - [6.2 Vitest -- The Modern Training Ground](#62-vitest----the-modern-training-ground)
-  - [6.3 Playwright and Cypress -- Battle Simulator](#63-playwright-and-cypress----battle-simulator)
-- [7. ORMs: The Librarian's Translators](#7-orms-the-librarians-translators)
-  - [7.1 Prisma (TypeScript/JavaScript)](#71-prisma-typescriptjavascript)
-  - [7.2 Entity Framework (C#)](#72-entity-framework-c)
-  - [7.3 SQLAlchemy and Django ORM (Python)](#73-sqlalchemy-and-django-orm-python)
-- [8. How to Choose the Right Framework](#8-how-to-choose-the-right-framework)
-  - [8.1 Selection Criteria](#81-selection-criteria)
-  - [8.2 Practical Decision Guide](#82-practical-decision-guide)
-  - [8.3 Selection Pitfalls](#83-selection-pitfalls)
-- [9. The Complete Ecosystem: Technology Stack](#9-the-complete-ecosystem-technology-stack)
-  - [9.1 What Is a Stack](#91-what-is-a-stack)
-  - [9.2 Popular Stacks](#92-popular-stacks)
-- [10. Final Comparison Table](#10-final-comparison-table)
-- [References](#references)
-
----
 
 ## Prologue: The Castle Equipment Room
 
@@ -705,6 +656,6 @@ A **stack** is the complete set of technologies used in a project.
 
 <div align="center">
 
-⬅️ [Previous: Level 3-9: Languages](3-9-linguagens.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-11: Packages](3-11-pacotes.md)
+⬅️ [Previous: Level 3-9: Languages](3-9-linguagens.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 3-11: Packages](3-11-pacotes.md)
 
 </div>

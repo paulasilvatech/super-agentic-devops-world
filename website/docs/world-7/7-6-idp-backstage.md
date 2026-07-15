@@ -33,20 +33,6 @@ tags: ["agentic-devops", "mario", "world-7", "idp", "backstage", "developer-plat
 
 ---
 
-## TABLE OF CONTENTS
-
-1. [Introduction — The Central Castle](#introduction)
-2. [What Is an IDP (Internal Developer Platform)](#what-is-idp)
-3. [Why IDPs Matter — The Pain Without Them](#why-they-matter)
-4. [Backstage by Spotify — The Most Popular IDP](#backstage)
-5. [The 5 Pillars of Backstage](#5-pillars)
-6. [How AI Agents Fit into the IDP](#agents-in-idp)
-7. [Golden Paths — The Optimal Route Through the Kingdom](#golden-paths)
-8. [Table: Traditional Development vs IDP](#comparative-table)
-9. [Building Your IDP — First Steps](#first-steps)
-10. [Conclusion — The Castle That Unites All Worlds](#conclusion)
-
----
 
 ## Introduction — The Central Castle
 
@@ -807,6 +793,6 @@ She knows how to build the central castle that connects all worlds!
 
 <div align="center">
 
-⬅️ [Previous: Level 7-5: Four Channels](7-5-four-channels.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-BOSS: Practical Project](7-boss-practical-project.md)
+⬅️ [Previous: Level 7-5: Four Channels](7-5-four-channels.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 7-BOSS: Practical Project](7-boss-practical-project.md)
 
 </div>

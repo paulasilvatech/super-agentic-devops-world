@@ -31,42 +31,6 @@ tags:
 
 ---
 
-## Table of Contents
-
-- [Prologue: The Definitive Encyclopedia](#prologue-the-definitive-encyclopedia)
-- [How to Use This Glossary](#how-to-use-this-glossary)
-- [Glossary A-Z](#glossary-a-z)
-  - [A](#a)
-  - [B](#b)
-  - [C](#c)
-  - [D](#d)
-  - [E](#e)
-  - [F](#f)
-  - [G](#g)
-  - [H](#h)
-  - [I](#i)
-  - [J](#j)
-  - [K](#k)
-  - [L](#l)
-  - [M](#m)
-  - [N](#n)
-  - [O](#o)
-  - [P](#p)
-  - [Q](#q)
-  - [R](#r)
-  - [S](#s)
-  - [T](#t)
-  - [U](#u)
-  - [V](#v)
-  - [W](#w)
-  - [X](#x)
-  - [Y](#y)
-  - [Z](#z)
-- [Complete Table: All Terms](#complete-table-all-terms)
-- [Index by World](#index-by-world)
-- [References](#references)
-
----
 
 ## Prologue: The Definitive Encyclopedia
 
@@ -998,6 +962,6 @@ AutoGen, Azure AI Foundry, Azure AI Search, Backstage, Chunking, Embedding, Embe
 
 <div align="center">
 
-⬅️ [Previous: Level 8-3: Next Steps](8-3-next-steps.md) · 🗺️ [World Map](../INDEX.md)
+⬅️ [Previous: Level 8-3: Next Steps](8-3-next-steps.md) · 🗺️ [World Map](../intro.md)
 
 </div>
