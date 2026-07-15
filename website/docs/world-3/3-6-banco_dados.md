@@ -25,6 +25,76 @@ tags: ["agentic-devops", "mario", "world-3", "databases", "sql", "nosql", "postg
 
 ---
 
+## Table of Contents
+
+- [Prologue: Toad's Vault](#prologue-toads-vault)
+- [1. What Is a Database?](#1-what-is-a-database)
+  - [1.1 Data Is the Kingdom's Treasure](#11-data-is-the-kingdoms-treasure)
+  - [1.2 Why Not Store in Files?](#12-why-not-store-in-files)
+  - [1.3 The Role of the Database](#13-the-role-of-the-database)
+- [2. SQL vs NoSQL: Organized Chests vs Loot Bags](#2-sql-vs-nosql-organized-chests-vs-loot-bags)
+  - [2.1 Relational Databases (SQL): The Organized Castle](#21-relational-databases-sql-the-organized-castle)
+  - [2.2 Non-Relational Databases (NoSQL): The Flexible Warehouse](#22-non-relational-databases-nosql-the-flexible-warehouse)
+  - [2.3 Comparison Table: SQL vs NoSQL](#23-comparison-table-sql-vs-nosql)
+  - [2.4 When to Use Each One](#24-when-to-use-each-one)
+- [3. CRUD: The 4 Fundamental Operations](#3-crud-the-4-fundamental-operations)
+  - [3.1 Create -- Store New Treasure](#31-create----store-new-treasure)
+  - [3.2 Read -- Check the Treasure](#32-read----check-the-treasure)
+  - [3.3 Update -- Update the Treasure](#33-update----update-the-treasure)
+  - [3.4 Delete -- Remove Treasure](#34-delete----remove-treasure)
+  - [3.5 Complete CRUD Table](#35-complete-crud-table)
+- [4. Tables: The Organized Shelves](#4-tables-the-organized-shelves)
+  - [4.1 Structure of a Table](#41-structure-of-a-table)
+  - [4.2 Data Types: Types of Treasure](#42-data-types-types-of-treasure)
+  - [4.3 Primary Key: The Treasure's Unique ID](#43-primary-key-the-treasures-unique-id)
+  - [4.4 Constraints: Shelf Rules](#44-constraints-shelf-rules)
+- [5. Relationships: Connecting the Shelves](#5-relationships-connecting-the-shelves)
+  - [5.1 One-to-Many (1:N)](#51-one-to-many-1n)
+  - [5.2 Many-to-Many (M:N)](#52-many-to-many-mn)
+  - [5.3 One-to-One (1:1)](#53-one-to-one-11)
+  - [5.4 Foreign Keys: The Connecting Links](#54-foreign-keys-the-connecting-links)
+  - [5.5 TodoApp ER Diagram](#55-todoapp-er-diagram)
+- [6. SQL: The Castle's Language](#6-sql-the-castles-language)
+  - [6.1 SELECT: Search for Treasures](#61-select-search-for-treasures)
+  - [6.2 INSERT: Store Treasures](#62-insert-store-treasures)
+  - [6.3 UPDATE: Update Treasures](#63-update-update-treasures)
+  - [6.4 DELETE: Remove Treasures](#64-delete-remove-treasures)
+  - [6.5 WHERE: Filter by Condition](#65-where-filter-by-condition)
+  - [6.6 JOIN: Combine Shelves](#66-join-combine-shelves)
+  - [6.7 ORDER BY and LIMIT: Sort and Limit](#67-order-by-and-limit-sort-and-limit)
+  - [6.8 GROUP BY and Aggregations](#68-group-by-and-aggregations)
+- [7. PostgreSQL: The Most Robust Castle](#7-postgresql-the-most-robust-castle)
+  - [7.1 Why PostgreSQL?](#71-why-postgresql)
+  - [7.2 Installation and Setup](#72-installation-and-setup)
+  - [7.3 Creating the TodoApp Database](#73-creating-the-todoapp-database)
+  - [7.4 Advanced Features](#74-advanced-features)
+- [8. MongoDB: The Flexible Warehouse](#8-mongodb-the-flexible-warehouse)
+  - [8.1 Documents Instead of Tables](#81-documents-instead-of-tables)
+  - [8.2 When MongoDB Shines](#82-when-mongodb-shines)
+  - [8.3 MongoDB Example](#83-mongodb-example)
+- [9. Prisma: Toad's Magic Assistant](#9-prisma-toads-magic-assistant)
+  - [9.1 What Is an ORM?](#91-what-is-an-orm)
+  - [9.2 Prisma Schema: The Castle Map](#92-prisma-schema-the-castle-map)
+  - [9.3 Prisma Client: The Assistant](#93-prisma-client-the-assistant)
+  - [9.4 Migrations: Renovating the Castle](#94-migrations-renovating-the-castle)
+  - [9.5 Prisma Studio: The Panoramic View](#95-prisma-studio-the-panoramic-view)
+- [10. Indexes: The Catalog for Fast Searching](#10-indexes-the-catalog-for-fast-searching)
+  - [10.1 The Slow Search Problem](#101-the-slow-search-problem)
+  - [10.2 How Indexes Work](#102-how-indexes-work)
+  - [10.3 Creating Indexes](#103-creating-indexes)
+  - [10.4 When to Create and When Not to Create Indexes](#104-when-to-create-and-when-not-to-create-indexes)
+- [11. Database Security](#11-database-security)
+  - [11.1 SQL Injection: The Castle Attack](#111-sql-injection-the-castle-attack)
+  - [11.2 Backup: The Evacuation Plan](#112-backup-the-evacuation-plan)
+  - [11.3 Passwords and Secure Connections](#113-passwords-and-secure-connections)
+- [12. Databases in Practice: Complete TodoApp](#12-databases-in-practice-complete-todoapp)
+  - [12.1 Complete Schema with Prisma](#121-complete-schema-with-prisma)
+  - [12.2 Everyday Queries](#122-everyday-queries)
+  - [12.3 Docker Compose with PostgreSQL](#123-docker-compose-with-postgresql)
+- [Summary -- What We Learned in Level 3-6](#summary----what-we-learned-in-level-3-6)
+- [References](#references)
+
+---
 
 ## Prologue: Toad's Vault
 
@@ -1281,6 +1351,6 @@ $ npm run dev                       # Run the application
 
 <div align="center">
 
-⬅️ [Previous: Level 3-5: Open Source](3-5-open_source.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 3-7: Best Practices](3-7-boas_praticas.md)
+⬅️ [Previous: Level 3-5: Open Source](3-5-open_source.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-7: Best Practices](3-7-boas_praticas.md)
 
 </div>

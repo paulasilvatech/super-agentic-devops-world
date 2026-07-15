@@ -32,6 +32,22 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Prologue: The Post-Credits Scene](#prologue-the-post-credits-scene)
+- [1. The Skill Tree Extends](#1-the-skill-tree-extends)
+- [2. Microsoft Learn: The Mushroom Kingdom Academy](#2-microsoft-learn-the-mushroom-kingdom-academy)
+- [3. GitHub Skills: The Training Ground](#3-github-skills-the-training-ground)
+- [4. Certifications: The Medals of Honor](#4-certifications-the-medals-of-honor)
+- [5. Communities: The Mushroom Kingdom Guilds](#5-communities-the-mushroom-kingdom-guilds)
+- [6. Repositories and Hands-On Labs](#6-repositories-and-hands-on-labs)
+- [7. Books and Documentation](#7-books-and-documentation)
+- [8. Study Plan: The Next 90 Days](#8-study-plan-the-next-90-days)
+- [9. The Final Message: A Letter to Sofia](#9-the-final-message-a-letter-to-sofia)
+- [10. Final Summary Table](#10-final-summary-table)
+- [References](#references)
+
+---
 
 > *After saving the Princess, a new adventure begins. The credits roll, but the game isn't over — there's a whole post-game world to explore.*
 
@@ -143,6 +159,6 @@ Your Star World is the real world of software development.
 
 <div align="center">
 
-⬅️ [Previous: Level 8-2: Boss Rush](8-2-boss-rush.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 8-Final: Glossary](8-final-glossary.md)
+⬅️ [Previous: Level 8-2: Boss Rush](8-2-boss-rush.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 8-Final: Glossary](8-final-glossary.md)
 
 </div>

@@ -32,6 +32,58 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Introduction -- The Hero Evolution Mural](#introduction--the-hero-evolution-mural)
+- [Section 1 -- The 5 AI Maturity Levels](#section-1--the-5-ai-maturity-levels)
+  - [1.1 Overview of the Levels](#11-overview-of-the-levels)
+  - [1.2 Master Table: All Levels](#12-master-table-all-levels)
+- [Section 2 -- Level 0: No AI (Bare Hands)](#section-2--level-0-no-ai-bare-hands)
+  - [2.1 What Characterizes Level 0](#21-what-characterizes-level-0)
+  - [2.2 The Mario Analogy: Fighting with Bare Hands](#22-the-mario-analogy-fighting-with-bare-hands)
+  - [2.3 How It Works in Practice](#23-how-it-works-in-practice)
+  - [2.4 When You're at Level 0](#24-when-youre-at-level-0)
+- [Section 3 -- Level 1: AI-Assisted (Sword + Tip Manual)](#section-3--level-1-ai-assisted-sword--tip-manual)
+  - [3.1 What Characterizes Level 1](#31-what-characterizes-level-1)
+  - [3.2 The Mario Analogy: The Sword and the Tip Manual](#32-the-mario-analogy-the-sword-and-the-tip-manual)
+  - [3.3 Level 1 Tools](#33-level-1-tools)
+  - [3.4 The Human's Role at Level 1](#34-the-humans-role-at-level-1)
+  - [3.5 Practical Example: Writing Code at Level 1](#35-practical-example-writing-code-at-level-1)
+- [Section 4 -- Level 2: AI-Infused (Enchanted Sword)](#section-4--level-2-ai-infused-enchanted-sword)
+  - [4.1 What Characterizes Level 2](#41-what-characterizes-level-2)
+  - [4.2 The Mario Analogy: The Enchanted Sword with Built-in AI](#42-the-mario-analogy-the-enchanted-sword-with-built-in-ai)
+  - [4.3 Level 2 Tools](#43-level-2-tools)
+  - [4.4 The Difference Between Level 1 and Level 2](#44-the-difference-between-level-1-and-level-2)
+  - [4.5 Practical Example: Workflow at Level 2](#45-practical-example-workflow-at-level-2)
+- [Section 5 -- Level 3: AI-Native (Autonomous Companion)](#section-5--level-3-ai-native-autonomous-companion)
+  - [5.1 What Characterizes Level 3](#51-what-characterizes-level-3)
+  - [5.2 The Mario Analogy: The Companion that Fights Alongside You](#52-the-mario-analogy-the-companion-that-fights-alongside-you)
+  - [5.3 Spec-Driven Development: The Heart of Level 3](#53-spec-driven-development-the-heart-of-level-3)
+  - [5.4 How Spec-Driven Development Works](#54-how-spec-driven-development-works)
+  - [5.5 Level 3 Tools](#55-level-3-tools)
+  - [5.6 Practical Example: Creating a Feature at Level 3](#56-practical-example-creating-a-feature-at-level-3)
+- [Section 6 -- Level 4: AI-Autonomous (Army of Agents)](#section-6--level-4-ai-autonomous-army-of-agents)
+  - [6.1 What Characterizes Level 4](#61-what-characterizes-level-4)
+  - [6.2 The Mario Analogy: The Coordinated Army of Companions](#62-the-mario-analogy-the-coordinated-army-of-companions)
+  - [6.3 How Level 4 Works](#63-how-level-4-works)
+  - [6.4 Guardrails: The Map Boundaries](#64-guardrails-the-map-boundaries)
+  - [6.5 The Human's Role at Level 4](#65-the-humans-role-at-level-4)
+- [Section 7 -- Spec-Driven Development in Depth](#section-7--spec-driven-development-in-depth)
+  - [7.1 What is Spec-Driven Development](#71-what-is-spec-driven-development)
+  - [7.2 The Complete Flow](#72-the-complete-flow)
+  - [7.3 The Mario Analogy: The Castle Blueprint](#73-the-mario-analogy-the-castle-blueprint)
+  - [7.4 Spec-Kit: The Official Tool](#74-spec-kit-the-official-tool)
+  - [7.5 Best Practices for Writing Specs](#75-best-practices-for-writing-specs)
+- [Section 8 -- How to Identify Your Current Level](#section-8--how-to-identify-your-current-level)
+  - [8.1 Self-Assessment Checklist](#81-self-assessment-checklist)
+  - [8.2 Evolution Roadmap](#82-evolution-roadmap)
+- [Section 9 -- The Journey is Progressive, Not Instant](#section-9--the-journey-is-progressive-not-instant)
+  - [9.1 Don't Skip Levels](#91-dont-skip-levels)
+  - [9.2 Every Level Has Its Value](#92-every-level-has-its-value)
+- [What We Learned -- Summary Table](#what-we-learned--summary-table)
+- [References](#references)
+
+---
 
 ## Introduction -- The Hero Evolution Mural
 
@@ -632,6 +684,6 @@ There's no "bad" level. Each level is appropriate for different contexts:
 
 <div align="center">
 
-⬅️ [Previous: Level 5-1: DevOps Evolution](5-1_devops-evolution.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 5-3: GitHub Copilot](5-3_github-copilot.md)
+⬅️ [Previous: Level 5-1: DevOps Evolution](5-1_devops-evolution.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-3: GitHub Copilot](5-3_github-copilot.md)
 
 </div>

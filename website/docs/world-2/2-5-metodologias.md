@@ -32,6 +32,45 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Prologue: The Disorganized Team](#prologue-the-disorganized-team)
+- [1. Before Agile: The Waterfall World](#1-before-agile-the-waterfall-world)
+  - [1.1 The Waterfall Model](#11-the-waterfall-model)
+  - [1.2 Why Waterfall Fails in Software](#12-why-waterfall-fails-in-software)
+- [2. The Agile Manifesto: The New Rules of the Game](#2-the-agile-manifesto-the-new-rules-of-the-game)
+  - [2.1 The 4 Values of Agile](#21-the-4-values-of-agile)
+  - [2.2 The 12 Principles](#22-the-12-principles)
+- [3. Scrum: The Structured Tournament](#3-scrum-the-structured-tournament)
+  - [3.1 What Is Scrum?](#31-what-is-scrum)
+  - [3.2 The 3 Scrum Roles](#32-the-3-scrum-roles)
+  - [3.3 The 5 Scrum Events](#33-the-5-scrum-events)
+  - [3.4 The 3 Scrum Artifacts](#34-the-3-scrum-artifacts)
+  - [3.5 The Complete Sprint Cycle](#35-the-complete-sprint-cycle)
+- [4. Kanban: The Quest Board](#4-kanban-the-quest-board)
+  - [4.1 What Is Kanban?](#41-what-is-kanban)
+  - [4.2 The Kanban Board: To Do, Doing, Done](#42-the-kanban-board-to-do-doing-done)
+  - [4.3 WIP Limits: Simultaneous Quest Limit](#43-wip-limits-simultaneous-quest-limit)
+  - [4.4 Kanban in Practice: GitHub Projects](#44-kanban-in-practice-github-projects)
+- [5. Scrum vs Kanban: Which to Choose?](#5-scrum-vs-kanban-which-to-choose)
+- [6. User Stories: The Adventurer's Quests](#6-user-stories-the-adventurers-quests)
+  - [6.1 What Is a User Story?](#61-what-is-a-user-story)
+  - [6.2 Acceptance Criteria: The Victory Conditions](#62-acceptance-criteria-the-victory-conditions)
+  - [6.3 Story Points: The Difficulty Level](#63-story-points-the-difficulty-level)
+- [7. Tools in Practice](#7-tools-in-practice)
+  - [7.1 GitHub Issues as Quests](#71-github-issues-as-quests)
+  - [7.2 GitHub Projects as a Quest Board](#72-github-projects-as-a-quest-board)
+  - [7.3 Azure Boards](#73-azure-boards)
+- [8. Agile Ceremonies: The Team's Rituals](#8-agile-ceremonies-the-teams-rituals)
+  - [8.1 Daily Standup: Lightning Meeting](#81-daily-standup-lightning-meeting)
+  - [8.2 Sprint Planning: Dungeon Planning](#82-sprint-planning-dungeon-planning)
+  - [8.3 Sprint Review: The Boss Battle Debrief](#83-sprint-review-the-boss-battle-debrief)
+  - [8.4 Sprint Retrospective: Lessons Learned](#84-sprint-retrospective-lessons-learned)
+- [9. Common Agile Mistakes](#9-common-agile-mistakes)
+- [10. Final Summary Table](#10-final-summary-table)
+- [References](#references)
+
+---
 
 ## Prologue: The Disorganized Team
 
@@ -588,6 +627,6 @@ Improve:
 
 <div align="center">
 
-⬅️ [Previous: Level 2-4: DNS](2-4-dns.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 2-6: DevOps](2-6-devops.md)
+⬅️ [Previous: Level 2-4: DNS](2-4-dns.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-6: DevOps](2-6-devops.md)
 
 </div>

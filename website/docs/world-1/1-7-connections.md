@@ -25,6 +25,44 @@ tags: ["agentic-devops", "mario", "world-1", "complete-flow", "fundamentals"]
 
 ---
 
+## Table of Contents
+
+- [Prologue — The Complete Map of World 1](#prologue--the-complete-map-of-world-1)
+- [1. Overview: From Code to End User](#1-overview-from-code-to-end-user)
+  - [1.1 The Flow in One Sentence](#11-the-flow-in-one-sentence)
+  - [1.2 The 6 Stations of the Journey](#12-the-6-stations-of-the-journey)
+  - [1.3 Diagram: The Complete Map of World 1](#13-diagram-the-complete-map-of-world-1)
+- [2. Station 1: VS Code — Where It All Begins](#2-station-1-vs-code--where-it-all-begins)
+  - [2.1 Level 1-1 Recap](#21-level-1-1-recap)
+  - [2.2 Connections to Other Stations](#22-connections-to-other-stations)
+- [3. Station 2: Git — Saving Your Progress](#3-station-2-git--saving-your-progress)
+  - [3.1 Level 1-2 Recap](#31-level-1-2-recap)
+  - [3.2 Connections to Other Stations](#32-connections-to-other-stations)
+- [4. Station 3: GitHub — Sharing and Collaborating](#4-station-3-github--sharing-and-collaborating)
+  - [4.1 Level 1-3 Recap](#41-level-1-3-recap)
+  - [4.2 Connections to Other Stations](#42-connections-to-other-stations)
+- [5. Station 4: GitHub Actions — Automation](#5-station-4-github-actions--automation)
+  - [5.1 Level 1-4 Recap](#51-level-1-4-recap)
+  - [5.2 Connections to Other Stations](#52-connections-to-other-stations)
+- [6. Station 5: Azure — The Production World](#6-station-5-azure--the-production-world)
+  - [6.1 Level 1-5 Recap](#61-level-1-5-recap)
+  - [6.2 Connections to Other Stations](#62-connections-to-other-stations)
+- [7. Station 6: Azure AI — The Intelligence Layer](#7-station-6-azure-ai--the-intelligence-layer)
+  - [7.1 Level 1-6 Recap](#71-level-1-6-recap)
+  - [7.2 Connections to Other Stations](#72-connections-to-other-stations)
+- [8. The Complete Flow in Action — A Day in Sofia's Life](#8-the-complete-flow-in-action--a-day-in-sofias-life)
+  - [8.1 The Scenario](#81-the-scenario)
+  - [8.2 Detailed Step by Step](#82-detailed-step-by-step)
+  - [8.3 Timeline Diagram](#83-timeline-diagram)
+- [9. The ASCII Map of World 1](#9-the-ascii-map-of-world-1)
+  - [9.1 How the Pipes Connect the Levels](#91-how-the-pipes-connect-the-levels)
+  - [9.2 Complete Connection Map](#92-complete-connection-map)
+- [10. Frequently Asked Questions — "What if...?"](#10-frequently-asked-questions--what-if)
+- [11. World 1 Checklist — Are You Ready?](#11-world-1-checklist--are-you-ready)
+- [Summary — What We Learned in Level 1-7](#summary--what-we-learned-in-level-1-7)
+- [References](#references)
+
+---
 
 ## Prologue — The Complete Map of World 1
 
@@ -428,6 +466,6 @@ Before moving on to World 2, check that you've mastered the fundamentals:
 
 <div align="center">
 
-⬅️ [Previous: Level 1-6: Azure AI](1-6-azure-ai.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 1-BOSS: Exercises](1-boss-exercises.md)
+⬅️ [Previous: Level 1-6: Azure AI](1-6-azure-ai.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-BOSS: Exercises](1-boss-exercises.md)
 
 </div>

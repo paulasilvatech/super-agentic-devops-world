@@ -34,6 +34,23 @@ tags: ["agentic-devops", "mario", "world-6", "prompts", "prompt-md"]
 
 ---
 
+## TABLE OF CONTENTS
+
+- Introduction: The Warp Pipe Room
+- What are Prompt Files
+- The .prompt.md Format
+- Example 1: new-component.prompt.md
+- Example 2: add-endpoint.prompt.md
+- Example 3: create-migration.prompt.md
+- Execution Modes: Agent vs Ask
+- Prompt vs Instruction — The Difference
+- Detailed Comparative Table
+- The 3 Prompts of the TodoApp
+- Best Practices for Warp Pipes
+- Navigation
+- Skill Unlocked
+
+---
 
 ## Introduction: The Warp Pipe Room
 
@@ -413,6 +430,6 @@ Congratulations, Sofia! You're getting stronger and stronger in the Mushroom Kin
 
 <div align="center">
 
-⬅️ [Previous: Level 6-3: Custom Instructions](6-3-custom-instructions.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 6-5: Hooks](6-5-hooks.md)
+⬅️ [Previous: Level 6-3: Custom Instructions](6-3-custom-instructions.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-5: Hooks](6-5-hooks.md)
 
 </div>

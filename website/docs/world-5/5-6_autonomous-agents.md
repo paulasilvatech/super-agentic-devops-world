@@ -32,6 +32,45 @@ tags: ["agentic-devops", "mario", "world-5", "autonomous-agents", "guardrails"]
 
 ---
 
+## TABLE OF CONTENTS
+
+- [Introduction -- The Yoshi that Learned to Fly](#introduction--the-yoshi-that-learned-to-fly)
+- [Section 1 -- What Makes an Agent "Autonomous"](#section-1--what-makes-an-agent-autonomous)
+  - [Autonomous vs Assisted: The Definition](#autonomous-vs-assisted-the-definition)
+  - [The 5 Pillars of Autonomy](#the-5-pillars-of-autonomy)
+  - [Table: Assisted vs Autonomous](#table-assisted-vs-autonomous)
+- [Section 2 -- The Autonomous Planning Loop](#section-2--the-autonomous-planning-loop)
+  - [The 6 Stages of Planning](#the-6-stages-of-planning)
+  - [Complete Example: Coding Agent Solving an Issue](#complete-example-coding-agent-solving-an-issue)
+  - [The Power of Self-Evaluation](#the-power-of-self-evaluation)
+- [Section 3 -- Guardrails: The Invisible Walls](#section-3--guardrails-the-invisible-walls)
+  - [What Are Guardrails](#what-are-guardrails)
+  - [The 6 Types of Guardrails](#the-6-types-of-guardrails)
+  - [Complete Guardrails Table](#complete-guardrails-table)
+  - [Configuring Guardrails in Practice](#configuring-guardrails-in-practice)
+- [Section 4 -- Human-in-the-Loop: The Player Never Loses Control](#section-4--human-in-the-loop-the-player-never-loses-control)
+  - [What Is Human-in-the-Loop](#what-is-human-in-the-loop)
+  - [Intervention Points](#intervention-points)
+  - [The Principle of Proportional Control](#the-principle-of-proportional-control)
+- [Section 5 -- Real Examples of Autonomous Agents](#section-5--real-examples-of-autonomous-agents)
+  - [GitHub Copilot Coding Agent](#github-copilot-coding-agent)
+  - [Multi-Agent Conversations](#multi-agent-conversations)
+  - [Autonomous Agents in CI/CD](#autonomous-agents-in-cicd)
+- [Section 6 -- Trust Levels: The "I've Got This" Scale](#section-6--trust-levels-the-ive-got-this-scale)
+  - [The 4 Trust Levels](#the-4-trust-levels)
+  - [How to Level Up](#how-to-level-up)
+  - [Supervision Table by Level](#supervision-table-by-level)
+- [Section 7 -- Risks and Mitigations: The Dangers of Flying Too High](#section-7--risks-and-mitigations-the-dangers-of-flying-too-high)
+  - [The 4 Major Risks](#the-4-major-risks)
+  - [Risks and Mitigations Table](#risks-and-mitigations-table)
+  - [The Golden Rule](#the-golden-rule)
+- [Section 8 -- Building Trust: From Zero to Autonomous](#section-8--building-trust-from-zero-to-autonomous)
+  - [The 4-Week Plan](#the-4-week-plan)
+  - [Signs You Can Increase Autonomy](#signs-you-can-increase-autonomy)
+  - [Signs You Should Decrease Autonomy](#signs-you-should-decrease-autonomy)
+- [What We Learned -- Summary Table](#what-we-learned--summary-table)
+
+---
 
 ## Introduction -- The Yoshi that Learned to Fly
 
@@ -651,6 +690,6 @@ Sofia stored this power-up in her inventory and headed to the next level of the 
 
 <div align="center">
 
-⬅️ [Previous: Level 5-5: Agent Types](5-5_agent-types.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 5-7: MCP Deep Dive](5-7_mcp-deep-dive.md)
+⬅️ [Previous: Level 5-5: Agent Types](5-5_agent-types.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-7: MCP Deep Dive](5-7_mcp-deep-dive.md)
 
 </div>

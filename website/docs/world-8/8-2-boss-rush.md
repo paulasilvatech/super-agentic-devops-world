@@ -31,6 +31,63 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Prologue: The Boss Rush Arena](#prologue-the-boss-rush-arena)
+- [How the Boss Rush Works](#how-the-boss-rush-works)
+- [Boss 1: The Giant Goomba (World 1 -- Fundamentals)](#boss-1-the-giant-goomba-world-1--fundamentals)
+  - [Scenario](#scenario)
+  - [Your Mission](#your-mission)
+  - [Toad's Tips](#toads-tips)
+  - [Guided Solution](#guided-solution)
+  - [Required Power-Ups](#required-power-ups)
+- [Boss 2: The Blooper from the Depths (World 2 -- Infrastructure)](#boss-2-the-blooper-from-the-depths-world-2--infrastructure)
+  - [Scenario](#scenario-1)
+  - [Your Mission](#your-mission-1)
+  - [Toad's Tips](#toads-tips-1)
+  - [Guided Solution](#guided-solution-1)
+  - [Required Power-Ups](#required-power-ups-1)
+- [Boss 3: The Evil Lakitu (World 3 -- Tools)](#boss-3-the-evil-lakitu-world-3--tools)
+  - [Scenario](#scenario-2)
+  - [Your Mission](#your-mission-2)
+  - [Toad's Tips](#toads-tips-2)
+  - [Guided Solution](#guided-solution-2)
+  - [Required Power-Ups](#required-power-ups-2)
+- [Boss 4: The Poisonous Cheep-Cheep (World 4 -- Architecture)](#boss-4-the-poisonous-cheep-cheep-world-4--architecture)
+  - [Scenario](#scenario-3)
+  - [Your Mission](#your-mission-3)
+  - [Toad's Tips](#toads-tips-3)
+  - [Guided Solution](#guided-solution-3)
+  - [Required Power-Ups](#required-power-ups-3)
+- [Boss 5: Bowser Jr (World 5 -- AI and Agents)](#boss-5-bowser-jr-world-5--ai-and-agents)
+  - [Scenario](#scenario-4)
+  - [Your Mission](#your-mission-4)
+  - [Toad's Tips](#toads-tips-4)
+  - [Guided Solution](#guided-solution-4)
+  - [Required Power-Ups](#required-power-ups-4)
+- [Boss 6: Kamek the Illusionist (World 6 -- Copilot Ecosystem)](#boss-6-kamek-the-illusionist-world-6--copilot-ecosystem)
+  - [Scenario](#scenario-5)
+  - [Your Mission](#your-mission-5)
+  - [Toad's Tips](#toads-tips-5)
+  - [Guided Solution](#guided-solution-5)
+  - [Required Power-Ups](#required-power-ups-5)
+- [Boss 7: The Supreme Magikoopa (World 7 -- AI Frameworks)](#boss-7-the-supreme-magikoopa-world-7--ai-frameworks)
+  - [Scenario](#scenario-6)
+  - [Your Mission](#your-mission-6)
+  - [Toad's Tips](#toads-tips-6)
+  - [Guided Solution](#guided-solution-6)
+  - [Required Power-Ups](#required-power-ups-6)
+- [FINAL Boss: The Ultimate Bowser (All Worlds)](#final-boss-the-ultimate-bowser-all-worlds)
+  - [Scenario](#scenario-7)
+  - [Your Mission](#your-mission-7)
+  - [Toad's Tips](#toads-tips-7)
+  - [Guided Solution](#guided-solution-7)
+  - [Required Power-Ups](#required-power-ups-7)
+- [Final Scoreboard: Results Table](#final-scoreboard-results-table)
+- [Summary Table: Concepts per Boss](#summary-table-concepts-per-boss)
+- [References](#references)
+
+---
 
 ## Prologue: The Boss Rush Arena
 
@@ -1124,6 +1181,6 @@ RATING:
 
 <div align="center">
 
-⬅️ [Previous: Level 8-1: How Everything Connects](8-1-how-everything-connects.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 8-3: Next Steps](8-3-next-steps.md)
+⬅️ [Previous: Level 8-1: How Everything Connects](8-1-how-everything-connects.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 8-3: Next Steps](8-3-next-steps.md)
 
 </div>

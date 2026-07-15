@@ -32,6 +32,39 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ai-fundamentals"]
 
 ---
 
+## TABLE OF CONTENTS
+
+- [Introduction -- The NPC that Learned to Think](#introduction--the-npc-that-learned-to-think)
+- [Section 1 -- What Is an AI Agent, Anyway?](#section-1--what-is-an-ai-agent-anyway)
+  - [Fundamental Definition](#fundamental-definition)
+  - [The 5 Components of an Agent](#the-5-components-of-an-agent)
+  - [Table: Agent Components vs Mario Character Anatomy](#table-agent-components-vs-mario-character-anatomy)
+- [Section 2 -- The Sense-Think-Act Cycle: How an Agent Works](#section-2--the-sense-think-act-cycle-how-an-agent-works)
+  - [The Fundamental Loop](#the-fundamental-loop)
+  - [Practical Example: The Agent Solving a Bug](#practical-example-the-agent-solving-a-bug)
+  - [The Complete Loop in Detail](#the-complete-loop-in-detail)
+- [Section 3 -- Chatbot vs Agent: The Big Difference](#section-3--chatbot-vs-agent-the-big-difference)
+  - [The Regular NPC vs The NPC that Came to Life](#the-regular-npc-vs-the-npc-that-came-to-life)
+  - [Comparison Table: Chatbot vs Agent vs Autonomous Agent](#comparison-table-chatbot-vs-agent-vs-autonomous-agent)
+  - [The 3 Levels of Evolution](#the-3-levels-of-evolution)
+- [Section 4 -- The 5 Organs of an Agent in Detail](#section-4--the-5-organs-of-an-agent-in-detail)
+  - [1. The Brain (LLM)](#1-the-brain-llm)
+  - [2. The Senses (Inputs and Context)](#2-the-senses-inputs-and-context)
+  - [3. The Hands (Tools)](#3-the-hands-tools)
+  - [4. Memory (Short and Long Term)](#4-memory-short-and-long-term)
+  - [5. Goals](#5-goals)
+  - [Complete Table: The 5 Organs](#complete-table-the-5-organs)
+- [Section 5 -- The Agent Loop: Observe-Think-Plan-Act](#section-5--the-agent-loop-observe-think-plan-act)
+  - [The Complete Cycle in 6 Steps](#the-complete-cycle-in-6-steps)
+  - [Agent Loop Diagram](#agent-loop-diagram)
+  - [Real Example: GitHub Copilot as an Agent](#real-example-github-copilot-as-an-agent)
+  - [Real Example: Claude as an Agent](#real-example-claude-as-an-agent)
+- [Section 6 -- Why Agents Matter for DevOps](#section-6--why-agents-matter-for-devops)
+  - [Before and After: The World Without and With Agents](#before-and-after-the-world-without-and-with-agents)
+  - [The Future that Has Already Begun](#the-future-that-has-already-begun)
+- [What We Learned -- Summary Table](#what-we-learned--summary-table)
+
+---
 
 ## Introduction -- The NPC that Learned to Think
 
@@ -238,7 +271,7 @@ Sofia now understands what an AI Agent is -- not just as a concept, but as funct
 
 <div align="center">
 
-⬅️ [Previous: Level 5-3: GitHub Copilot](5-3_github-copilot.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 5-5: Agent Types](5-5_agent-types.md)
+⬅️ [Previous: Level 5-3: GitHub Copilot](5-3_github-copilot.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-5: Agent Types](5-5_agent-types.md)
 
 </div>
 

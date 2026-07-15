@@ -33,6 +33,47 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Prologue: The Blind Player](#prologue-the-blind-player)
+- [1. What is Observability?](#1-what-is-observability)
+  - [1.1 The 3 Pillars of Observability](#11-the-3-pillars-of-observability)
+  - [1.2 Monitoring vs Observability](#12-monitoring-vs-observability)
+- [2. Logs: Mario's Diary](#2-logs-marios-diary)
+  - [2.1 What Are Logs?](#21-what-are-logs)
+  - [2.2 Log Levels](#22-log-levels)
+  - [2.3 Structured Logging: The Organized Diary](#23-structured-logging-the-organized-diary)
+  - [2.4 What to Log (and What NOT to Log)](#24-what-to-log-and-what-not-to-log)
+- [3. Metrics: The Health Bar and the Coin Counter](#3-metrics-the-health-bar-and-the-coin-counter)
+  - [3.1 What Are Metrics?](#31-what-are-metrics)
+  - [3.2 The 4 Golden Signals](#32-the-4-golden-signals)
+  - [3.3 Business Metrics vs Technical Metrics](#33-business-metrics-vs-technical-metrics)
+  - [3.4 RED and USE: Two Metrics Frameworks](#34-red-and-use-two-metrics-frameworks)
+- [4. Traces: The Journey Map](#4-traces-the-journey-map)
+  - [4.1 What Are Traces?](#41-what-are-traces)
+  - [4.2 Distributed Tracing: Following Toad](#42-distributed-tracing-following-toad)
+- [5. Alerts: The Danger Jingle](#5-alerts-the-danger-jingle)
+  - [5.1 What Are Alerts?](#51-what-are-alerts)
+  - [5.2 Configuring Smart Alerts](#52-configuring-smart-alerts)
+  - [5.3 Alert Fatigue: The Boy Who Cried Wolf](#53-alert-fatigue-the-boy-who-cried-wolf)
+- [6. Dashboards: The Pause Screen](#6-dashboards-the-pause-screen)
+  - [6.1 What is a Dashboard?](#61-what-is-a-dashboard)
+  - [6.2 Ideal Dashboard for the TodoApp](#62-ideal-dashboard-for-the-todoapp)
+- [7. Azure Monitor: The Command Center](#7-azure-monitor-the-command-center)
+  - [7.1 What is Azure Monitor?](#71-what-is-azure-monitor)
+  - [7.2 Azure Monitor Components](#72-azure-monitor-components)
+- [8. Application Insights: The Application X-Ray](#8-application-insights-the-application-x-ray)
+  - [8.1 What is Application Insights?](#81-what-is-application-insights)
+  - [8.2 Setting Up in the TodoApp](#82-setting-up-in-the-todoapp)
+  - [8.3 What You Get Automatically](#83-what-you-get-automatically)
+- [9. Practice: Implementing Observability in the TodoApp](#9-practice-implementing-observability-in-the-todoapp)
+  - [9.1 Adding Structured Logs](#91-adding-structured-logs)
+  - [9.2 Custom Metrics](#92-custom-metrics)
+  - [9.3 Health Checks](#93-health-checks)
+- [10. Final Summary Table](#10-final-summary-table)
+- [References](#references)
+
+---
 
 ## Prologue: The Blind Player
 
@@ -678,6 +719,6 @@ async function checkDatabase() {
 
 <div align="center">
 
-⬅️ [Previous: Level 2-6: DevOps](2-6-devops.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 2-BOSS: Exercises](2-BOSS-exercicios.md)
+⬅️ [Previous: Level 2-6: DevOps](2-6-devops.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-BOSS: Exercises](2-BOSS-exercicios.md)
 
 </div>

@@ -32,6 +32,48 @@ tags: ["agentic-devops", "mario", "world-7", "ai-foundry", "azure-ai"]
 
 ---
 
+## TABLE OF CONTENTS
+
+- [Prologue: Entering Magikoopa's Forge](#prologue-entering-magikoopas-forge)
+- [1. What is Azure AI Foundry?](#1-what-is-azure-ai-foundry)
+  - [1.1 From Azure AI Studio to Azure AI Foundry](#11-from-azure-ai-studio-to-azure-ai-foundry)
+  - [1.2 Why a Forge?](#12-why-a-forge)
+  - [1.3 The Mario Analogy: Magikoopa's Laboratory](#13-the-mario-analogy-magikoopas-laboratory)
+- [2. The Components of the Forge](#2-the-components-of-the-forge)
+  - [2.1 Model Catalog — The Spell Book Shelf](#21-model-catalog--the-spell-book-shelf)
+  - [2.2 Prompt Flow — The Enchantment Recipe](#22-prompt-flow--the-enchantment-recipe)
+  - [2.3 Evaluation — The Testing Arena](#23-evaluation--the-testing-arena)
+  - [2.4 Deployment — To the Battlefield](#24-deployment--to-the-battlefield)
+  - [2.5 Complete Table: Forge Components](#25-complete-table-forge-components)
+- [3. Available Models: The Spell Arsenal](#3-available-models-the-spell-arsenal)
+  - [3.1 OpenAI Models (GPT)](#31-openai-models-gpt)
+  - [3.2 Open-Source and Partner Models](#32-open-source-and-partner-models)
+  - [3.3 Model Table: Which Spell to Choose?](#33-model-table-which-spell-to-choose)
+- [4. Prompt Flow: The Enchantment Recipe in Detail](#4-prompt-flow-the-enchantment-recipe-in-detail)
+  - [4.1 What is a Flow?](#41-what-is-a-flow)
+  - [4.2 Types of Nodes](#42-types-of-nodes)
+  - [4.3 Visual Example: Customer Service Flow](#43-visual-example-customer-service-flow)
+  - [4.4 The Mario Analogy: Building a Potion Recipe](#44-the-mario-analogy-building-a-potion-recipe)
+- [5. Fine-Tuning: Modifying Spells for Your Enemies](#5-fine-tuning-modifying-spells-for-your-enemies)
+  - [5.1 What is Fine-Tuning?](#51-what-is-fine-tuning)
+  - [5.2 When to Use Fine-Tuning?](#52-when-to-use-fine-tuning)
+  - [5.3 The Fine-Tuning Process](#53-the-fine-tuning-process)
+  - [5.4 The Mario Analogy: Customizing the Spell](#54-the-mario-analogy-customizing-the-spell)
+- [6. RAG in Azure AI Foundry](#6-rag-in-azure-ai-foundry)
+  - [6.1 Integration with Azure AI Search](#61-integration-with-azure-ai-search)
+  - [6.2 Adding Your Data to the Model](#62-adding-your-data-to-the-model)
+  - [6.3 The Mario Analogy: Giving the Wizard a Library](#63-the-mario-analogy-giving-the-wizard-a-library)
+- [7. Security and Responsible AI](#7-security-and-responsible-ai)
+  - [7.1 Content Safety](#71-content-safety)
+  - [7.2 Responsible AI Dashboard](#72-responsible-ai-dashboard)
+  - [7.3 The Mario Analogy: The Rules of the Forge](#73-the-mario-analogy-the-rules-of-the-forge)
+- [8. Hands-On: Creating a Simple Chatbot in AI Foundry](#8-hands-on-creating-a-simple-chatbot-in-ai-foundry)
+  - [8.1 Complete Step by Step](#81-complete-step-by-step)
+  - [8.2 Testing Your Chatbot](#82-testing-your-chatbot)
+  - [8.3 Publishing Your Chatbot](#83-publishing-your-chatbot)
+- [9. Final Table: Component / Function / Mario Analogy](#9-final-table-component--function--mario-analogy)
+
+---
 
 ## Prologue: Entering Magikoopa's Forge
 
@@ -823,6 +865,6 @@ The next level will lead her to discover the **Magic Library** — RAG, the powe
 
 <div align="center">
 
-⬅️ [Previous: Level 6-BOSS: Quick Reference](../world-6/6-boss-quick-reference.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 7-2: RAG](7-2-rag.md)
+⬅️ [Previous: Level 6-BOSS: Quick Reference](../world-6-bowser-castle-2/6-boss-quick-reference.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-2: RAG](7-2-rag.md)
 
 </div>

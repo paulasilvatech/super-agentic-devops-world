@@ -33,6 +33,21 @@ tags: ["agentic-devops", "mario", "world-7", "semantic-kernel", "autogen", "ai-a
 
 ---
 
+## TABLE OF CONTENTS
+
+1. [Introduction — The Workshop of Heroes](#introduction)
+2. [The Microsoft Ecosystem for AI Agents](#ecosystem)
+3. [Semantic Kernel — The Universal Magic Engine](#semantic-kernel)
+4. [AutoGen — The Automatic Team Builder](#autogen)
+5. [AI Agents SDK (Azure AI Agent Service) — The Official Development Kit](#ai-agents-sdk)
+6. [Copilot Studio — The Mario Maker of Agents](#copilot-studio)
+7. [Comparative Table — The 4 Frameworks](#comparative-table)
+8. [When to Use Which — Decision Guide](#when-to-use)
+9. [How They Connect — Complementary Pieces](#how-they-connect)
+10. [Practical Example with Semantic Kernel](#practical-example)
+11. [Conclusion — The Complete Arsenal](#conclusion)
+
+---
 
 ## Introduction — The Workshop of Heroes
 
@@ -758,6 +773,6 @@ She collects the Universal Controller, the Team Builder, the Official Kit and Ma
 
 <div align="center">
 
-⬅️ [Previous: Level 7-3: LangChain](7-3-langchain.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 7-5: Four Channels](7-5-four-channels.md)
+⬅️ [Previous: Level 7-3: LangChain](7-3-langchain.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-5: Four Channels](7-5-four-channels.md)
 
 </div>
