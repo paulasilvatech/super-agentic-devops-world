@@ -25,6 +25,59 @@ tags: ["agentic-devops", "mario", "world-3", "open-source", "licenses", "github"
 
 ---
 
+## Table of Contents
+
+- [Prologue: The World of Custom Levels](#prologue-the-world-of-custom-levels)
+- [1. What Is Open Source?](#1-what-is-open-source)
+  - [1.1 Open Code: The Visible Recipe](#11-open-code-the-visible-recipe)
+  - [1.2 Open Source vs Closed Source vs Free Software](#12-open-source-vs-closed-source-vs-free-software)
+  - [1.3 Why Do Companies Invest in Open Source?](#13-why-do-companies-invest-in-open-source)
+- [2. The History That Changed the World](#2-the-history-that-changed-the-world)
+  - [2.1 From Laboratories to Linux](#21-from-laboratories-to-linux)
+  - [2.2 The GitHub Revolution](#22-the-github-revolution)
+  - [2.3 Open Source Today: Impressive Numbers](#23-open-source-today-impressive-numbers)
+- [3. Licenses: The Rules of Sharing](#3-licenses-the-rules-of-sharing)
+  - [3.1 Why Do Licenses Matter?](#31-why-do-licenses-matter)
+  - [3.2 MIT: Share Freely](#32-mit-share-freely)
+  - [3.3 Apache 2.0: Share with Credit](#33-apache-20-share-with-credit)
+  - [3.4 GPL: Share and Everyone Must Share](#34-gpl-share-and-everyone-must-share)
+  - [3.5 BSD: The Simplest of All](#35-bsd-the-simplest-of-all)
+  - [3.6 ISC and Unlicense: The Bare Minimum](#36-isc-and-unlicense-the-bare-minimum)
+  - [3.7 License Comparison Table](#37-license-comparison-table)
+  - [3.8 How to Choose the Right License](#38-how-to-choose-the-right-license)
+- [4. Essential Open Source Projects for Devs](#4-essential-open-source-projects-for-devs)
+  - [4.1 Languages and Runtimes](#41-languages-and-runtimes)
+  - [4.2 Frameworks and Libraries](#42-frameworks-and-libraries)
+  - [4.3 Tools and Infrastructure](#43-tools-and-infrastructure)
+- [5. How to Contribute: Helping Build Community Levels](#5-how-to-contribute-helping-build-community-levels)
+  - [5.1 Ways to Contribute (Not Just Code!)](#51-ways-to-contribute-not-just-code)
+  - [5.2 Finding Your First Project](#52-finding-your-first-project)
+  - [5.3 The Complete Contribution Workflow](#53-the-complete-contribution-workflow)
+  - [5.4 Anatomy of a Good Pull Request](#54-anatomy-of-a-good-pull-request)
+  - [5.5 Etiquette and Best Practices](#55-etiquette-and-best-practices)
+- [6. Fork: Creating Your Alternate Version](#6-fork-creating-your-alternate-version)
+  - [6.1 What Is a Fork?](#61-what-is-a-fork)
+  - [6.2 Fork to Contribute vs Fork to Diverge](#62-fork-to-contribute-vs-fork-to-diverge)
+  - [6.3 Famous Forks That Changed the World](#63-famous-forks-that-changed-the-world)
+- [7. Open Source Communities: The Kingdoms of the Mushroom Kingdom](#7-open-source-communities-the-kingdoms-of-the-mushroom-kingdom)
+  - [7.1 How Communities Work](#71-how-communities-work)
+  - [7.2 Roles in the Community](#72-roles-in-the-community)
+  - [7.3 Code of Conduct](#73-code-of-conduct)
+- [8. Creating Your Own Open Source Project](#8-creating-your-own-open-source-project)
+  - [8.1 Launch Checklist](#81-launch-checklist)
+  - [8.2 README: The Level Manual](#82-readme-the-level-manual)
+  - [8.3 CONTRIBUTING.md: The Guide for New Players](#83-contributingmd-the-guide-for-new-players)
+- [9. Open Source and Career](#9-open-source-and-career)
+  - [9.1 How Open Source Boosts Your Career](#91-how-open-source-boosts-your-career)
+  - [9.2 GitHub Profile as Portfolio](#92-github-profile-as-portfolio)
+  - [9.3 Incentive Programs](#93-incentive-programs)
+- [10. Security and Responsibility in Open Source](#10-security-and-responsibility-in-open-source)
+  - [10.1 Supply Chain Security](#101-supply-chain-security)
+  - [10.2 Dependabot and Updates](#102-dependabot-and-updates)
+- [Summary -- What We Learned in Level 3-5](#summary----what-we-learned-in-level-3-5)
+- [References](#references)
+
+---
 
 ## Prologue: The World of Custom Levels
 
@@ -642,6 +695,6 @@ $ npm install express
 
 <div align="center">
 
-⬅️ [Previous: Level 3-4: Tests](3-4-testes.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 3-6: Databases](3-6-banco_dados.md)
+⬅️ [Previous: Level 3-4: Tests](3-4-testes.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-6: Databases](3-6-banco_dados.md)
 
 </div>

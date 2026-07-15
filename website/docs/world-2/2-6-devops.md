@@ -33,6 +33,41 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Prologue: The War between Two Guilds](#prologue-the-war-between-two-guilds)
+- [1. The Problem: Devs vs Ops](#1-the-problem-devs-vs-ops)
+  - [1.1 The World Before DevOps](#11-the-world-before-devops)
+  - [1.2 The Wall of Confusion](#12-the-wall-of-confusion)
+- [2. DevOps: The Great Alliance](#2-devops-the-great-alliance)
+  - [2.1 What is DevOps?](#21-what-is-devops)
+  - [2.2 The 3 Pillars: Culture, Automation, Measurement](#22-the-3-pillars-culture-automation-measurement)
+  - [2.3 The Infinite Loop of DevOps](#23-the-infinite-loop-of-devops)
+- [3. CI/CD: The Hard-Working Lakitus (In-Depth Review)](#3-cicd-the-hard-working-lakitus-in-depth-review)
+  - [3.1 Continuous Integration (CI)](#31-continuous-integration-ci)
+  - [3.2 Continuous Delivery vs Continuous Deployment](#32-continuous-delivery-vs-continuous-deployment)
+  - [3.3 Full Pipeline: From Code to User](#33-full-pipeline-from-code-to-user)
+- [4. Infrastructure as Code (IaC): The Magic Blueprints](#4-infrastructure-as-code-iac-the-magic-blueprints)
+  - [4.1 The Problem: Building Castles Manually](#41-the-problem-building-castles-manually)
+  - [4.2 The Solution: Self-Building Blueprints](#42-the-solution-self-building-blueprints)
+  - [4.3 Declarative vs Imperative](#43-declarative-vs-imperative)
+- [5. Terraform: The Universal Blueprint Language](#5-terraform-the-universal-blueprint-language)
+  - [5.1 What is Terraform?](#51-what-is-terraform)
+  - [5.2 HCL: The Language of Blueprints](#52-hcl-the-language-of-blueprints)
+  - [5.3 The 4 Fundamental Commands](#53-the-4-fundamental-commands)
+  - [5.4 Practical Example: Creating Infrastructure on Azure](#54-practical-example-creating-infrastructure-on-azure)
+  - [5.5 State: Terraform's Memory](#55-state-terraforms-memory)
+- [6. Bicep: Azure's Native Language](#6-bicep-azures-native-language)
+  - [6.1 What is Bicep?](#61-what-is-bicep)
+  - [6.2 Bicep vs ARM Templates](#62-bicep-vs-arm-templates)
+  - [6.3 Practical Example in Bicep](#63-practical-example-in-bicep)
+- [7. ARM Templates: The Original Scrolls](#7-arm-templates-the-original-scrolls)
+- [8. Terraform vs Bicep vs ARM: Which One to Choose?](#8-terraform-vs-bicep-vs-arm-which-one-to-choose)
+- [9. GitOps: Versioned Infrastructure](#9-gitops-versioned-infrastructure)
+- [10. Final Summary Table](#10-final-summary-table)
+- [References](#references)
+
+---
 
 ## Prologue: The War between Two Guilds
 
@@ -622,6 +657,6 @@ Benefits:
 
 <div align="center">
 
-⬅️ [Previous: Level 2-5: Methodologies](2-5-metodologias.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 2-7: Observability](2-7-observabilidade.md)
+⬅️ [Previous: Level 2-5: Methodologies](2-5-metodologias.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-7: Observability](2-7-observabilidade.md)
 
 </div>

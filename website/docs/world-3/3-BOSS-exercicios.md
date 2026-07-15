@@ -35,6 +35,47 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Prologue: Kamek the Magikoopa Appears](#prologue-kamek-the-magikoopa-appears)
+- [1. Boss Battle Rules](#1-boss-battle-rules)
+- [2. Quest 3-1: The Docker Fortress (Dockerfile)](#2-quest-3-1-the-docker-fortress-dockerfile)
+  - [2.1 Exercise: Create a Basic Dockerfile](#21-exercise-create-a-basic-dockerfile)
+  - [2.2 Exercise: Multi-Stage Build](#22-exercise-multi-stage-build)
+  - [2.3 BONUS Challenge: Complete Docker Compose](#23-bonus-challenge-complete-docker-compose)
+- [3. Quest 3-2: The Training Ground (Tests with Jest)](#3-quest-3-2-the-training-ground-tests-with-jest)
+  - [3.1 Exercise: First Unit Tests](#31-exercise-first-unit-tests)
+  - [3.2 Exercise: Tests with Mocks](#32-exercise-tests-with-mocks)
+  - [3.3 BONUS Challenge: 80% Coverage](#33-bonus-challenge-80-coverage)
+- [4. Quest 3-3: The Inventory (package.json)](#4-quest-3-3-the-inventory-packagejson)
+  - [4.1 Exercise: Create a Complete package.json](#41-exercise-create-a-complete-packagejson)
+  - [4.2 Exercise: Advanced Scripts](#42-exercise-advanced-scripts)
+  - [4.3 BONUS Challenge: Security Audit](#43-bonus-challenge-security-audit)
+- [5. Quest 3-4: Terminal Magic](#5-quest-3-4-terminal-magic)
+  - [5.1 Exercise: Essential Commands](#51-exercise-essential-commands)
+  - [5.2 Exercise: Pipes and Chaining](#52-exercise-pipes-and-chaining)
+  - [5.3 BONUS Challenge: Automation Script](#53-bonus-challenge-automation-script)
+- [6. Quest 3-5: Class Selection (Languages)](#6-quest-3-5-class-selection-languages)
+  - [6.1 Exercise: Identify Languages by Scenario](#61-exercise-identify-languages-by-scenario)
+  - [6.2 Exercise: Hello World in 3 Languages](#62-exercise-hello-world-in-3-languages)
+  - [6.3 BONUS Challenge: Compare Performance](#63-bonus-challenge-compare-performance)
+- [7. Quest 3-6: The Armory (Frameworks)](#7-quest-3-6-the-armory-frameworks)
+  - [7.1 Exercise: Create an API with Express](#71-exercise-create-an-api-with-express)
+  - [7.2 Exercise: Frontend with React](#72-exercise-frontend-with-react)
+  - [7.3 BONUS Challenge: Full-Stack with Next.js](#73-bonus-challenge-full-stack-with-nextjs)
+- [8. Quest 3-7: Guild Rules (Best Practices)](#8-quest-3-7-guild-rules-best-practices)
+  - [8.1 Exercise: Create a Professional Repository](#81-exercise-create-a-professional-repository)
+  - [8.2 Exercise: CODEOWNERS and CONTRIBUTING](#82-exercise-codeowners-and-contributing)
+  - [8.3 BONUS Challenge: Release with SemVer](#83-bonus-challenge-release-with-semver)
+- [9. Quest 3-8: The Internet Pipes](#9-quest-3-8-the-internet-pipes)
+  - [9.1 Exercise: Explore with curl](#91-exercise-explore-with-curl)
+  - [9.2 Exercise: Status Codes in Practice](#92-exercise-status-codes-in-practice)
+  - [9.3 BONUS Challenge: Investigate DNS](#93-bonus-challenge-investigate-dns)
+- [10. Final Boss Battle: Kamek's Integrated Challenge](#10-final-boss-battle-kameks-integrated-challenge)
+- [11. Scoring Table and Self-Assessment](#11-scoring-table-and-self-assessment)
+- [References](#references)
+
+---
 
 ## Prologue: Kamek the Magikoopa Appears
 
@@ -899,6 +940,6 @@ After completing the exercises, answer:
 
 <div align="center">
 
-⬅️ [Previous: Level 3-11: Packages](3-11-pacotes.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 4-1: Auth](../world-4/4-1-auth.md)
+⬅️ [Previous: Level 3-11: Packages](3-11-pacotes.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-1: Auth](../world-4-water/4-1-auth.md)
 
 </div>

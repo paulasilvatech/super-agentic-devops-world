@@ -25,6 +25,25 @@ tags: ["agentic-devops", "mario", "world-1", "exercises", "boss-battle", "fundam
 
 ---
 
+## Table of Contents
+
+- [Prologue — Bowser Jr. Awaits You](#prologue--bowser-jr-awaits-you)
+- [The Rules of the Boss Battle](#the-rules-of-the-boss-battle)
+- [Quest 1 — Turn On the Console (VS Code)](#quest-1--turn-on-the-console-vs-code)
+- [Quest 2 — First Save Game (Git)](#quest-2--first-save-game-git)
+- [Quest 3 — Join the Multiplayer Server (GitHub)](#quest-3--join-the-multiplayer-server-github)
+- [Quest 4 — First Push (Git + GitHub)](#quest-4--first-push-git--github)
+- [Quest 5 — Quest Board (Issues)](#quest-5--quest-board-issues)
+- [Quest 6 — Parallel Universe (Branches and PR)](#quest-6--parallel-universe-branches-and-pr)
+- [Quest 7 — Wake Up the Lakitu (GitHub Actions)](#quest-7--wake-up-the-lakitu-github-actions)
+- [Quest 8 — Ask the Companion for Help (Copilot)](#quest-8--ask-the-companion-for-help-copilot)
+- [Quest 9 — Explore the Open World (Azure)](#quest-9--explore-the-open-world-azure)
+- [Quest 10 — Final Boss: The Mushroom Kingdom Project](#quest-10--final-boss-the-mushroom-kingdom-project)
+- [Answer Key and Tips](#answer-key-and-tips)
+- [Final Score — Rate Your Performance](#final-score--rate-your-performance)
+- [References](#references)
+
+---
 
 ## Prologue — Bowser Jr. Awaits You
 
@@ -659,6 +678,6 @@ If something goes wrong, read the error message carefully. 90% of the time, the 
 
 <div align="center">
 
-⬅️ [Previous: Level 1-7: Connections](1-7-connections.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 2-1: Environments](../world-2/2-1-ambientes.md)
+⬅️ [Previous: Level 1-7: Connections](1-7-connections.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-1: Environments](../world-2-underground/2-1-ambientes.md)
 
 </div>

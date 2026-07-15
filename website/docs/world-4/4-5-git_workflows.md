@@ -33,6 +33,52 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Prologue: The Branch Chaos](#prologue-the-branch-chaos)
+- [1. What Is a Git Workflow?](#1-what-is-a-git-workflow)
+  - [1.1 Why We Need Rules](#11-why-we-need-rules)
+  - [1.2 Fundamental Concepts](#12-fundamental-concepts)
+- [2. Git Flow: The Formal Tournament](#2-git-flow-the-formal-tournament)
+  - [2.1 The 5 Branches of Git Flow](#21-the-5-branches-of-git-flow)
+  - [2.2 Complete Diagram](#22-complete-diagram)
+  - [2.3 Feature Flow](#23-feature-flow)
+  - [2.4 Release Flow](#24-release-flow)
+  - [2.5 Hotfix Flow](#25-hotfix-flow)
+  - [2.6 When to Use Git Flow](#26-when-to-use-git-flow)
+- [3. GitHub Flow: The Casual Match](#3-github-flow-the-casual-match)
+  - [3.1 Simple Rules](#31-simple-rules)
+  - [3.2 The Complete Flow](#32-the-complete-flow)
+  - [3.3 Pull Requests: The Heart of GitHub Flow](#33-pull-requests-the-heart-of-github-flow)
+  - [3.4 When to Use GitHub Flow](#34-when-to-use-github-flow)
+- [4. Trunk-Based Development: Everyone on the Same Field](#4-trunk-based-development-everyone-on-the-same-field)
+  - [4.1 The Philosophy](#41-the-philosophy)
+  - [4.2 How It Works](#42-how-it-works)
+  - [4.3 Feature Flags in Trunk-Based](#43-feature-flags-in-trunk-based)
+  - [4.4 When to Use Trunk-Based](#44-when-to-use-trunk-based)
+- [5. GitLab Flow: The Middle Ground](#5-gitlab-flow-the-middle-ground)
+  - [5.1 Environment Branches](#51-environment-branches)
+  - [5.2 Release Branches](#52-release-branches)
+  - [5.3 When to Use GitLab Flow](#53-when-to-use-gitlab-flow)
+- [6. Branching: Parallel Universes](#6-branching-parallel-universes)
+  - [6.1 Branch Naming Conventions](#61-branch-naming-conventions)
+  - [6.2 Branch Protection Rules](#62-branch-protection-rules)
+  - [6.3 Branching Best Practices](#63-branching-best-practices)
+- [7. Merge: When Universes Collide](#7-merge-when-universes-collide)
+  - [7.1 Merge Strategies](#71-merge-strategies)
+  - [7.2 Merge Conflicts: The Collision](#72-merge-conflicts-the-collision)
+  - [7.3 Resolving Conflicts](#73-resolving-conflicts)
+- [8. Code Review in the Workflow](#8-code-review-in-the-workflow)
+  - [8.1 The Review Process](#81-the-review-process)
+  - [8.2 Review Checklist](#82-review-checklist)
+  - [8.3 Automated Checks](#83-automated-checks)
+- [9. Workflow Comparison](#9-workflow-comparison)
+  - [9.1 Comparison Table](#91-comparison-table)
+  - [9.2 Decision Tree](#92-decision-tree)
+- [10. Final Summary Table](#10-final-summary-table)
+- [References](#references)
+
+---
 
 ## Prologue: The Branch Chaos
 
@@ -768,6 +814,6 @@ Need to maintain multiple versions in production?
 
 <div align="center">
 
-⬅️ [Previous: Level 4-4: Advanced Deploy](4-4-deploy_avancado.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 4-6: Data Structures](4-6-estruturas_dados.md)
+⬅️ [Previous: Level 4-4: Advanced Deploy](4-4-deploy_avancado.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-6: Data Structures](4-6-estruturas_dados.md)
 
 </div>

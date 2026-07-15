@@ -33,6 +33,54 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Prologue: The Mushroom Kingdom Plumbing](#prologue-the-mushroom-kingdom-plumbing)
+- [1. What Is the Internet, Anyway?](#1-what-is-the-internet-anyway)
+  - [1.1 The Network of Networks](#11-the-network-of-networks)
+  - [1.2 A Brief History](#12-a-brief-history)
+  - [1.3 Internet vs Web](#13-internet-vs-web)
+- [2. TCP/IP: The Plumbing System](#2-tcpip-the-plumbing-system)
+  - [2.1 The 4-Layer Model](#21-the-4-layer-model)
+  - [2.2 IP: The Address of Each Pipe](#22-ip-the-address-of-each-pipe)
+  - [2.3 TCP vs UDP: Reliable vs Fast Plumbing](#23-tcp-vs-udp-reliable-vs-fast-plumbing)
+  - [2.4 How Data Travels](#24-how-data-travels)
+- [3. HTTP and HTTPS: The Water in the Pipes](#3-http-and-https-the-water-in-the-pipes)
+  - [3.1 What Is HTTP](#31-what-is-http)
+  - [3.2 Anatomy of an HTTP Request](#32-anatomy-of-an-http-request)
+  - [3.3 HTTP Methods: The Types of Messages](#33-http-methods-the-types-of-messages)
+  - [3.4 HTTPS: Armored Pipes](#34-https-armored-pipes)
+- [4. DNS: The Kingdom's Postal Service](#4-dns-the-kingdoms-postal-service)
+  - [4.1 What Is DNS](#41-what-is-dns)
+  - [4.2 How DNS Resolution Works](#42-how-dns-resolution-works)
+  - [4.3 DNS Record Types](#43-dns-record-types)
+  - [4.4 DNS in Practice](#44-dns-in-practice)
+- [5. Ports: The Numbered Pipe Entrances](#5-ports-the-numbered-pipe-entrances)
+  - [5.1 What Are Ports](#51-what-are-ports)
+  - [5.2 Important Ports](#52-important-ports)
+  - [5.3 Ports in Local Development](#53-ports-in-local-development)
+- [6. Request and Response: Round Trip Through the Pipe](#6-request-and-response-round-trip-through-the-pipe)
+  - [6.1 The Complete Cycle](#61-the-complete-cycle)
+  - [6.2 Headers: Labels on the Package](#62-headers-labels-on-the-package)
+  - [6.3 Body: The Package Contents](#63-body-the-package-contents)
+- [7. Status Codes: The Response Codes](#7-status-codes-the-response-codes)
+  - [7.1 The 5 Status Families](#71-the-5-status-families)
+  - [7.2 The Most Important Status Codes](#72-the-most-important-status-codes)
+  - [7.3 Status Codes with Mario Analogies](#73-status-codes-with-mario-analogies)
+- [8. URLs: The Complete Address](#8-urls-the-complete-address)
+  - [8.1 Anatomy of a URL](#81-anatomy-of-a-url)
+  - [8.2 Query Parameters and Fragments](#82-query-parameters-and-fragments)
+- [9. How Everything Connects: The Path of a Request](#9-how-everything-connects-the-path-of-a-request)
+  - [9.1 Complete Step by Step](#91-complete-step-by-step)
+  - [9.2 Visual Diagram](#92-visual-diagram)
+- [10. Tools for Exploring the Network](#10-tools-for-exploring-the-network)
+  - [10.1 curl: The Terminal Plumber](#101-curl-the-terminal-plumber)
+  - [10.2 Browser DevTools: X-Ray of the Pipes](#102-browser-devtools-x-ray-of-the-pipes)
+  - [10.3 Postman and Insomnia: Control Panel](#103-postman-and-insomnia-control-panel)
+- [11. Final Summary Table](#11-final-summary-table)
+- [References](#references)
+
+---
 
 ## Prologue: The Mushroom Kingdom Plumbing
 
@@ -719,6 +767,6 @@ To test APIs visually, use tools like **Postman** or **Insomnia**:
 
 <div align="center">
 
-⬅️ [Previous: Level 3-7: Best Practices](3-7-boas_praticas.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 3-9: Languages](3-9-linguagens.md)
+⬅️ [Previous: Level 3-7: Best Practices](3-7-boas_praticas.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-9: Languages](3-9-linguagens.md)
 
 </div>

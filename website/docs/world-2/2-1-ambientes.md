@@ -32,6 +32,37 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Prologue: The Three Copies of the Mushroom Kingdom](#prologue-the-three-copies-of-the-mushroom-kingdom)
+- [1. Why Do We Need Different Environments?](#1-why-do-we-need-different-environments)
+  - [1.1 The Problem with Testing in the Real World](#11-the-problem-with-testing-in-the-real-world)
+  - [1.2 The Solution: Parallel Worlds](#12-the-solution-parallel-worlds)
+- [2. The Three Worlds: Dev, Staging, and Production](#2-the-three-worlds-dev-staging-and-production)
+  - [2.1 World 1 -- Development (Dev): The Training Ground](#21-world-1----development-dev-the-training-ground)
+  - [2.2 World 2 -- Staging: The Dress Rehearsal](#22-world-2----staging-the-dress-rehearsal)
+  - [2.3 World 3 -- Production: The Real Castle](#23-world-3----production-the-real-castle)
+- [3. Comparison Table: The Three Worlds](#3-comparison-table-the-three-worlds)
+- [4. How Code Travels Between Worlds](#4-how-code-travels-between-worlds)
+  - [4.1 The Promotion Pipeline](#41-the-promotion-pipeline)
+  - [4.2 The Gateway Rules](#42-the-gateway-rules)
+  - [4.3 Diagram: The Code Journey](#43-diagram-the-code-journey)
+- [5. Environments in Practice: Azure and GitHub](#5-environments-in-practice-azure-and-github)
+  - [5.1 Branches as Portals](#51-branches-as-portals)
+  - [5.2 Azure App Service Slots](#52-azure-app-service-slots)
+  - [5.3 Environment Variables per World](#53-environment-variables-per-world)
+- [6. Local Environments vs Cloud Environments](#6-local-environments-vs-cloud-environments)
+  - [6.1 Your Computer: The Tutorial World](#61-your-computer-the-tutorial-world)
+  - [6.2 Docker: Packing the World in a Box](#62-docker-packing-the-world-in-a-box)
+- [7. Classic Mistakes and How to Avoid Them](#7-classic-mistakes-and-how-to-avoid-them)
+  - [7.1 The 5 Deadly Sins of Environments](#71-the-5-deadly-sins-of-environments)
+  - [7.2 Horror Stories: Deploying Straight to Production](#72-horror-stories-deploying-straight-to-production)
+- [8. Feature Flags: Hidden Secrets in the Worlds](#8-feature-flags-hidden-secrets-in-the-worlds)
+- [9. Ephemeral Environments: Temporary Worlds](#9-ephemeral-environments-temporary-worlds)
+- [10. Final Summary Table](#10-final-summary-table)
+- [References](#references)
+
+---
 
 ## Prologue: The Three Copies of the Mushroom Kingdom
 
@@ -520,6 +551,6 @@ PR #124: feature/dark-mode
 
 <div align="center">
 
-⬅️ [Previous: Level 1-BOSS: Exercises](../world-1/1-boss-exercises.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 2-2: APIs](2-2-apis.md)
+⬅️ [Previous: Level 1-BOSS: Exercises](../world-1-green-plains/1-boss-exercises.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 2-2: APIs](2-2-apis.md)
 
 </div>

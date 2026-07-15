@@ -34,6 +34,32 @@ tags: ["agentic-devops", "mario", "world-6", "hooks", "husky"]
 
 ---
 
+## TABLE OF CONTENTS
+
+- Introduction — The Level of "?" Blocks
+- What are Hooks
+- Mario Analogy — The Smart "?" Blocks
+- What can a Hook do?
+- Events and Lifecycle
+- Table of Events and Available Hooks
+- Detailed Use Cases
+- Structure of a Hook
+- Project Architecture with Hooks
+- Installation and Basic Configuration
+- Example 1: Pre-commit Hook with Validation
+- Example 2: Commit-msg Hook with Conventional Commits
+- Example 3: Pre-push Hook with Tests
+- package.json with Validation Scripts
+- Hooks vs GitHub Actions
+- Detailed Comparison
+- When to Use Hooks?
+- When to Use GitHub Actions?
+- Ideal Flow — Hooks + GitHub Actions
+- Practical Examples — Complete Code
+- Best Practices and Troubleshooting
+- Conclusion
+
+---
 
 ## Introduction — The Level of "?" Blocks
 
@@ -833,6 +859,6 @@ She stored this knowledge and headed to the next level of the Mushroom Kingdom..
 
 <div align="center">
 
-⬅️ [Previous: Level 6-4: Prompt Files](6-4-prompt-files.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 6-6: MCP Practical](6-6-mcp-practical.md)
+⬅️ [Previous: Level 6-4: Prompt Files](6-4-prompt-files.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-6: MCP Practical](6-6-mcp-practical.md)
 
 </div>

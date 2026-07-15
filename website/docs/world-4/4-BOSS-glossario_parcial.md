@@ -32,6 +32,48 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Prologue: King Boo Appears](#prologue-king-boo-appears)
+- [1. Boss Battle Rules](#1-boss-battle-rules)
+- [2. Challenge 1: Designing the Authentication System](#2-challenge-1-designing-the-authentication-system)
+  - [2.1 The Scenario](#21-the-scenario)
+  - [2.2 Requirements](#22-requirements)
+  - [2.3 Exercise: Flow Diagram](#23-exercise-flow-diagram)
+  - [2.4 Exercise: JWT Implementation](#24-exercise-jwt-implementation)
+  - [2.5 Exercise: RBAC for the TodoApp](#25-exercise-rbac-for-the-todoapp)
+  - [2.6 Approval Criteria](#26-approval-criteria)
+- [3. Challenge 2: Choose the Right Architecture](#3-challenge-2-choose-the-right-architecture)
+  - [3.1 Scenario A: Startup with 3 Devs](#31-scenario-a-startup-with-3-devs)
+  - [3.2 Scenario B: Company with 50 Devs](#32-scenario-b-company-with-50-devs)
+  - [3.3 Scenario C: Event Processing](#33-scenario-c-event-processing)
+  - [3.4 Exercise: Justify Your Choices](#34-exercise-justify-your-choices)
+- [4. Challenge 3: Deploy Strategy for the TodoApp](#4-challenge-3-deploy-strategy-for-the-todoapp)
+  - [4.1 The Scenario](#41-the-scenario)
+  - [4.2 Exercise: Deploy Plan](#42-exercise-deploy-plan)
+  - [4.3 Exercise: CI/CD Pipeline](#43-exercise-cicd-pipeline)
+  - [4.4 Exercise: Rollback Plan](#44-exercise-rollback-plan)
+- [5. Challenge 4: Cache and Performance Under Pressure](#5-challenge-4-cache-and-performance-under-pressure)
+  - [5.1 The Scenario](#51-the-scenario)
+  - [5.2 Exercise: Performance Diagnosis](#52-exercise-performance-diagnosis)
+  - [5.3 Exercise: Cache Strategy](#53-exercise-cache-strategy)
+  - [5.4 Exercise: Optimize the API](#54-exercise-optimize-the-api)
+- [6. Challenge 5: Designing Messaging](#6-challenge-5-designing-messaging)
+  - [6.1 The Scenario](#61-the-scenario)
+  - [6.2 Exercise: Event Diagram](#62-exercise-event-diagram)
+  - [6.3 Exercise: Implement Producer and Consumer](#63-exercise-implement-producer-and-consumer)
+  - [6.4 Exercise: Dead Letter Handling](#64-exercise-dead-letter-handling)
+- [7. Challenge 6: The Final Boss — Complete Project](#7-challenge-6-the-final-boss--complete-project)
+  - [7.1 The Grand Challenge](#71-the-grand-challenge)
+  - [7.2 System Requirements](#72-system-requirements)
+  - [7.3 Deliverables](#73-deliverables)
+  - [7.4 Evaluation Criteria](#74-evaluation-criteria)
+- [8. World 4 Glossary](#8-world-4-glossary)
+- [9. Answer Key and Tips](#9-answer-key-and-tips)
+- [10. Next Steps: World 5](#10-next-steps-world-5)
+- [References](#references)
+
+---
 
 ## Prologue: King Boo Appears
 
@@ -760,6 +802,6 @@ You now master:
 
 <div align="center">
 
-⬅️ [Previous: Level 4-8: Messaging](4-8-mensageria.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 5-1: DevOps Evolution](../world-5/5-1_devops-evolution.md)
+⬅️ [Previous: Level 4-8: Messaging](4-8-mensageria.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-1: DevOps Evolution](../world-5-bowser-castle-1/5-1_devops-evolution.md)
 
 </div>

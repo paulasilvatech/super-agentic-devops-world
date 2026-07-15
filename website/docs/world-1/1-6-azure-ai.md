@@ -25,6 +25,51 @@ tags: ["agentic-devops", "mario", "world-1", "azure-ai", "ai-foundry", "copilot"
 
 ---
 
+## Table of Contents
+
+- [Prologue — When the Game Gets Magic](#prologue--when-the-game-gets-magic)
+- [1. What Is Artificial Intelligence?](#1-what-is-artificial-intelligence)
+  - [1.1 AI in Simple Words](#11-ai-in-simple-words)
+  - [1.2 The Types of AI That Matter to You](#12-the-types-of-ai-that-matter-to-you)
+  - [1.3 Table: Types of AI vs Types of Magic in Mario](#13-table-types-of-ai-vs-types-of-magic-in-mario)
+- [2. Azure AI Services — The Magical Arsenal](#2-azure-ai-services--the-magical-arsenal)
+  - [2.1 Services Overview](#21-services-overview)
+  - [2.2 Azure OpenAI Service — The Most Powerful Spell Book](#22-azure-openai-service--the-most-powerful-spell-book)
+  - [2.3 GPT Models — The Individual Spells](#23-gpt-models--the-individual-spells)
+  - [2.4 Embeddings — The Magic of Understanding](#24-embeddings--the-magic-of-understanding)
+  - [2.5 Complete Table: Azure AI Services](#25-complete-table-azure-ai-services)
+- [3. Azure AI Foundry — Magikoopa's Forge (Introduction)](#3-azure-ai-foundry--magikoopas-forge-introduction)
+  - [3.1 What Is AI Foundry?](#31-what-is-ai-foundry)
+  - [3.2 What You Can Do in the Forge](#32-what-you-can-do-in-the-forge)
+  - [3.3 Model Catalog — The Spell Shelf](#33-model-catalog--the-spell-shelf)
+  - [3.4 Playground — The Testing Arena](#34-playground--the-testing-arena)
+  - [3.5 Table: AI Foundry Components](#35-table-ai-foundry-components)
+- [4. GitHub Copilot — Your First AI Companion](#4-github-copilot--your-first-ai-companion)
+  - [4.1 What Is Copilot?](#41-what-is-copilot)
+  - [4.2 Copilot Operating Modes](#42-copilot-operating-modes)
+  - [4.3 Copilot in VS Code — Using It in Practice](#43-copilot-in-vs-code--using-it-in-practice)
+  - [4.4 Tips for Using Copilot Well](#44-tips-for-using-copilot-well)
+- [5. Fundamental AI Concepts for Developers](#5-fundamental-ai-concepts-for-developers)
+  - [5.1 Prompts — Requests to the Wizard](#51-prompts--requests-to-the-wizard)
+  - [5.2 Tokens — The Cost of Magic](#52-tokens--the-cost-of-magic)
+  - [5.3 Context — What the Wizard Knows](#53-context--what-the-wizard-knows)
+  - [5.4 Temperature — Creativity vs Precision](#54-temperature--creativity-vs-precision)
+  - [5.5 Table: AI Concepts vs Mario Magic](#55-table-ai-concepts-vs-mario-magic)
+- [6. Responsible AI — The Rules of Magic](#6-responsible-ai--the-rules-of-magic)
+  - [6.1 Microsoft's 6 Principles](#61-microsofts-6-principles)
+  - [6.2 Content Safety — The Protection Filter](#62-content-safety--the-protection-filter)
+- [7. Basic Prompt Engineering — The Art of Requesting Spells](#7-basic-prompt-engineering--the-art-of-requesting-spells)
+  - [7.1 What Is Prompt Engineering?](#71-what-is-prompt-engineering)
+  - [7.2 Basic Techniques](#72-basic-techniques)
+  - [7.3 Practical Examples](#73-practical-examples)
+- [8. Practice: Your First Use of AI](#8-practice-your-first-use-of-ai)
+  - [8.1 Using Copilot to Write Code](#81-using-copilot-to-write-code)
+  - [8.2 Using Copilot Chat to Learn](#82-using-copilot-chat-to-learn)
+  - [8.3 Using the AI Foundry Playground](#83-using-the-ai-foundry-playground)
+- [Summary — What We Learned in Level 1-6](#summary--what-we-learned-in-level-1-6)
+- [References](#references)
+
+---
 
 ## Prologue — When the Game Gets Magic
 
@@ -473,6 +518,6 @@ In Copilot Chat, try:
 
 <div align="center">
 
-⬅️ [Previous: Level 1-5: Azure](1-5-azure.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 1-7: Connections](1-7-connections.md)
+⬅️ [Previous: Level 1-5: Azure](1-5-azure.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-7: Connections](1-7-connections.md)
 
 </div>

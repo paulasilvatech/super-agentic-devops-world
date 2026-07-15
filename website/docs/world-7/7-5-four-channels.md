@@ -33,6 +33,19 @@ tags: ["agentic-devops", "mario", "world-7", "channels", "ide", "chatops", "back
 
 ---
 
+## TABLE OF CONTENTS
+
+1. [Introduction — The 4 Worlds Where Agents Live](#introduction)
+2. [Channel 1 — IDE (Yoshi by Your Side)](#channel-1-ide)
+3. [Channel 2 — Chat Portal / IDP (The Central Plaza with NPCs)](#channel-2-portal)
+4. [Channel 3 — ChatOps / GitHub (The Parakoopa Mail System)](#channel-3-chatops)
+5. [Channel 4 — Background / MCP via Actions (Night Workers)](#channel-4-background)
+6. [Complete Comparative Table — The 4 Channels](#comparative-table)
+7. [How the 4 Channels Connect](#how-they-connect)
+8. [Real Flow: A Task Passing Through All 4 Channels](#real-flow)
+9. [Conclusion — The Complete Mushroom Kingdom](#conclusion)
+
+---
 
 ## Introduction — The 4 Worlds Where Agents Live
 
@@ -808,6 +821,6 @@ She knows where each agent lives, how to talk to them, and how the channels conn
 
 <div align="center">
 
-⬅️ [Previous: Level 7-4: Microsoft Agentic Framework](7-4-microsoft-agentic-framework.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 7-6: IDP Backstage](7-6-idp-backstage.md)
+⬅️ [Previous: Level 7-4: Microsoft Agentic Framework](7-4-microsoft-agentic-framework.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 7-6: IDP Backstage](7-6-idp-backstage.md)
 
 </div>

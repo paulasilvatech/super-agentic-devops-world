@@ -25,6 +25,59 @@ tags: ["agentic-devops", "mario", "world-3", "docker", "containers", "dockerfile
 
 ---
 
+## Table of Contents
+
+- [Prologue: "It Works on My Machine"](#prologue-it-works-on-my-machine)
+- [1. The Problem Docker Solves](#1-the-problem-docker-solves)
+  - [1.1 Dependency Hell](#11-dependency-hell)
+  - [1.2 The Solution: Package Everything Together](#12-the-solution-package-everything-together)
+- [2. Fundamental Concepts](#2-fundamental-concepts)
+  - [2.1 Image: The Recipe](#21-image-the-recipe)
+  - [2.2 Container: The Finished Dish](#22-container-the-finished-dish)
+  - [2.3 Dockerfile: The Recipe Card](#23-dockerfile-the-recipe-card)
+  - [2.4 Docker Hub: The Recipe Sharing Server](#24-docker-hub-the-recipe-sharing-server)
+  - [2.5 Concepts Table](#25-concepts-table)
+- [3. Dockerfile: Writing Your First Recipe](#3-dockerfile-writing-your-first-recipe)
+  - [3.1 Anatomy of a Dockerfile](#31-anatomy-of-a-dockerfile)
+  - [3.2 Essential Instructions](#32-essential-instructions)
+  - [3.3 First Dockerfile: Node.js App](#33-first-dockerfile-nodejs-app)
+  - [3.4 .dockerignore: What Does NOT Go in the Lunchbox](#34-dockerignore-what-does-not-go-in-the-lunchbox)
+- [4. Essential Docker Commands](#4-essential-docker-commands)
+  - [4.1 Build Image (docker build)](#41-build-image-docker-build)
+  - [4.2 Run Container (docker run)](#42-run-container-docker-run)
+  - [4.3 Manage Containers](#43-manage-containers)
+  - [4.4 Manage Images](#44-manage-images)
+  - [4.5 Command Table](#45-command-table)
+- [5. Volumes: Persistent Data](#5-volumes-persistent-data)
+  - [5.1 The Problem: Containers Are Ephemeral](#51-the-problem-containers-are-ephemeral)
+  - [5.2 Volumes: The Permanent Vault](#52-volumes-the-permanent-vault)
+  - [5.3 Bind Mounts: Real World Mirror](#53-bind-mounts-real-world-mirror)
+- [6. Networking: Containers Talking](#6-networking-containers-talking)
+  - [6.1 Ports: Castle Doors](#61-ports-castle-doors)
+  - [6.2 Docker Networks: Connected Kingdoms](#62-docker-networks-connected-kingdoms)
+- [7. Docker Compose: The Meal Planner](#7-docker-compose-the-meal-planner)
+  - [7.1 The Problem: Multiple Containers](#71-the-problem-multiple-containers)
+  - [7.2 docker-compose.yml: The Complete Menu](#72-docker-composeyml-the-complete-menu)
+  - [7.3 Complete Example: TodoApp with Frontend + Backend + Database](#73-complete-example-todoapp-with-frontend--backend--database)
+  - [7.4 Docker Compose Commands](#74-docker-compose-commands)
+- [8. Multi-Stage Builds: Big Kitchen, Small Plate](#8-multi-stage-builds-big-kitchen-small-plate)
+  - [8.1 The Size Problem](#81-the-size-problem)
+  - [8.2 The Multi-Stage Solution](#82-the-multi-stage-solution)
+  - [8.3 Practical Example: Optimized React App](#83-practical-example-optimized-react-app)
+  - [8.4 Size Comparison](#84-size-comparison)
+- [9. Docker Best Practices](#9-docker-best-practices)
+  - [9.1 The 10 Commandments of Dockerfile](#91-the-10-commandments-of-dockerfile)
+  - [9.2 Container Security](#92-container-security)
+  - [9.3 Layer Cache Optimization](#93-layer-cache-optimization)
+- [10. Docker in the Development Workflow](#10-docker-in-the-development-workflow)
+  - [10.1 Local Development with Docker](#101-local-development-with-docker)
+  - [10.2 Docker in CI/CD](#102-docker-in-cicd)
+  - [10.3 Docker in Production](#103-docker-in-production)
+- [11. Troubleshooting: When the Container Won't Start](#11-troubleshooting-when-the-container-wont-start)
+- [Summary -- What We Learned in Level 3-3](#summary----what-we-learned-in-level-3-3)
+- [References](#references)
+
+---
 
 ## Prologue: "It Works on My Machine"
 
@@ -979,6 +1032,6 @@ $ docker exec -it <container-id> /bin/sh
 
 <div align="center">
 
-⬅️ [Previous: Level 3-2: Terminal](3-2-terminal.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 3-4: Tests](3-4-testes.md)
+⬅️ [Previous: Level 3-2: Terminal](3-2-terminal.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-4: Tests](3-4-testes.md)
 
 </div>

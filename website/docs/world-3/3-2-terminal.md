@@ -25,6 +25,69 @@ tags: ["agentic-devops", "mario", "world-3", "terminal", "bash", "powershell", "
 
 ---
 
+## Table of Contents
+
+- [Prologue: The Secret Menu](#prologue-the-secret-menu)
+- [1. What Is the Terminal?](#1-what-is-the-terminal)
+  - [1.1 The Interface Before the Interface](#11-the-interface-before-the-interface)
+  - [1.2 Terminal vs GUI: Control vs Button](#12-terminal-vs-gui-control-vs-button)
+  - [1.3 Why Does Every Developer Need the Terminal?](#13-why-does-every-developer-need-the-terminal)
+- [2. Shells: The Different Controllers](#2-shells-the-different-controllers)
+  - [2.1 Bash -- The Classic Controller](#21-bash----the-classic-controller)
+  - [2.2 Zsh -- The Pro Controller](#22-zsh----the-pro-controller)
+  - [2.3 PowerShell -- The Microsoft Controller](#23-powershell----the-microsoft-controller)
+  - [2.4 Comparison Table: Shells](#24-comparison-table-shells)
+  - [2.5 Which Shell to Choose?](#25-which-shell-to-choose)
+- [3. Navigation: Walking Through the Mushroom Kingdom](#3-navigation-walking-through-the-mushroom-kingdom)
+  - [3.1 pwd -- Where Am I?](#31-pwd----where-am-i)
+  - [3.2 ls -- Look Around](#32-ls----look-around)
+  - [3.3 cd -- Walk to a Location](#33-cd----walk-to-a-location)
+  - [3.4 Absolute vs Relative Paths](#34-absolute-vs-relative-paths)
+  - [3.5 Diagram: The File System as a Map](#35-diagram-the-file-system-as-a-map)
+- [4. File Manipulation: Building and Destroying Blocks](#4-file-manipulation-building-and-destroying-blocks)
+  - [4.1 mkdir -- Build a Block](#41-mkdir----build-a-block)
+  - [4.2 touch -- Create an Item](#42-touch----create-an-item)
+  - [4.3 cp -- Duplicate an Item](#43-cp----duplicate-an-item)
+  - [4.4 mv -- Move/Rename an Item](#44-mv----moverename-an-item)
+  - [4.5 rm -- Destroy a Block](#45-rm----destroy-a-block)
+  - [4.6 Complete Table: File Manipulation](#46-complete-table-file-manipulation)
+- [5. Reading Files: Investigating Content](#5-reading-files-investigating-content)
+  - [5.1 cat -- Read Everything at Once](#51-cat----read-everything-at-once)
+  - [5.2 head and tail -- Peek at the Beginning and End](#52-head-and-tail----peek-at-the-beginning-and-end)
+  - [5.3 less -- Read Page by Page](#53-less----read-page-by-page)
+  - [5.4 wc -- Count Lines, Words, Characters](#54-wc----count-lines-words-characters)
+- [6. Search: Finding Hidden Secrets](#6-search-finding-hidden-secrets)
+  - [6.1 grep -- The Pattern Detector](#61-grep----the-pattern-detector)
+  - [6.2 find -- The Map Explorer](#62-find----the-map-explorer)
+  - [6.3 which -- Where Is the Program?](#63-which----where-is-the-program)
+- [7. Pipes and Redirection: Warp Pipes Connecting Commands](#7-pipes-and-redirection-warp-pipes-connecting-commands)
+  - [7.1 The Pipe (|) -- The Warp Pipe of Commands](#71-the-pipe----the-warp-pipe-of-commands)
+  - [7.2 Redirection (> and >>) -- Save to File](#72-redirection--and-----save-to-file)
+  - [7.3 Practical Examples of Chained Pipes](#73-practical-examples-of-chained-pipes)
+- [8. Permissions: Who Can Do What](#8-permissions-who-can-do-what)
+  - [8.1 The Linux/macOS Permissions System](#81-the-linuxmacos-permissions-system)
+  - [8.2 chmod -- Change Permissions](#82-chmod----change-permissions)
+  - [8.3 sudo -- The Star Power](#83-sudo----the-star-power)
+- [9. Environment Variables: Secret Settings](#9-environment-variables-secret-settings)
+  - [9.1 What Are Environment Variables?](#91-what-are-environment-variables)
+  - [9.2 PATH -- The Shortcut Map](#92-path----the-shortcut-map)
+  - [9.3 .env Files -- The Secret Pocket](#93-env-files----the-secret-pocket)
+- [10. Scripts: Automating Combos](#10-scripts-automating-combos)
+  - [10.1 Your First Bash Script](#101-your-first-bash-script)
+  - [10.2 Scripts with Parameters](#102-scripts-with-parameters)
+  - [10.3 Conditionals and Loops](#103-conditionals-and-loops)
+- [11. Essential Commands for Developers](#11-essential-commands-for-developers)
+  - [11.1 Git in the Terminal](#111-git-in-the-terminal)
+  - [11.2 npm/Node.js in the Terminal](#112-npmnodejs-in-the-terminal)
+  - [11.3 Docker in the Terminal](#113-docker-in-the-terminal)
+- [12. Pro Tips: Shortcuts and Tricks](#12-pro-tips-shortcuts-and-tricks)
+  - [12.1 The 10 Time-Saving Shortcuts](#121-the-10-time-saving-shortcuts)
+  - [12.2 Command History](#122-command-history)
+  - [12.3 Aliases: Creating Your Own Shortcuts](#123-aliases-creating-your-own-shortcuts)
+- [Summary -- What We Learned in Level 3-2](#summary----what-we-learned-in-level-3-2)
+- [References](#references)
+
+---
 
 ## Prologue: The Secret Menu
 
@@ -1042,6 +1105,6 @@ $ source ~/.zshrc    # or ~/.bashrc
 
 <div align="center">
 
-⬅️ [Previous: Level 3-1: Skill Tree](3-1-arvore_habilidades.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 3-3: Docker](3-3-docker.md)
+⬅️ [Previous: Level 3-1: Skill Tree](3-1-arvore_habilidades.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-3: Docker](3-3-docker.md)
 
 </div>

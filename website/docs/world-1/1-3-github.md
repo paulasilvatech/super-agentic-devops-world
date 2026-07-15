@@ -25,6 +25,57 @@ tags: ["agentic-devops", "mario", "world-1", "github", "fundamentals"]
 
 ---
 
+## Table of Contents
+
+- [Prologue — From Solo Player to Multiplayer](#prologue--from-solo-player-to-multiplayer)
+- [1. What Is GitHub?](#1-what-is-github)
+  - [1.1 Git vs GitHub — Memory Card vs Online Server](#11-git-vs-github--memory-card-vs-online-server)
+  - [1.2 Why GitHub?](#12-why-github)
+  - [1.3 Table: GitHub vs Mario's Multiplayer Server](#13-table-github-vs-marios-multiplayer-server)
+- [2. Creating Your Account — Joining the Server](#2-creating-your-account--joining-the-server)
+  - [2.1 Step by Step](#21-step-by-step)
+  - [2.2 Your Profile — The Player Card](#22-your-profile--the-player-card)
+- [3. Repositories on GitHub — Shared Worlds](#3-repositories-on-github--shared-worlds)
+  - [3.1 Creating Your First Repository on GitHub](#31-creating-your-first-repository-on-github)
+  - [3.2 README.md — The Game's Title Screen](#32-readmemd--the-games-title-screen)
+  - [3.3 Public vs Private](#33-public-vs-private)
+- [4. Push and Pull — Upload and Download Saves](#4-push-and-pull--upload-and-download-saves)
+  - [4.1 Connecting Local to Remote](#41-connecting-local-to-remote)
+  - [4.2 git push — Uploading Saves to the Server](#42-git-push--uploading-saves-to-the-server)
+  - [4.3 git pull — Downloading Saves from the Server](#43-git-pull--downloading-saves-from-the-server)
+  - [4.4 Diagram: Local-Remote Flow](#44-diagram-local-remote-flow)
+- [5. Clone and Fork — Copying Games](#5-clone-and-fork--copying-games)
+  - [5.1 git clone — Download a Copy of the Game](#51-git-clone--download-a-copy-of-the-game)
+  - [5.2 Fork — Create Your Own Version](#52-fork--create-your-own-version)
+  - [5.3 Table: Clone vs Fork](#53-table-clone-vs-fork)
+- [6. Issues — The Quest Board](#6-issues--the-quest-board)
+  - [6.1 What Are Issues?](#61-what-are-issues)
+  - [6.2 Creating an Issue](#62-creating-an-issue)
+  - [6.3 Labels — Mission Type Tags](#63-labels--mission-type-tags)
+  - [6.4 Issue Templates](#64-issue-templates)
+- [7. Pull Requests — Request for Acceptance](#7-pull-requests--request-for-acceptance)
+  - [7.1 What Is a Pull Request?](#71-what-is-a-pull-request)
+  - [7.2 The Complete PR Flow](#72-the-complete-pr-flow)
+  - [7.3 Code Review — Team Inspection](#73-code-review--team-inspection)
+  - [7.4 Diagram: PR Lifecycle](#74-diagram-pr-lifecycle)
+- [8. Projects — The Campaign Map](#8-projects--the-campaign-map)
+  - [8.1 What Are GitHub Projects?](#81-what-are-github-projects)
+  - [8.2 Typical Columns](#82-typical-columns)
+  - [8.3 Automations](#83-automations)
+- [9. Branches on GitHub — Online Parallel Universes](#9-branches-on-github--online-parallel-universes)
+  - [9.1 Branch Protection Rules](#91-branch-protection-rules)
+  - [9.2 The Multiplayer Workflow](#92-the-multiplayer-workflow)
+- [10. Codespaces — The Cloud Arcade](#10-codespaces--the-cloud-arcade)
+  - [10.1 What Is Codespaces?](#101-what-is-codespaces)
+  - [10.2 When to Use](#102-when-to-use)
+- [11. Extra GitHub Features](#11-extra-github-features)
+  - [11.1 GitHub Pages — Publish Your Game](#111-github-pages--publish-your-game)
+  - [11.2 GitHub Discussions](#112-github-discussions)
+  - [11.3 GitHub Releases](#113-github-releases)
+- [Summary — What We Learned in Level 1-3](#summary--what-we-learned-in-level-1-3)
+- [References](#references)
+
+---
 
 ## Prologue — From Solo Player to Multiplayer
 
@@ -563,6 +614,6 @@ In seconds, a complete VS Code opens in your browser.
 
 <div align="center">
 
-⬅️ [Previous: Level 1-2: Git](1-2-git.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 1-4: GitHub Actions](1-4-github-actions.md)
+⬅️ [Previous: Level 1-2: Git](1-2-git.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 1-4: GitHub Actions](1-4-github-actions.md)
 
 </div>

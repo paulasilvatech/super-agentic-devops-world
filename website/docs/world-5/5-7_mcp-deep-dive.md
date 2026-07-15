@@ -32,6 +32,70 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Introduction -- The World of Incompatible Pipes](#introduction--the-world-of-incompatible-pipes)
+- [Section 1 -- What is MCP?](#section-1--what-is-mcp)
+  - [1.1 Fundamental Definition](#11-fundamental-definition)
+  - [1.2 The Problem MCP Solves](#12-the-problem-mcp-solves)
+  - [1.3 The Mario Analogy: The Universal Warp Pipe Standard](#13-the-mario-analogy-the-universal-warp-pipe-standard)
+- [Section 2 -- Before MCP: The Chaos of Incompatible Pipes](#section-2--before-mcp-the-chaos-of-incompatible-pipes)
+  - [2.1 The Custom Integration Problem](#21-the-custom-integration-problem)
+  - [2.2 The MxN Problem](#22-the-mxn-problem)
+  - [2.3 Mario Analogy: Each World with Different Pipes](#23-mario-analogy-each-world-with-different-pipes)
+- [Section 3 -- MCP Architecture](#section-3--mcp-architecture)
+  - [3.1 The 4 Fundamental Components](#31-the-4-fundamental-components)
+  - [3.2 How the Components Connect](#32-how-the-components-connect)
+  - [3.3 Table: MCP Components vs Mushroom Kingdom](#33-table-mcp-components-vs-mushroom-kingdom)
+- [Section 4 -- MCP Server: The NPC's Specialized Shop](#section-4--mcp-server-the-npcs-specialized-shop)
+  - [4.1 What is an MCP Server](#41-what-is-an-mcp-server)
+  - [4.2 Types of MCP Servers](#42-types-of-mcp-servers)
+  - [4.3 Anatomy of an MCP Server](#43-anatomy-of-an-mcp-server)
+  - [4.4 Examples of Real MCP Servers](#44-examples-of-real-mcp-servers)
+  - [4.5 Mario Analogy: The Specialized Shops of Each World](#45-mario-analogy-the-specialized-shops-of-each-world)
+- [Section 5 -- MCP Client: The Companion that Visits the Shops](#section-5--mcp-client-the-companion-that-visits-the-shops)
+  - [5.1 What is an MCP Client](#51-what-is-an-mcp-client)
+  - [5.2 Examples of MCP Clients](#52-examples-of-mcp-clients)
+  - [5.3 How the Client Discovers What the Server Offers](#53-how-the-client-discovers-what-the-server-offers)
+  - [5.4 Mario Analogy: Yoshi Visits the Shop](#54-mario-analogy-yoshi-visits-the-shop)
+- [Section 6 -- Tools: The Items the Shop Sells](#section-6--tools-the-items-the-shop-sells)
+  - [6.1 What are Tools in MCP](#61-what-are-tools-in-mcp)
+  - [6.2 Anatomy of a Tool](#62-anatomy-of-a-tool)
+  - [6.3 Examples of Tools by Server](#63-examples-of-tools-by-server)
+  - [6.4 Mario Analogy: Specific Items from Each Shop](#64-mario-analogy-specific-items-from-each-shop)
+- [Section 7 -- Resources: The Information the Shop Shares](#section-7--resources-the-information-the-shop-shares)
+  - [7.1 What are Resources in MCP](#71-what-are-resources-in-mcp)
+  - [7.2 Difference between Tools and Resources](#72-difference-between-tools-and-resources)
+  - [7.3 Examples of Resources](#73-examples-of-resources)
+  - [7.4 Mario Analogy: The Shop's Information Board](#74-mario-analogy-the-shops-information-board)
+- [Section 8 -- Prompts in MCP: Ready-Made Recipes](#section-8--prompts-in-mcp-ready-made-recipes)
+  - [8.1 What are Prompts in MCP](#81-what-are-prompts-in-mcp)
+  - [8.2 Examples of MCP Prompts](#82-examples-of-mcp-prompts)
+  - [8.3 Mario Analogy: Item Combinations from the Shop](#83-mario-analogy-item-combinations-from-the-shop)
+- [Section 9 -- The Protocol in Detail: How MCP Works Under the Hood](#section-9--the-protocol-in-detail-how-mcp-works-under-the-hood)
+  - [9.1 Transport: stdio vs HTTP/SSE](#91-transport-stdio-vs-httpsse)
+  - [9.2 The Initial Handshake](#92-the-initial-handshake)
+  - [9.3 The Communication Cycle](#93-the-communication-cycle)
+  - [9.4 Mario Analogy: How the Pipe Works Inside](#94-mario-analogy-how-the-pipe-works-inside)
+- [Section 10 -- Configuring MCP in Practice](#section-10--configuring-mcp-in-practice)
+  - [10.1 The mcp.json File](#101-the-mcpjson-file)
+  - [10.2 Configuration in VS Code](#102-configuration-in-vs-code)
+  - [10.3 Complete Example: MCP with Azure Boards](#103-complete-example-mcp-with-azure-boards)
+  - [10.4 Complete Example: MCP with PostgreSQL](#104-complete-example-mcp-with-postgresql)
+- [Section 11 -- Security in MCP](#section-11--security-in-mcp)
+  - [11.1 Security Principles](#111-security-principles)
+  - [11.2 Protecting API Keys](#112-protecting-api-keys)
+  - [11.3 Mario Analogy: The Secret Warp Zone Key](#113-mario-analogy-the-secret-warp-zone-key)
+- [Section 12 -- The MCP Ecosystem: Available Servers](#section-12--the-mcp-ecosystem-available-servers)
+  - [12.1 Official and Community Servers](#121-official-and-community-servers)
+  - [12.2 Creating Your Own MCP Server](#122-creating-your-own-mcp-server)
+- [Section 13 -- MCP is Fundamental for Agentic DevOps](#section-13--mcp-is-fundamental-for-agentic-devops)
+  - [13.1 Without MCP vs With MCP](#131-without-mcp-vs-with-mcp)
+  - [13.2 The Future of MCP](#132-the-future-of-mcp)
+- [What We Learned -- Summary Table](#what-we-learned--summary-table)
+- [References](#references)
+
+---
 
 ## Introduction -- The World of Incompatible Pipes
 
@@ -765,6 +829,6 @@ MCP is a rapidly growing protocol. The trend:
 
 <div align="center">
 
-⬅️ [Previous: Level 5-6: Autonomous Agents](5-6_autonomous-agents.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 5-8: Three Horizons](5-8_three-horizons.md)
+⬅️ [Previous: Level 5-6: Autonomous Agents](5-6_autonomous-agents.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-8: Three Horizons](5-8_three-horizons.md)
 
 </div>

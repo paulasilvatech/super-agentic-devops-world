@@ -31,6 +31,59 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Prologue: The Map That Reveals All Secrets](#prologue-the-map-that-reveals-all-secrets)
+- [1. The Complete Map of the Mushroom Kingdom](#1-the-complete-map-of-the-mushroom-kingdom)
+  - [1.1 Overview: The 8 Worlds](#11-overview-the-8-worlds)
+  - [1.2 The ASCII Art Map](#12-the-ascii-art-map)
+  - [1.3 Map Legend](#13-map-legend)
+
+<div align="center">
+<img src="../../diagrams/svg/complete-ecosystem.svg" alt="The complete ecosystem: how everything connects" width="800">
+<br><em>The complete ecosystem: how everything connects</em>
+</div>
+- [2. The Connections Between Worlds](#2-the-connections-between-worlds)
+  - [2.1 The Main Flow: From START to FINAL](#21-the-main-flow-from-start-to-final)
+  - [2.2 The Secret Warp Pipes: Non-Obvious Connections](#22-the-secret-warp-pipes-non-obvious-connections)
+  - [2.3 Dependency Diagram](#23-dependency-diagram)
+  - [2.4 Table: Each Tool and Its Connections](#24-table-each-tool-and-its-connections)
+- [3. The Complete Developer Flow](#3-the-complete-developer-flow)
+  - [3.1 From "I Pressed START" to "I Command an Army of Agents"](#31-from-i-pressed-start-to-i-command-an-army-of-agents)
+  - [3.2 The 12 Steps of the Journey](#32-the-12-steps-of-the-journey)
+  - [3.3 The Complete Pipeline in ASCII Art](#33-the-complete-pipeline-in-ascii-art)
+- [4. Sofia's Day: A Complete Real-World Scenario](#4-sofias-day-a-complete-real-world-scenario)
+  - [4.1 7:30 -- Arriving at the Office (World 1)](#41-730--arriving-at-the-office-world-1)
+  - [4.2 8:00 -- Planning the Sprint (World 2)](#42-800--planning-the-sprint-world-2)
+  - [4.3 9:00 -- Developing with Copilot (World 5 and 6)](#43-900--developing-with-copilot-world-5-and-6)
+  - [4.4 11:00 -- Tests and Quality (World 3)](#44-1100--tests-and-quality-world-3)
+  - [4.5 1:00 PM -- Code Review and Security (World 4 and 5)](#45-100-pm--code-review-and-security-world-4-and-5)
+  - [4.6 2:30 PM -- Deploy and Monitoring (World 4)](#46-230-pm--deploy-and-monitoring-world-4)
+  - [4.7 3:30 PM -- Building a RAG Agent (World 7)](#47-330-pm--building-a-rag-agent-world-7)
+  - [4.8 5:00 PM -- Review on the Internal Portal (World 7)](#48-500-pm--review-on-the-internal-portal-world-7)
+  - [4.9 5:30 PM -- End of Day: Retrospective (World 8)](#49-530-pm--end-of-day-retrospective-world-8)
+  - [4.10 Summary Table: The Complete Day](#410-summary-table-the-complete-day)
+- [5. The 5 Layers of the Ecosystem](#5-the-5-layers-of-the-ecosystem)
+  - [5.1 Layer 1: Foundation (Worlds 1-2)](#51-layer-1-foundation-worlds-1-2)
+  - [5.2 Layer 2: Tools (World 3)](#52-layer-2-tools-world-3)
+  - [5.3 Layer 3: Practices (World 4)](#53-layer-3-practices-world-4)
+  - [5.4 Layer 4: Intelligence (Worlds 5-6)](#54-layer-4-intelligence-worlds-5-6)
+  - [5.5 Layer 5: Ecosystem (World 7)](#55-layer-5-ecosystem-world-7)
+  - [5.6 Layer Diagram](#56-layer-diagram)
+- [6. The Warp Zones Revealed: All Secret Passages](#6-the-warp-zones-revealed-all-secret-passages)
+  - [6.1 Warp Zone 1: From Code to Cloud](#61-warp-zone-1-from-code-to-cloud)
+  - [6.2 Warp Zone 2: From Human to Agent](#62-warp-zone-2-from-human-to-agent)
+  - [6.3 Warp Zone 3: From Data to Decision](#63-warp-zone-3-from-data-to-decision)
+  - [6.4 Complete Warp Zones Map](#64-complete-warp-zones-map)
+- [7. Integration Patterns: Mushroom Kingdom Recipes](#7-integration-patterns-mushroom-kingdom-recipes)
+  - [7.1 "Inner Loop" Pattern (Local Development)](#71-inner-loop-pattern-local-development)
+  - [7.2 "Outer Loop" Pattern (CI/CD and Deploy)](#72-outer-loop-pattern-cicd-and-deploy)
+  - [7.3 "AI Loop" Pattern (Agents and Automation)](#73-ai-loop-pattern-agents-and-automation)
+  - [7.4 The 3 Connected Loops](#74-the-3-connected-loops)
+- [8. Final Table: The Hero's Complete Inventory](#8-final-table-the-heros-complete-inventory)
+- [References](#references)
+
+---
 
 ## Prologue: The Map That Reveals All Secrets
 
@@ -929,6 +982,6 @@ After completing all 8 Worlds, this is Sofia's complete inventory:
 
 <div align="center">
 
-⬅️ [Previous: Level 7-BOSS: Practical Project](../world-7/7-boss-practical-project.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 8-2: Boss Rush](8-2-boss-rush.md)
+⬅️ [Previous: Level 7-BOSS: Practical Project](../world-7-star-world/7-boss-practical-project.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 8-2: Boss Rush](8-2-boss-rush.md)
 
 </div>

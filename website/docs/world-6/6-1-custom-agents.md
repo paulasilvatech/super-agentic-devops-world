@@ -33,6 +33,27 @@ tags: ["agentic-devops", "mario", "world-6", "agents", "agent-md"]
 
 ---
 
+## TABLE OF CONTENTS
+
+- [Introduction -- The Character Select Screen](#introduction--the-character-select-screen)
+- [Section 1 -- What are Custom Agents](#section-1--what-are-custom-agents)
+  - [Key Concepts: Technical vs Mario Comparison](#key-concepts-technical-vs-mario-comparison)
+- [Section 2 -- Where Agents Live](#section-2--where-agents-live)
+  - [Agent Directory Structure](#agent-directory-structure)
+  - [The 3 Scope Levels for Agents](#the-3-scope-levels-for-agents)
+- [Section 3 -- The .agent.md Format in Detail](#section-3--the-agentmd-format-in-detail)
+  - [Components of .agent.md](#components-of-agentmd)
+  - [YAML Frontmatter Fields](#yaml-frontmatter-fields)
+  - [Complete Example 1: React Frontend Engineer](#complete-example-1-react-frontend-engineer)
+  - [Complete Example 2: PostgreSQL Database Administrator](#complete-example-2-postgresql-database-administrator)
+- [Section 4 -- The 7 Agents of the TodoApp](#section-4--the-7-agents-of-the-todoapp)
+  - [Complete Reference: The 7 Specialized Agents](#complete-reference-the-7-specialized-agents)
+- [Section 5 -- Best Practices for Writing Agents](#section-5--best-practices-for-writing-agents)
+  - [Checklist of 6 Best Practices](#checklist-of-6-best-practices)
+  - [Detail of Each Practice](#detail-of-each-practice)
+- [What We Learned -- Summary Table](#what-we-learned--summary-table)
+
+---
 
 ## Introduction -- The Character Select Screen
 
@@ -366,6 +387,6 @@ She stored this power-up in her inventory and headed to the next level in the Mu
 
 <div align="center">
 
-⬅️ [Previous: Level 5-BOSS: Quiz](../world-5/5-boss-quiz.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 6-2: Agent Skills](6-2-agent-skills.md)
+⬅️ [Previous: Level 5-BOSS: Quiz](../world-5-bowser-castle-1/5-boss-quiz.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 6-2: Agent Skills](6-2-agent-skills.md)
 
 </div>

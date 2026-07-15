@@ -34,6 +34,55 @@ tags:
 
 ---
 
+## Table of Contents
+
+- [Prologue: The Problem with Direct Deliveries](#prologue-the-problem-with-direct-deliveries)
+- [1. Synchronous vs Asynchronous Communication](#1-synchronous-vs-asynchronous-communication)
+  - [1.1 The Problem with Synchronous Communication](#11-the-problem-with-synchronous-communication)
+  - [1.2 The Solution: Asynchronous Communication](#12-the-solution-asynchronous-communication)
+  - [1.3 When to Use Each](#13-when-to-use-each)
+- [2. Message Queues: Parakoopa Mail Carriers](#2-message-queues-parakoopa-mail-carriers)
+  - [2.1 What Is a Message Queue](#21-what-is-a-message-queue)
+  - [2.2 How It Works](#22-how-it-works)
+  - [2.3 Delivery Guarantees](#23-delivery-guarantees)
+  - [2.4 When to Use Queues](#24-when-to-use-queues)
+- [3. RabbitMQ: The Central Post Office](#3-rabbitmq-the-central-post-office)
+  - [3.1 What Is RabbitMQ](#31-what-is-rabbitmq)
+  - [3.2 Fundamental Concepts](#32-fundamental-concepts)
+  - [3.3 Exchange Types](#33-exchange-types)
+  - [3.4 RabbitMQ in Practice: TodoApp](#34-rabbitmq-in-practice-todoapp)
+  - [3.5 RabbitMQ with Docker](#35-rabbitmq-with-docker)
+- [4. Azure Service Bus: The Royal Express Mail](#4-azure-service-bus-the-royal-express-mail)
+  - [4.1 What Is Azure Service Bus](#41-what-is-azure-service-bus)
+  - [4.2 Queues vs Topics](#42-queues-vs-topics)
+  - [4.3 Azure Service Bus in Practice](#43-azure-service-bus-in-practice)
+  - [4.4 When to Choose Service Bus vs RabbitMQ](#44-when-to-choose-service-bus-vs-rabbitmq)
+- [5. Pub/Sub: The Bulletin Board](#5-pubsub-the-bulletin-board)
+  - [5.1 The Publish/Subscribe Pattern](#51-the-publishsubscribe-pattern)
+  - [5.2 Pub/Sub vs Queue](#52-pubsub-vs-queue)
+  - [5.3 Practical Implementation](#53-practical-implementation)
+  - [5.4 Event-Driven with Pub/Sub](#54-event-driven-with-pubsub)
+- [6. Dead Letter Queue: Returned Mail](#6-dead-letter-queue-returned-mail)
+  - [6.1 What Is a Dead Letter Queue](#61-what-is-a-dead-letter-queue)
+  - [6.2 When Messages Go to the DLQ](#62-when-messages-go-to-the-dlq)
+  - [6.3 Handling Dead Letters](#63-handling-dead-letters)
+- [7. Messaging Patterns](#7-messaging-patterns)
+  - [7.1 Request-Reply](#71-request-reply)
+  - [7.2 Competing Consumers](#72-competing-consumers)
+  - [7.3 Saga Pattern](#73-saga-pattern)
+  - [7.4 Outbox Pattern](#74-outbox-pattern)
+- [8. Messaging in Practice: Complete TodoApp](#8-messaging-in-practice-complete-todoapp)
+  - [8.1 Architecture with Messaging](#81-architecture-with-messaging)
+  - [8.2 Complete Flow: Create Task](#82-complete-flow-create-task)
+  - [8.3 Complete Flow: Complete Task](#83-complete-flow-complete-task)
+- [9. Messaging Best Practices](#9-messaging-best-practices)
+  - [9.1 Idempotency](#91-idempotency)
+  - [9.2 Ordering and Deduplication](#92-ordering-and-deduplication)
+  - [9.3 Monitoring](#93-monitoring)
+- [10. Final Summary Table](#10-final-summary-table)
+- [References](#references)
+
+---
 
 ## Prologue: The Problem with Direct Deliveries
 
@@ -937,6 +986,6 @@ const message = {
 
 <div align="center">
 
-⬅️ [Previous: Level 4-7: Cache & Performance](4-7-cache_performance.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 4-BOSS: Partial Glossary](4-BOSS-glossario_parcial.md)
+⬅️ [Previous: Level 4-7: Cache & Performance](4-7-cache_performance.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 4-BOSS: Partial Glossary](4-BOSS-glossario_parcial.md)
 
 </div>

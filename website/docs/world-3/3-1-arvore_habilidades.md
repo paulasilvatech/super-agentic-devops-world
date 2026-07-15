@@ -25,6 +25,51 @@ tags: ["agentic-devops", "mario", "world-3", "skill-tree", "career", "progressio
 
 ---
 
+## Table of Contents
+
+- [Prologue: The Character Select Screen](#prologue-the-character-select-screen)
+- [1. What Is a Skill Tree?](#1-what-is-a-skill-tree)
+  - [1.1 From Game to Career](#11-from-game-to-career)
+  - [1.2 Why Map Skills?](#12-why-map-skills)
+  - [1.3 The Difference Between Knowing and Mastering](#13-the-difference-between-knowing-and-mastering)
+- [2. The 5 Levels of Evolution](#2-the-5-levels-of-evolution)
+  - [2.1 Level 1 -- Apprentice (Small Mario)](#21-level-1----apprentice-small-mario)
+  - [2.2 Level 2 -- Explorer (Super Mario)](#22-level-2----explorer-super-mario)
+  - [2.3 Level 3 -- Builder (Fire Mario)](#23-level-3----builder-fire-mario)
+  - [2.4 Level 4 -- Specialist (Cape Mario)](#24-level-4----specialist-cape-mario)
+  - [2.5 Level 5 -- Legendary (Star Mario)](#25-level-5----legendary-star-mario)
+- [3. The Branches of the Tree: Skill Categories](#3-the-branches-of-the-tree-skill-categories)
+  - [3.1 Frontend Branch: The Sky Levels](#31-frontend-branch-the-sky-levels)
+  - [3.2 Backend Branch: The Underwater Levels](#32-backend-branch-the-underwater-levels)
+  - [3.3 Database Branch: The Castle Levels](#33-database-branch-the-castle-levels)
+  - [3.4 DevOps Branch: The Transport Levels (Warp Zones)](#34-devops-branch-the-transport-levels-warp-zones)
+  - [3.5 Soft Skills Branch: The Universal Power-Ups](#35-soft-skills-branch-the-universal-power-ups)
+- [4. Master Table: Skills by Level and Branch](#4-master-table-skills-by-level-and-branch)
+- [5. Learning Paths: Choose Your Route](#5-learning-paths-choose-your-route)
+  - [5.1 Full-Stack Path: The Versatile Player](#51-full-stack-path-the-versatile-player)
+  - [5.2 Frontend Path: The Level Artist](#52-frontend-path-the-level-artist)
+  - [5.3 Backend Path: The Mechanics Engineer](#53-backend-path-the-mechanics-engineer)
+  - [5.4 DevOps Path: The World Builder](#54-devops-path-the-world-builder)
+- [6. Prerequisites: Order Matters](#6-prerequisites-order-matters)
+  - [6.1 Skills That Unlock Others](#61-skills-that-unlock-others)
+  - [6.2 The Mistake of Skipping Levels](#62-the-mistake-of-skipping-levels)
+- [7. XP and Evolution: How to Measure Progress](#7-xp-and-evolution-how-to-measure-progress)
+  - [7.1 Growth Metrics](#71-growth-metrics)
+  - [7.2 Portfolios as Save Files](#72-portfolios-as-save-files)
+  - [7.3 Certifications as Achievement Badges](#73-certifications-as-achievement-badges)
+- [8. Specialization vs Generalization: T-Shaped Developer](#8-specialization-vs-generalization-t-shaped-developer)
+  - [8.1 The T Shape](#81-the-t-shape)
+  - [8.2 When to Specialize, When to Diversify](#82-when-to-specialize-when-to-diversify)
+- [9. The Tree in Action: 12-Month Plan](#9-the-tree-in-action-12-month-plan)
+  - [9.1 Months 1-3: Foundations (World 1)](#91-months-1-3-foundations-world-1)
+  - [9.2 Months 4-6: Building (World 2)](#92-months-4-6-building-world-2)
+  - [9.3 Months 7-9: Specialization (World 3)](#93-months-7-9-specialization-world-3)
+  - [9.4 Months 10-12: Integration (World 4)](#94-months-10-12-integration-world-4)
+- [10. Learning Tools: Where to Train](#10-learning-tools-where-to-train)
+- [Summary -- What We Learned in Level 3-1](#summary----what-we-learned-in-level-3-1)
+- [References](#references)
+
+---
 
 ## Prologue: The Character Select Screen
 
@@ -718,6 +763,6 @@ Each level requires different "training grounds":
 
 <div align="center">
 
-⬅️ [Previous: Level 2-BOSS: Exercises](../world-2/2-BOSS-exercicios.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 3-2: Terminal](3-2-terminal.md)
+⬅️ [Previous: Level 2-BOSS: Exercises](../world-2-underground/2-BOSS-exercicios.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 3-2: Terminal](3-2-terminal.md)
 
 </div>

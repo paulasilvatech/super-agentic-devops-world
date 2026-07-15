@@ -32,6 +32,36 @@ tags: ["agentic-devops", "mario", "world-5", "agents", "ide-agent", "background-
 
 ---
 
+## TABLE OF CONTENTS
+
+- [Introduction -- The Character Guild of the Mushroom Kingdom](#introduction--the-character-guild-of-the-mushroom-kingdom)
+- [Section 1 -- IDE Agents: Your Level Companion](#section-1--ide-agents-your-level-companion)
+  - [What Are IDE Agents](#what-are-ide-agents)
+  - [Real Examples of IDE Agents](#real-examples-of-ide-agents)
+  - [The 3 Modes of the IDE Agent](#the-3-modes-of-the-ide-agent)
+  - [When to Use IDE Agents](#when-to-use-ide-agents)
+- [Section 2 -- Background Agents: The NPCs that Work Behind the Scenes](#section-2--background-agents-the-npcs-that-work-behind-the-scenes)
+  - [What Are Background Agents](#what-are-background-agents)
+  - [Real Examples of Background Agents](#real-examples-of-background-agents)
+  - [How Background Agents Operate](#how-background-agents-operate)
+  - [When to Use Background Agents](#when-to-use-background-agents)
+- [Section 3 -- IDE vs Background: Complete Comparison Table](#section-3--ide-vs-background-complete-comparison-table)
+- [Section 4 -- Development Agents: Those that Help BUILD the Game](#section-4--development-agents-those-that-help-build-the-game)
+  - [Categories of Development Agents](#categories-of-development-agents)
+  - [The Workflow with Development Agents](#the-workflow-with-development-agents)
+- [Section 5 -- Productivity Agents: Those that Help PLAY the Game](#section-5--productivity-agents-those-that-help-play-the-game)
+  - [Categories of Productivity Agents](#categories-of-productivity-agents)
+  - [Real-World Examples](#real-world-examples)
+- [Section 6 -- Development vs Productivity: Comparison Table](#section-6--development-vs-productivity-comparison-table)
+- [Section 7 -- The Autonomy Spectrum](#section-7--the-autonomy-spectrum)
+  - [The 4 Levels of Autonomy](#the-4-levels-of-autonomy)
+  - [How to Choose the Right Level](#how-to-choose-the-right-level)
+- [Section 8 -- When to Use Which Type of Agent](#section-8--when-to-use-which-type-of-agent)
+  - [Quick Decision Guide](#quick-decision-guide)
+  - [Combining Types of Agents](#combining-types-of-agents)
+- [What We Learned -- Summary Table](#what-we-learned--summary-table)
+
+---
 
 ## Introduction -- The Character Guild of the Mushroom Kingdom
 
@@ -473,6 +503,6 @@ She stored this power-up in her inventory and headed to the next level of the Mu
 
 <div align="center">
 
-⬅️ [Previous: Level 5-4: What Is an Agent](5-4_what-is-an-agent.md) · 🗺️ [World Map](../intro.md) · ➡️ [Next: Level 5-6: Autonomous Agents](5-6_autonomous-agents.md)
+⬅️ [Previous: Level 5-4: What Is an Agent](5-4_what-is-an-agent.md) · 🗺️ [World Map](../INDEX.md) · ➡️ [Next: Level 5-6: Autonomous Agents](5-6_autonomous-agents.md)
 
 </div>
