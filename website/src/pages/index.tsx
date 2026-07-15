@@ -5,10 +5,10 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
-import Translate, { translate } from '@docusaurus/Translate';
+import { motion } from 'framer-motion';
+import { TypeAnimation } from 'react-type-animation';
 import ScrollReveal from '@site/src/components/animations/ScrollReveal';
 import CountUp from '@site/src/components/animations/CountUp';
-import LanguageSelect from '@site/src/components/LanguageSelect';
 
 import styles from './index.module.css';
 
@@ -130,9 +130,7 @@ function Hero() {
         <p className="hero__game-subtitle">{siteConfig.tagline}</p>
 
         <Link className="btn-start" to="/docs/intro">
-          <Translate id="homepage.hero.pressStart" description="Hero start button">
-            PRESS START
-          </Translate>
+          PRESS START
         </Link>
       </div>
     </header>
@@ -142,11 +140,11 @@ function Hero() {
 /* ===== STATS ===== */
 function Stats() {
   const items = [
-    { num: 8, suffix: '', label: translate({ id: 'homepage.stats.worlds', message: 'Worlds' }) },
-    { num: 70, suffix: '+', label: translate({ id: 'homepage.stats.levels', message: 'Levels' }) },
-    { num: 14, suffix: '', label: translate({ id: 'homepage.stats.diagrams', message: 'SVG Diagrams' }) },
-    { num: 124, suffix: '+', label: translate({ id: 'homepage.stats.terms', message: 'Glossary Terms' }) },
-    { num: 3, suffix: '', label: translate({ id: 'homepage.stats.languages', message: 'Languages' }) },
+    { num: 8, suffix: '', label: 'Worlds' },
+    { num: 70, suffix: '+', label: 'Levels' },
+    { num: 14, suffix: '', label: 'SVG Diagrams' },
+    { num: 124, suffix: '+', label: 'Glossary Terms' },
+    { num: 2, suffix: '', label: 'Languages' },
   ];
   return (
     <section className="stats-row">
@@ -166,12 +164,12 @@ function Stats() {
 
 /* ===== FEATURES ===== */
 const features = [
-  { img: '/img/features/agents.png', title: translate({ id: 'homepage.features.agents.title', message: 'Agents = Characters' }), desc: translate({ id: 'homepage.features.agents.desc', message: 'AI Agents are the playable characters of DevOps. They observe, think, plan, and act — autonomously.' }) },
-  { img: '/img/features/skills.png', title: translate({ id: 'homepage.features.skills.title', message: 'Skills = Power-Ups' }), desc: translate({ id: 'homepage.features.skills.desc', message: 'Each new skill makes the agent more capable — like grabbing a Fire Flower or a Cape Feather.' }) },
-  { img: '/img/features/instructions.png', title: translate({ id: 'homepage.features.instructions.title', message: 'Instructions = Rules' }), desc: translate({ id: 'homepage.features.instructions.desc', message: 'Custom instructions define how agents behave — the rulebook that shapes every action they take.' }) },
-  { img: '/img/features/hooks.png', title: translate({ id: 'homepage.features.hooks.title', message: 'Hooks = ? Blocks' }), desc: translate({ id: 'homepage.features.hooks.desc', message: 'Hooks trigger actions at key moments. Hit the block — something always happens.' }) },
-  { img: '/img/features/mcp.png', title: translate({ id: 'homepage.features.mcp.title', message: 'MCP = Warp Zones' }), desc: translate({ id: 'homepage.features.mcp.desc', message: 'Model Context Protocol connects agents to external tools — instant teleportation to any system.' }) },
-  { img: '/img/features/sdd.png', title: translate({ id: 'homepage.features.sdd.title', message: 'SDD = Blueprints' }), desc: translate({ id: 'homepage.features.sdd.desc', message: 'Spec-Driven Development: design the castle blueprint before building it. Architecture first.' }) },
+  { img: '/img/features/agents.png', title: 'Agents = Characters', desc: 'AI Agents are the playable characters of DevOps. They observe, think, plan, and act — autonomously.' },
+  { img: '/img/features/skills.png', title: 'Skills = Power-Ups', desc: 'Each new skill makes the agent more capable — like grabbing a Fire Flower or a Cape Feather.' },
+  { img: '/img/features/instructions.png', title: 'Instructions = Rules', desc: 'Custom instructions define how agents behave — the rulebook that shapes every action they take.' },
+  { img: '/img/features/hooks.png', title: 'Hooks = ? Blocks', desc: 'Hooks trigger actions at key moments. Hit the block — something always happens.' },
+  { img: '/img/features/mcp.png', title: 'MCP = Warp Zones', desc: 'Model Context Protocol connects agents to external tools — instant teleportation to any system.' },
+  { img: '/img/features/sdd.png', title: 'SDD = Blueprints', desc: 'Spec-Driven Development: design the castle blueprint before building it. Architecture first.' },
 ];
 
 function Features() {
@@ -179,10 +177,10 @@ function Features() {
     <section className="features-section">
       <div className="container">
         <Heading as="h2" className={styles.sectionTitleTight}>
-          <Translate id="homepage.features.title">Every Concept Has a Mario Equivalent</Translate>
+          Every Concept Has a Mario Equivalent
         </Heading>
         <p className={styles.sectionIntro}>
-          <Translate id="homepage.features.intro">If you've ever played Mario, you can understand DevOps.</Translate>
+          If you've ever played Mario, you can understand DevOps.
         </p>
         <div className="row">
           {features.map((f, i) => (
@@ -210,31 +208,24 @@ function Story() {
     <section className="story">
       <div className="container">
         <Heading as="h2" className={styles.sectionTitle}>
-          <Translate id="homepage.story.title">Made for Sofia</Translate>
+          Made for Sofia
         </Heading>
         <div className="story__content">
           <p>
-            <Translate id="homepage.story.p1">
-              Sofia is my daughter. When she asked me to teach her about software development,
-              I realized that the usual tutorials weren't built for someone starting from absolute zero.
-            </Translate>
+            Sofia is my daughter. When she asked me to teach her about software development,
+            I realized that the usual tutorials weren't built for someone starting from absolute zero.
           </p>
           <p>
-            <Translate
-              id="homepage.story.p2"
-              values={{ game: <strong>Super Mario World</strong> }}>
-              {'So I decided to explain everything through {game} — a game where the rules are simple, the progression is clear, and anyone can play.'}
-            </Translate>
+            So I decided to explain everything through <strong>Super Mario World</strong> — a game
+            where the rules are simple, the progression is clear, and anyone can play.
           </p>
           <blockquote>
             <p>
-              <Translate
-                id="homepage.story.quote"
-                values={{ promise: <strong>"Made for Sofia"</strong> }}>
-                {'{promise} is more than a subtitle. It\'s a promise: this content was built with the same care, patience, and love that a parent puts into teaching their child. No jargon without explanation. No concept without an analogy.'}
-              </Translate>
+              <strong>"Made for Sofia"</strong> is more than a subtitle. It's a promise: this content
+              was built with the same care, patience, and love that a parent puts into
+              teaching their child. No jargon without explanation. No concept without an analogy.
             </p>
-            <p><em><Translate id="homepage.story.quoteEm">Every developer starts at World 1-1. Sofia did. And now, so can you.</Translate></em></p>
+            <p><em>Every developer starts at World 1-1. Sofia did. And now, so can you.</em></p>
           </blockquote>
         </div>
       </div>
@@ -244,14 +235,14 @@ function Story() {
 
 /* ===== WORLD MAP ===== */
 const worlds = [
-  { img: '/img/worlds/world-1.png', name: 'World 1', theme: translate({ id: 'homepage.world1.theme', message: 'Green Plains' }), desc: translate({ id: 'homepage.world1.desc', message: 'VS Code, Git, GitHub, Actions, Azure' }), link: '/docs/world-1/1-1-vs-code', levels: 8, num: 1 },
-  { img: '/img/worlds/world-2.png', name: 'World 2', theme: translate({ id: 'homepage.world2.theme', message: 'Underground' }), desc: translate({ id: 'homepage.world2.desc', message: 'APIs, Security, DNS, DevOps' }), link: '/docs/world-2/2-1-ambientes', levels: 8, num: 2 },
-  { img: '/img/worlds/world-3.png', name: 'World 3', theme: translate({ id: 'homepage.world3.theme', message: 'Sky World' }), desc: translate({ id: 'homepage.world3.desc', message: 'Docker, Tests, Languages, Frameworks' }), link: '/docs/world-3/3-1-arvore_habilidades', levels: 12, num: 3 },
-  { img: '/img/worlds/world-4.png', name: 'World 4', theme: translate({ id: 'homepage.world4.theme', message: 'Water World' }), desc: translate({ id: 'homepage.world4.desc', message: 'Auth, Architecture, Deploy, Cache' }), link: '/docs/world-4/4-1-auth', levels: 9, num: 4 },
-  { img: '/img/worlds/world-5.png', name: 'World 5', theme: translate({ id: 'homepage.world5.theme', message: "Bowser's Castle 1" }), desc: translate({ id: 'homepage.world5.desc', message: 'Copilot, AI Agents, GHAS, SDD' }), link: '/docs/world-5/5-1_devops-evolution', levels: 11, num: 5 },
-  { img: '/img/worlds/world-6.png', name: 'World 6', theme: translate({ id: 'homepage.world6.theme', message: "Bowser's Castle 2" }), desc: translate({ id: 'homepage.world6.desc', message: 'Skills, Hooks, MCP, Orchestration' }), link: '/docs/world-6/6-1-custom-agents', levels: 10, num: 6 },
-  { img: '/img/worlds/world-7.png', name: 'World 7', theme: translate({ id: 'homepage.world7.theme', message: 'Star World' }), desc: translate({ id: 'homepage.world7.desc', message: 'RAG, LangChain, IDP/Backstage' }), link: '/docs/world-7/7-1-azure-ai-foundry', levels: 7, num: 7 },
-  { img: '/img/worlds/world-8.png', name: 'World 8', theme: translate({ id: 'homepage.world8.theme', message: 'Final Castle' }), desc: translate({ id: 'homepage.world8.desc', message: 'Complete Picture, Glossary' }), link: '/docs/world-8/8-1-how-everything-connects', levels: 4, num: 8 },
+  { img: '/img/worlds/world-1.png', name: 'World 1', theme: 'Green Plains', desc: 'VS Code, Git, GitHub, Actions, Azure', link: '/docs/world-1/1-1-vs-code', levels: 8, num: 1 },
+  { img: '/img/worlds/world-2.png', name: 'World 2', theme: 'Underground', desc: 'APIs, Security, DNS, DevOps', link: '/docs/world-2/2-1-ambientes', levels: 8, num: 2 },
+  { img: '/img/worlds/world-3.png', name: 'World 3', theme: 'Sky World', desc: 'Docker, Tests, Languages, Frameworks', link: '/docs/world-3/3-1-arvore_habilidades', levels: 12, num: 3 },
+  { img: '/img/worlds/world-4.png', name: 'World 4', theme: 'Water World', desc: 'Auth, Architecture, Deploy, Cache', link: '/docs/world-4/4-1-auth', levels: 9, num: 4 },
+  { img: '/img/worlds/world-5.png', name: 'World 5', theme: "Bowser's Castle 1", desc: 'Copilot, AI Agents, GHAS, SDD', link: '/docs/world-5/5-1_devops-evolution', levels: 11, num: 5 },
+  { img: '/img/worlds/world-6.png', name: 'World 6', theme: "Bowser's Castle 2", desc: 'Skills, Hooks, MCP, Orchestration', link: '/docs/world-6/6-1-custom-agents', levels: 10, num: 6 },
+  { img: '/img/worlds/world-7.png', name: 'World 7', theme: 'Star World', desc: 'RAG, LangChain, IDP/Backstage', link: '/docs/world-7/7-1-azure-ai-foundry', levels: 7, num: 7 },
+  { img: '/img/worlds/world-8.png', name: 'World 8', theme: 'Final Castle', desc: 'Complete Picture, Glossary', link: '/docs/world-8/8-1-how-everything-connects', levels: 4, num: 8 },
 ];
 
 function WorldMap() {
@@ -261,10 +252,10 @@ function WorldMap() {
     <section className="world-map">
       <div className="container">
         <Heading as="h2" className="world-map__title">
-          <Translate id="homepage.worldMap.title">The World Map</Translate>
+          The World Map
         </Heading>
         <p className="world-map__subtitle">
-          <Translate id="homepage.worldMap.subtitle">8 Worlds from beginner to advanced — choose your path</Translate>
+          8 Worlds from beginner to advanced — choose your path
         </p>
 
         <div className={styles.progressBar}>
@@ -298,11 +289,7 @@ function WorldMap() {
                   <p className="world-card__theme">{w.theme}</p>
                   <p className="world-card__desc">{w.desc}</p>
                   <div className={styles.worldLevels}>
-                    <span className="world-card__levels">
-                      <Translate id="homepage.worldMap.levels" values={{ count: w.levels }}>
-                        {'{count} Levels'}
-                      </Translate>
-                    </span>
+                    <span className="world-card__levels">{w.levels} Levels</span>
                   </div>
                 </div>
               </Link>
@@ -329,10 +316,10 @@ function QuickStart() {
     <section className="quickstart">
       <div className="container">
         <Heading as="h2" className={styles.sectionTitleTight}>
-          <Translate id="homepage.quickStart.title">Quick Start</Translate>
+          Quick Start
         </Heading>
         <p className={styles.sectionIntroCompact}>
-          <Translate id="homepage.quickStart.intro">Know the basics? Warp directly to what you need.</Translate>
+          Know the basics? Warp directly to what you need.
         </p>
 
         <div className={`pipe-divider ${styles.pipeDividerSpaced}`}>
@@ -371,7 +358,7 @@ function Banner() {
         />
         <div className={styles.bannerCta}>
           <Link className="btn-start btn-green" to="/docs/intro">
-            <Translate id="homepage.banner.cta">START AT WORLD 1-1</Translate>
+            START AT WORLD 1-1
           </Link>
         </div>
       </div>
@@ -383,9 +370,8 @@ function Banner() {
 export default function Home(): ReactNode {
   return (
     <Layout
-      title={translate({ id: 'homepage.meta.title', message: 'Press START to Learn' })}
-      description={translate({ id: 'homepage.meta.description', message: 'The complete guide to Agentic DevOps explained through Super Mario World analogies' })}>
-      <LanguageSelect />
+      title="Press START to Learn"
+      description="The complete guide to Agentic DevOps explained through Super Mario World analogies">
       <Hero />
       <main>
         <Stats />
