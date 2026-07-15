@@ -1,0 +1,62 @@
+{
+  "link.title.Worlds": {
+    "message": "Mundos",
+    "description": "The title of the footer links column with title=Worlds in the footer"
+  },
+  "link.title.Advanced": {
+    "message": "Avançado",
+    "description": "The title of the footer links column with title=Advanced in the footer"
+  },
+  "link.title.Resources": {
+    "message": "Recursos",
+    "description": "The title of the footer links column with title=Resources in the footer"
+  },
+  "link.item.label.🌿 World 1 — Green Plains": {
+    "message": "🌿 Mundo 1 — Planícies Verdes",
+    "description": "The label of footer link with label=🌿 World 1 — Green Plains linking to /docs/world-1/1-1-vs-code"
+  },
+  "link.item.label.🕳️ World 2 — Underground": {
+    "message": "🕳️ Mundo 2 — Subterrâneo",
+    "description": "The label of footer link with label=🕳️ World 2 — Underground linking to /docs/world-2/2-1-ambientes"
+  },
+  "link.item.label.☁️ World 3 — Sky World": {
+    "message": "☁️ Mundo 3 — Mundo do Céu",
+    "description": "The label of footer link with label=☁️ World 3 — Sky World linking to /docs/world-3/3-1-arvore_habilidades"
+  },
+  "link.item.label.🌊 World 4 — Water World": {
+    "message": "🌊 Mundo 4 — Mundo Aquático",
+    "description": "The label of footer link with label=🌊 World 4 — Water World linking to /docs/world-4/4-1-auth"
+  },
+  "link.item.label.🏰 World 5 — AI & Agents": {
+    "message": "🏰 Mundo 5 — IA e Agentes",
+    "description": "The label of footer link with label=🏰 World 5 — AI & Agents linking to /docs/world-5/5-1_devops-evolution"
+  },
+  "link.item.label.🔥 World 6 — Copilot Ecosystem": {
+    "message": "🔥 Mundo 6 — Ecossistema Copilot",
+    "description": "The label of footer link with label=🔥 World 6 — Copilot Ecosystem linking to /docs/world-6/6-1-custom-agents"
+  },
+  "link.item.label.⭐ World 7 — Star World": {
+    "message": "⭐ Mundo 7 — Mundo das Estrelas",
+    "description": "The label of footer link with label=⭐ World 7 — Star World linking to /docs/world-7/7-1-azure-ai-foundry"
+  },
+  "link.item.label.👑 World 8 — Final Castle": {
+    "message": "👑 Mundo 8 — Castelo Final",
+    "description": "The label of footer link with label=👑 World 8 — Final Castle linking to /docs/world-8/8-1-how-everything-connects"
+  },
+  "link.item.label.Brand Guide": {
+    "message": "Guia da Marca",
+    "description": "The label of footer link with label=Brand Guide linking to /docs/brand-guide"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/paulanunes85/super-agentic-devops-world"
+  },
+  "link.item.label.Author — Paula Silva": {
+    "message": "Autora — Paula Silva",
+    "description": "The label of footer link with label=Author — Paula Silva linking to https://github.com/paulanunes85"
+  },
+  "copyright": {
+    "message": "Made for Sofia with ❤️ by <a href=\"https://github.com/paulanunes85\" target=\"_blank\" rel=\"noopener\">Paula Silva</a> · Software Global Black Belt, Microsoft Americas · © 2026",
+    "description": "The footer copyright"
+  }
+}
